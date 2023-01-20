@@ -1,0 +1,174 @@
+/* *{
+  margin: 0;
+  border: 0;
+} */
+
+.gutters{
+  margin: 0 6em;
+}
+
+.footer-gutters{
+  padding: 0 10em;
+}
+
+.primary-text-color{
+  color: #050505;
+}
+.primary-text-color a{
+  color: #414042!important;
+}
+
+/**HEADER CSS**/
+.search {
+  /* display: flex;
+  align-items: center;*/
+  border: 2px solid #E6EBF1;
+  border-radius: 15px;
+  padding: 0.3em 0.4em;
+  /*gap: 5px; */
+  /* padding-left: 1%;
+  padding-right: 0.5%; */
+  /* padding: 0.3em 0.4em;
+  padding-left: 1.5em;*/
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+
+.search-input{
+  border: none;
+  width: 100%;
+  padding: 8px;
+}
+
+.search-left{
+  display: flex;
+  align-items: center;
+}
+
+.location-icon{
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.search-icon{
+  display: flex;
+  justify-content: end;
+  padding: 0;
+}
+
+
+.submit-container{
+  background: #007DC1;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+  padding: 8px 12px;
+}
+
+.login-btn {
+  display: flex;
+  border: 2px solid #E6EBF1;
+  border-radius: 15px;
+  padding: 10px ;
+  align-items: center;
+  /* padding: 0 1%; */
+  /* gap: 5%; */
+}
+
+.login-btn img {
+  width: 30px;
+}
+
+
+.user_icon{
+  border-right: 2px solid #E6EBF1;
+  display: flex;
+  padding-right: 20px;
+}
+
+.menu_icon{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-left: 20px;
+}
+
+.menu_icon--text{
+  margin-right: 10px;
+}
+
+.footer{
+  background-color: #007DC1;
+}
+
+.footer-social-media{
+  font-size: 1.5em;
+}
+
+.footer-apps img{
+  /* width: 8em; */
+}
+
+
+
+/*****MEDIA QUERY****/
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and  (max-width: 480px) {
+  .logo-container{
+    width: 50%;
+    overflow: hidden;
+    
+  }
+  .logo-img{
+    width: 100%
+  }
+
+  .login-btn{
+    width: 8em;
+  }
+
+  .login-btn img {
+    width: 17px;
+  }
+
+  
+
+  .user_icon{
+    padding-right: 10px;
+  }
+
+  .menu_icon{
+    padding-left: 0;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+
+  .footer-gutters {
+    padding: 0 1em;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media screen and  (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and  (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and  (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and  (min-width: 1200px) {
+  
+}
