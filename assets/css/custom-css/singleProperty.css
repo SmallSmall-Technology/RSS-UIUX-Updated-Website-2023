@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background-color:white !important;
+    margin:0;
+    max-width:100%;
+    /* justify-content: center; */
+}
+
+p{
+    font-family: 'Poppins';
+}
+
+ul{
+  padding:4%,5% ;
+  font-size:1.5vw;
+}
+
+
+
+
+
+/* <<<<<<<<<<<<<Video tour page 1>>>>>>>>>>>>>> */
+.tour__img  
+img{
+        padding-left:16%;
+        
+      }
+
+.video__tour{
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-left:16%;
+    
+    font-weight: 500;
+    font-size: 1.4vw;
+    gap:0.4%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #414042;
+}
+
+/* <!-- <<<<<<<<<<<<Furnished apartment page 2>>>>>>>>>>>>> */
+
+
+.furn__section{
+/* margin-left:24rem; */
+    padding-left:16%;
+
+}
+
+.furn__header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    color: #007DC1;
+}
+
+
+.furn__react{
+    display: flex;
+    gap:5%;
+}
+
+
+.verified__parag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    /* line-height: 21px; */
+    display: flex;
+    align-items: center;
+}
+
+
+.furn__btn{
+    display: flex;
+    border-radius:.4rem;
+    background: #007DC1;
+    color:#ffffff;
+    width: 12%;
+    gap:0.7rem;
+    box-shadow:border-box;
+    border:none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+    padding:1% 2.5% 1% 2.5%;
+    align-items: center;
+}
+
+
+/* <<<<<<<<<<<<<<<<listings page 3 >>>>>>>>>>>>>>>> */
+
+
+.managed__by{
+    display: flex;
+    /* justify-content: center; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3vw;
+    padding-left:16%;
+
+    color: #414042;
+}
+
+span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size:1.2vw;
+    display: flex;
+    align-items: center;
+    padding:0.2%;
+    color:black;
+}
+
+
+.listings_{
+    border-top:1px solid #D1CECE;
+    border-bottom:1px solid #D1CECE;
+    margin-top:2%;
+    display: flex;
+    gap:3rem;
+    /* width:45%; */
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:16%;
+    /* padding: 1.6%; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 126%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #414042;
+
+
+}
+
+.listings__para{
+    border-right: 1px solid #D1CECE;
+}
+
+/* <<<<<<<<<<<<<<<<<< Amenities and utilities page 4 >>>>>>>>>>>>>> */
+
+.amenity_heading{
+    display: flex;
+    padding-left:16%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.3vw;
+    color: #414042;
+}
+
+
+
+.general__amenities{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15%;
+    /* justify-content:space-evenly;
+     */
+     padding-left:16%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+    display: flex;
+    color: #414042;
+}
+
+.general__amenities
+img{
+
+    padding:0%,3%,12%,0;
+}
+
+
+.general__amenities
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+
+
+}
+
+/* <<<<<<<<<<< House Rules page 5 >>>>>>>>>>> */
+.genhaus__rule{
+    padding-left:16%;
+    padding-top:2%;  
+
+}
+
+.haus__ruls{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+    display: flex;
+    
+    color: black;
+}
+
+.haus__ruleparag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    display: flex;
+
+    color: #414042;
+}
+
+
+.no__no{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4vw;
+    line-height: 24px;
+
+    color: #414042;
+
+}
+
+
+/* <<<<<<<<<<<<<<Neighbourhood page 6 >>>>>>>>>>>>>> */
+.nebohd__heading{
+    padding-left:16%;
+    padding-top:2%;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1vw;
+    display: flex;
+
+    /* color: #414042;   */
+}
+
+.landmarks{
+    display: flex;
+    flex-wrap: wrap;
+    gap:4.5%;
+    padding-left:16%;
+    padding-top:2%;  
+}
+
+.fstnebo__hd{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    display: flex;
+    align-items: center;
+    color: #414042;
+}
+
+.scndnebo__hd{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.3vw;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+ .thrdnebo__hd{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.1vw;
+    display: flex;
+    align-items: center;
+
+}
