@@ -30,8 +30,8 @@
 
   <body>
     <header class="container">
-      <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top">
-        <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black"> -->
+      <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top"> -->
+      <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black">
         <!-- Brand -->
         <div class="logo-container">
           <a class="navbar-brand logo-link mr-4" href="#">
@@ -80,9 +80,17 @@
         </div>
 
         <div class="login-btn">
-          <div class="user_icon">
-            <img src="../assets/images/users.svg" alt="users" />
-            <!-- <i class="fa-regular fa-user"></i> -->
+          <div class="user_icon nav-item dropdown">
+            <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+              <img src="../assets/images/users.svg" alt="users" />
+            </a>
+            <div class="dropdown-menu user_icon--dropdown">
+              <a class="dropdown-item" href="#">Login</a>
+              <a class="dropdown-item" href="#">Create Account</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Dashboard</a>
+              <a class="dropdown-item" href="#">logout</a>
+            </div>
           </div>
 
           <div class="menu_icon">
@@ -321,9 +329,15 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap js and Popper js -->
+
     <script
-      src="../assets/js/bootstrap-js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="../assets/js/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="../assets/js/bootstrap-js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
       crossorigin="anonymous"
     ></script>
   </body>

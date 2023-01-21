@@ -7,10 +7,6 @@
   margin: 0 6em;
 }
 
-.footer-gutters{
-  padding: 0 10em;
-}
-
 .primary-text-color{
   color: #050505;
 }
@@ -89,17 +85,28 @@
   border-right: 2px solid #E6EBF1;
   display: flex;
   padding-right: 20px;
+  cursor: pointer;
 }
+
+
 
 .menu_icon{
   display: flex;
   align-items: center;
   justify-content: end;
   padding-left: 20px;
+  cursor: pointer;
 }
 
 .menu_icon--text{
   margin-right: 10px;
+}
+
+
+/***** FOOTER ****/
+
+.footer-gutters {
+  padding: 0 10em;
 }
 
 .footer{
@@ -110,9 +117,9 @@
   font-size: 1.5em;
 }
 
-.footer-apps img{
-  /* width: 8em; */
-}
+/* .footer-apps img{
+  /* width: 8em; 
+}  */
 
 
 
@@ -141,6 +148,11 @@
 
   .user_icon{
     padding-right: 10px;
+  }
+
+  .user_icon--dropdown {
+    left: -22px;
+    top: 140%;
   }
 
   .menu_icon{
