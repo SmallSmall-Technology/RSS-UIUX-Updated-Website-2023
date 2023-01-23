@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    /* background-color: aqua; */
+}
+
+
+/* <<<<<<<<< --privacy policy  page1 -->>>>>>>>>> */
+.terms__conditn{
+    background: #E6EBF1;
+    padding:2.3% 0 3% 5%;
+}
+
+.terms__headingwn{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    /* letter-spacing: 0.04em; */
+    text-transform: uppercase;
+    color: #007DC1;
+}
+
+.terms__headingtw{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:2vw;
+    line-height: 3vw;
+    display: flex;
+    align-items: center;
+    color: #414042;
+}
+
+.terrmms_rss
+h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    display: flex;
+    padding-left:40%;
+    /* align-items: center; */
+    color: #414042;
+}
+
+.terrmms_rss
+p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 141.5%;
+    display: flex;
+    padding-left:40%;
+   
+    color: #414042; 
+}
+
+
+.check{
+    display: flex;
+    flex-direction:row;
+    gap:22%;
+
+}
+
+.tandc__lists{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 1.7rem;
+    padding:4%;
+
+    color: #414042;
+}
+
+
+.tandc__lists
+p{
+ display: flex;
+}
+
+
+/* <!-- <<<<<<...Terms of use  Article page 2..>>>>> --> */
+
+
