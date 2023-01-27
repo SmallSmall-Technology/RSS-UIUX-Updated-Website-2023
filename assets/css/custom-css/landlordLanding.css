@@ -102,6 +102,14 @@
   margin-right: 10px;
 }
 
+.menu_icon--dropdown{
+  left:unset
+}
+
+.dropdown-toggle--custom::after{
+  display: none!important;
+}
+
 
 /***** FOOTER ****/
 
@@ -151,12 +159,12 @@
   }
 
   .user_icon--dropdown {
-    left: -22px;
+    left: -65px;
     top: 140%;
   }
 
   .menu_icon{
-    padding-left: 0;
+    padding-left: 10px;
     font-weight: bolder;
     font-size: 13px;
   }
@@ -176,8 +184,10 @@
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and  (min-width: 992px) {
-  
+@media screen and  ( 992px <= width <=1024px) {
+  .footer-gutters {
+    padding: 0 4em;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/

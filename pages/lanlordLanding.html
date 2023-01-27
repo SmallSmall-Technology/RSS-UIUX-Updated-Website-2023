@@ -29,13 +29,13 @@
   </head>
 
   <body>
-    <header class="container">
+    <header class="container-fluid fixed-top bg-white">
       <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top"> -->
-      <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black">
+      <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
         <!-- Brand -->
         <div class="logo-container">
           <a class="navbar-brand logo-link mr-4" href="#">
-            <img class="logo-img" src="../assets/images/logo.png" alt="" />
+            <img class="logo-img img-fluid" src="../assets/images/logo.png" alt="" />
           </a>
         </div>
 
@@ -60,7 +60,7 @@
           </ul>
         </div>
 
-        <div class="collapse navbar-collapse justify-content-start" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
           <div class="search">
             <form action="">
               <div class="row m-0">
@@ -81,20 +81,43 @@
 
         <div class="login-btn">
           <div class="user_icon nav-item dropdown">
-            <a class="nav-link dropdown-toggle p-0" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+            <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
               <img src="../assets/images/users.svg" alt="users" />
             </a>
             <div class="dropdown-menu user_icon--dropdown">
-              <a class="dropdown-item" href="#">Login</a>
-              <a class="dropdown-item" href="#">Create Account</a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp;Login</a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;Create Account</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Dashboard</a>
-              <a class="dropdown-item" href="#">logout</a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>Dashboard</a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;logout</a>
             </div>
           </div>
 
           <div class="menu_icon">
-            <span class="menu_icon--text"> Menu</span>
+            <a
+              class="nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+            >
+              <span class="menu_icon--text"> Menu</span>
+            </a>
+            <div class="dropdown-menu menu_icon--dropdown">
+              <a class="dropdown-item" href="#">Subcribe</a>
+              <a class="dropdown-item" href="#">Property Owner</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#"
+                ><small><i class="fa-solid fa-envelope mr-3"></i> rent@smallsmall.com</small></a
+              >
+              <a class="dropdown-item" href="#"
+                ><small><i class="fa-solid fa-phone mr-3"></i> 0903 633 9800</small></a
+              >
+              <a class="dropdown-item" href="#"
+                ><small><i class="fa-solid fa-phone mr-3"></i> 0903 722 2669</small></a
+              >
+            </div>
+
             <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
             <i class="fa-solid fa-bars"></i>
           </div>
@@ -103,7 +126,7 @@
     </header>
 
     <!-- FOOTER Section Desktop view -->
-    <footer class="footer footer-gutters text-white d-none d-lg-block d-md-block">
+    <footer class="footer footer-gutters text-white d-none d-lg-block">
       <div class="container-fluid">
         <div class="row py-5 text-white">
           <div class="col footer-logo-container align-self-end">
@@ -209,7 +232,7 @@
     </footer>
 
     <!-- FOOTER section Mobile view -->
-    <footer class="footer d-md-none">
+    <footer class="footer d-lg-none">
       <div class="container-fluid">
         <div class="row text-center text-white py-5">
           <div class="col-12 footer-logo-container">
@@ -301,7 +324,7 @@
             </div>
           </div>
         </div>
-        <div class="row text-white text-center mb-3">
+        <div class="row text-white justify-content-center text-center mb-3">
           <div class="col-12">
             <h6>Download the Mobile app</h6>
           </div>
