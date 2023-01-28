@@ -23,6 +23,10 @@
   color: #414042 !important;
 }
 
+.header-section{
+  box-shadow: rgba(17, 12, 46, 0.05) 0px 48px 100px 0px;
+}
+
 /**HEADER CSS**/
 .search {
   /* display: flex;
@@ -147,12 +151,18 @@
 
 .banner-text h1 {
   font-size: 4.4em;
+  font-weight: 800;
 
 }
 
 .banner-text p {
   font-size: 2em;
   font-weight: 100
+}
+
+.main-section{
+  position: relative;
+  top: 7em;
 }
 
 .footer {
@@ -315,6 +325,7 @@
 
   .banner-text h1 {
     font-size: 2em;
+    
 
   }
 
