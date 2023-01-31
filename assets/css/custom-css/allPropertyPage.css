@@ -156,6 +156,10 @@
   color: #00cd2d;
 }
 
+.filter-section-dropdown {
+  min-width: 20em;
+}
+
 /*****MEDIA QUERY****/
 
 /* Small devices (landscape phones, 576px and up) */
