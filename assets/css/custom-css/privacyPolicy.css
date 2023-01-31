@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    /* background-color: aqua; */
+
+}
+
+a,  a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:hover{
+    color:#007DC1;
+}
+
+.back__top{
+    color:red !important;  
+}
+
+.back__top{
+ color:blue !important;
+ font-size:0.9vw !important; 
+}
+
+
+/* <<<<< General  h2  styling >>>> */
+#info__p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+#info__pa{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+#info__pag{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+#share__info{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+
+#posting__req{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+#change__pripol{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+
+#advert__thrdpty{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+
+#consent__{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+
+#quest__tns{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9vw;
+
+    display: flex;
+    align-items: center;
+
+    color:black; 
+}
+
+/* <<<<<<<<< --privacy policy  page1 -->>>>>>>>>> */
+
+.privacy__plcgen{
+    background: #E6EBF1;
+    padding:2.3% 0 3% 5%;
+   
+}
+
+
+.privacy__policy{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    /* letter-spacing: 0.04em; */
+    text-transform: uppercase;
+    color: #007DC1;
+}
+
+.privacy__polcare{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:3.8vw;
+    line-height: 5vw;
+    display: flex;
+    align-items: center;
+    color: #414042;
+}
+
+
+
+.pri_poli__
+h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    display: flex;
+    padding-left:40%;
+    color: #414042;
+}
+
+.pri_poli__
+p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 141.5%;
+    display: flex;
+    padding-left:38.5%;
+   
+    color: #414042;
+    
+}
+
+.check{
+        display: flex;
+        flex-direction:row;
+        gap:10%;
+
+ }
+
+ 
+.policy__lists{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 1.7rem;
+        padding:4%;
+        align-items: center;
+
+        color: #414042;
+}
+
+
+    /*<<<<<<<<<<<<< Article page 2>>>>>>>>> */
+    .artic__wnparag{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9vw;
+        line-height: 141.5%;
+        display: flex;
+        color: #414042;
+        padding-top:11.5%;
+       
+    }
+
+    .artic__wnheading {
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.2vw;
+        display: flex;
+        color:black;
+        padding-top:3.5%;
+        padding-bottom:2%;
+    }
+
+
+    /* <<<<<< Article page 3 ...>>>>>> */
+    .artic__twparag{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        line-height: 351.5%;
+        display: flex;
+          
+    }
+
+    .artic__trrparag{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        display: flex;
+    }
+
+ 
+    /* <<<<<<informaton page 4>>>>> */
+   
+    
+    .info__pagegenheadr{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.9vw;
+
+        display: flex;
+        align-items: center;
+
+        color:black;
+    }
+
+
+    .info__artcl
+    p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1vw;
+        line-height: 141.5%;
+        padding:2% 0 2% 0;
+        
+        display: flex;
+        color: #414042;
+    }
+    .info__artcl{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1vw;
+        line-height: 141.5%;
+        padding:2% 0 2% 0;
+        color: #414042;   
+    }
