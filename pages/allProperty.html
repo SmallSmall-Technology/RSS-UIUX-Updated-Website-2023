@@ -128,13 +128,13 @@
     <!-- MAIN SECTION -->
     <main class="container">
       <!-- Filter section -->
-      <div class="row my-5">
+      <div class="row my-5 filter-section">
         <div class="col-12 d-md-flex d-none flex-row justify-content-between">
           <div class="dropdown">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">City</button>
-            <div class="dropdown-menu mw-100 p-3">
+            <div class="dropdown-menu p-3 mt-3 filter-section-dropdown">
               <h5>City</h5>
-              <div class="row">
+              <div class="row w-100">
                 <div class="col-md-4">
                   <button class="btn btn-primary">Lagos</button>
                 </div>
@@ -147,42 +147,103 @@
           </div>
           <div class="dropdown">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">location</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu p-3 mt-3 filter-section-dropdown">
+              <h5>Location</h5>
+              <div class="row w-100">
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-primary">Lekki</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Agundi</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Awoyaya</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Ikoyi</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Ikate</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Ikate</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Ikate</button>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <button class="btn btn-outline-secondary">Ajah</button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="dropdown">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Bedroom</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu p-3 mt-3 filter-section-dropdown">
+              <h5>Bedroom</h5>
+              <div class="row w-100">
+                <div class="col">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active"> <input type="radio" name="options" id="option1" checked /> Any </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option2" /> Studio </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 1 </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 2 </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 3 </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 4+ </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="dropdown">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Bathroom</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu p-3 mt-3 filter-section-dropdown">
+              <h5>Bathroom</h5>
+              <div class="row w-100">
+                <div class="col">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active"> <input type="radio" name="options" id="option1" checked /> Any </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option2" /> Studio </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 1 </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 2 </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 3 </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> 4+ </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="dropdown">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Furniture</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu p-3 mt-3 filter-section-dropdown">
+              <h5>Furniture</h5>
+              <div class="row w-100">
+                <div class="col">
+                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-primary active"> <input type="radio" name="options" id="option1" checked /> Any </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option2" /> unfurnished </label>
+                    <label class="btn btn-outline-secondary"> <input type="radio" name="options" id="option3" /> furnished </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="dropdown">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Budget</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu p-3 mt-3 filter-section-dropdown">
+              <h5>Price range</h5>
+              <div class="row w-100 mt-3">
+                <div class="col-12">
+                  <div class="form-group">
+                    <!-- <label for="formControlRange">Example Range input</label> -->
+                    <input type="range" class="form-control-range" id="formControlRange" />
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <p>&#8358; 1/ month</p>
+                  <p>&#8358; 600k/ month</p>
+                </div>
+              </div>
             </div>
           </div>
           <button class="btn btn-primary">Show result</button>
