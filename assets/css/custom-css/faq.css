@@ -191,129 +191,180 @@ button{
 
 
 
+
+
 /* <<<<<<<<<<<< MOBILE STYLING... MOBILE STYLING >>>>>>>>>>>>>>> */
 
 @media screen and (max-width: 480px) {
- .sub__bas_ss{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 6vw;
-    display: flex;
- }
- 
- .faq__sub{
-    display: none;
- }
-
- 
- .faqwn__btn{    
-        font-size:3vw; 
-        display: flex; 
-        flex-direction: column;  
-             
-}
-
-
-.faqwn__btn
-    button{
-        font-size:3.9vw;
-        /* width:100%; */
-        margin-top:5%;
-    
-}
-
-.secuity__btn{
-       display:grid;
-       padding:1rem; 
-       font-size:3.2vw;
-       margin: auto;
-       width:60%;
-}
-
-
-.secuity__btn
-button{
-    font-size:3.2vw;
    
-
-}
-
-
-    .land__basbtn{
-        gap: 5%;
-        display:grid; 
-        padding:1rem;
-        font-size:3vw;
-        margin-bottom: 2%;
-        gap: 7%;
-         
+    /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
+    .faqgen__header{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10vw;
+        line-height: 52px;
+        
+        /* color: #282828; */
     }
+    
 
+    .faqgen__parag{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        color: #282828;
+        
+        mix-blend-mode: multiply;
+    }
+    
+    
+    
+    .sub__bas_ss{
+       font-family: 'Poppins',sans-serif;
+       font-style: normal;
+       font-weight: 900;
+       font-size: 6vw;
+       display: flex;
+       margin-left:5%;
+    }
+    
+
+    .faq__sub{
+       display: none;
+    }
+   
+    
 
     .faqbody__sectn{
-       padding:3rem 1rem;
-       margin: auto;
+        padding:3rem 1rem;
+        margin: auto;
     }
- 
 
-   .land__basbtn
-        button{
-        max-width:auto;
-        padding:1rem;
-        font-size:3.2vw;
-        margin-bottom: 2%;
-        gap: 7%;
-}
+ /* <<<<< MOBILE STYLING the first three buttons >>>>*/
+    .faqwn__btn{    
+            font-size:3vw; 
+            display: flex; 
+            flex-direction: column; 
+            width: 90%; 
+            margin: auto;
+            padding:1.2rem;
+                
+   }
+   
 
+   .faqbody__sectn{
+        padding:3rem 1rem;
+        margin: auto;
+ }
+   
+   /* <<<<<MOBILE STYLING  the first three buttons inner styling >>>>> */
 
-   .landld__basics{
-    font-size:5vw;
-    padding-left: 5%;
-}
-
-
-
-img{
-    padding-right:10%;
-    padding-left:4%;
-    width:1.5rem;
-}
-
-
-
-/*<<<<<<<<<< mobile styling faq page 4>>>>>>>>>> */
-
-.enquiry__cnr{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30%;
-
-}
+   .faqwn__btn
+       button{
+           font-size:3.9vw;
+           padding: 7%;
+           margin-top:5%;
+       
+   }
 
 
-.enquiry__cnr
-p{
-    font-size:3.2vw;
-    padding-top: 16%;
-}
+   /* <<< MOBILE STYLING fourth button styling >>> */
+    .secuity__btn{
+          /* display:grid; */
+          display: block;
+          padding:1rem; 
+          font-size:3.9vw;
+          margin: auto;
+          width:90%;
+          padding: 7%;
+          
+   }
+    
+/*    
+    .secuity__btn
+    button{
+        font-size:3vw;
+      
+   }  */
 
+   
 
-}
-
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {}
-
-/* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up)*/
-@media screen and  ( 992px <= width <=1024px) {
-  
-}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {}
+   /* >>>>>> MOBILE STYLING last three buttons styling <<<<<<*/
+    
+   .land__basbtn{
+           display: flex;
+           flex-direction: column;
+           /* font-size:3.9vw; */
+           width: 90%;
+           margin: auto;
+            
+       }
+   
+   
+      
+    /* >>>>>>MOBILE STYLING  last three buttons inner styling <<<<<<*/
+   
+      .land__basbtn
+           button{
+            width: 100%;
+            padding:1.4rem;
+            margin-top:7%;
+            font-size:3.9vw;
+           
+   }
+   
+   
+      .landld__basics{
+       font-size:5vw;
+       padding-left: 5%;
+   }
+   
+   
+   
+   img{
+       padding-right:10%;
+       padding-left:4%;
+       width:1.5rem;
+   }
+   
+   
+   
+   /*<<<<<<<<<<MOBILE STYLING  mobile styling faq page 4>>>>>>>>>> */
+   
+   .enquiry__cnr{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-bottom: 30%;
+   
+   }
+   
+   
+   .enquiry__cnr
+   p{
+       font-size:3.2vw;
+       padding-top: 16%;
+   }
+   
+   
+   }
+   
+   
+   
+   /* Small devices (landscape phones, 576px and up) */
+   @media screen and (min-width: 576px) {}
+   
+   /* Medium devices (tablets, 768px and up)*/
+   @media screen and (min-width: 768px) {}
+   
+   /* Large devices (desktops, 992px and up)*/
+   @media screen and  ( 992px <= width <=1024px) {
+     
+   }
+   
+   /* Extra large devices (large desktops, 1200px and up)*/
+   @media screen and (min-width: 1200px) {}
+   
