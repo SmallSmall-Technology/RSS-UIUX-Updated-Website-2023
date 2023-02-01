@@ -191,7 +191,7 @@ button{
 
 
 
-/* <<<<<<<<<<<< Mobile styling >>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<< MOBILE STYLING... MOBILE STYLING >>>>>>>>>>>>>>> */
 
 @media screen and (max-width: 480px) {
  .sub__bas_ss{
@@ -217,7 +217,7 @@ button{
 
 .faqwn__btn
     button{
-        font-size:3.2vw;
+        font-size:3.9vw;
         /* width:100%; */
         margin-top:5%;
     
