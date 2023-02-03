@@ -119,10 +119,10 @@
 }
 
 .banner-image {
-  background: url('./../../images/banner.png') no-repeat center,
+  background: url('../../images/banner.png') no-repeat center,
     linear-gradient(180.1deg, #03100d 0.08%, rgba(65, 64, 66, 0) 80.25%, rgba(65, 64, 66, 0) 80.25%);
   /* background-image: url(../../images/banner.png),  */
-  /* background: url('https://raw.githubusercontent.com/SmallSmall-Technology/Rss-Updated-Website-2023/dev/assets/images/banner.png') no-repeat center,    linear-gradient(180.1deg, #03100d 0.08%, rgba(65, 64, 66, 0) 80.25%, rgba(65, 64, 66, 0) 80.25%); */
+  background: url('https://raw.githubusercontent.com/SmallSmall-Technology/Rss-Updated-Website-2023/dev/assets/images/banner.png') no-repeat center,    linear-gradient(180.1deg, #03100d 0.08%, rgba(65, 64, 66, 0) 80.25%, rgba(65, 64, 66, 0) 80.25%);
   background-blend-mode: overlay;
   background-size: cover;
   height: 500px;
