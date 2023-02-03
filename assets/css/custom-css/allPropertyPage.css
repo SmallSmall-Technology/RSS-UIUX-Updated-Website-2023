@@ -160,6 +160,42 @@
   min-width: 20em;
 }
 
+.show-result button {
+  width: 100%;
+  border: none;
+  padding: 1.8em;
+  background: #007dc1;
+  color: #ffffff;
+}
+.filter-modal-body {
+  background-color: #e6ebf1;
+}
+
+.custom-form-control{
+  border: none;
+  /* padding: ; */
+}
+
+.custom-group-btn{
+  background-color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.custom-active{
+  color: #ffffff;
+  background-color: #007dc1;
+}
+.custom-group-btn label{
+  border: 1px solid #e6ebf1;
+}
+
+.custom-group-btn label:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 /*****MEDIA QUERY****/
 
 /* Small devices (landscape phones, 576px and up) */
