@@ -1,0 +1,300 @@
+
+*{
+    /* display: none; */
+
+}
+
+@media screen and (max-width: 480px) {
+   
+    /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
+    *{
+        background-color: #E6EBF1;
+    }
+
+
+.subscribe__bdy{
+    background-color: #E6EBF1;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* >>>>>>>>>>page 1 styling <<<<<<<<<<< */
+
+.pagewn__header{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    
+}
+
+
+
+.page__wndivwn{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    font-size: 5vw;
+    align-items: center;
+    color: #007DC1;
+    line-height: 1.2vh;
+   
+   
+}
+
+
+.page__wndivtw{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #414042;
+}
+
+
+
+/*>>>>>>>>> page 2 styling <<<<<<<< */
+
+.pgtw__divv{
+margin: 10% 0%;
+}
+
+
+
+.subprice__styling{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #414042; 
+    margin: auto;
+ } 
+
+
+
+.subprice__price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    line-height: 1.2vh;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+
+/* <<<<<< page three styling >>>>>> */
+.pgthr__stylwn{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #414042; 
+    margin: auto;
+}
+
+
+
+.pgthr__stytw{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 1.2vh;
+    display: flex;
+    align-items: center;
+
+    color: #414042; 
+}
+
+
+
+sub__type{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height:1.2vh;
+    display: flex;
+    align-items: center;
+    
+    color: #414042;
+}
+
+
+/*<<<<<<<<< page four styling >>>>>>>>> */
+
+.pagefr__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+input{
+
+
+    /* width: 359px; */
+    /* height: 56px;
+    left: 60px;
+    top: 588px; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+    /* background: #FFFFFF; */
+    /* background:#FFFFFF ;
+    border-radius: 5%;
+    margin-top: 5%;
+    border:none;
+    padding: 9% 15% 9% 12%;
+    width: 100%;  */
+
+}
+
+
+
+.pagefr__form
+input{
+    /* margin-top:6% ;
+    width: 200%;
+    height: 56px; */
+    /* left: 60px; */
+    /* top: 588px; */
+    /* max-width:700% ; */
+    padding-top:7%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom:7%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 5%;
+    border:none;
+
+}
+
+
+
+
+
+
+/* >>>>>> page five styling <<<<<<<< */
+
+.page__five{
+    display: flex;
+    flex-direction: row;
+    gap: 15%; 
+    background-color: white
+  
+ }
+
+
+   .pagefv__stn{
+        background-color: white;
+        padding: 7%;
+        margin:auto;
+        width: 75.4%;
+        /* padding: 10%; */
+        justify-content: space-between;
+        /* height: 304px;
+        left: 57px;
+        top: 831px; */
+        border-radius: 3%;
+        margin-top: 7%;
+    
+}
+
+
+
+
+.sub__brkdwnwn{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.5vw;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color: #414042; 
+    background-color: white
+}
+ 
+
+
+.sub__brkdwnamt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.5vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #007DC1;
+    background-color: white
+
+
+}
+
+
+.pagefv__total {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        background-color: white;
+        gap:7%;
+        border-top:1px solid #E3EBEF ;
+}
+
+
+
+
+
+/* <<<<<<<<<<< page six styling >>>>>>>>>>>> */
+
+#submt__stn{
+    background: #007DC1;
+    min-width: 100%;
+    padding: 6%;
+    border:none;
+    color: #ffffff;
+    font-size:4vw;
+    margin-top: 40%;
+
+
+}
+
+}
+
+
+
+
+
+
+
