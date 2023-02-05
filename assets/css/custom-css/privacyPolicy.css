@@ -301,3 +301,91 @@ p{
         padding:2% 0 2% 0;
         color: #414042;   
     }
+
+
+
+/* >>>>>> MOBILE STYLING FOR PRIVACY POLICY <<<<<<*/
+
+@media screen and (max-width: 480px){
+    .privacy__policy{
+    font-size: 2.5vw;
+    }
+    
+
+    .privacy__plcgen{
+       /* margin: auto; */
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+    }
+
+    .pri_poli__{
+        margin: auto;
+        padding-top: 4%;
+    }
+
+    .pri_poli__
+    h1{
+        font-size: 4vw;
+        padding-left:30%;
+        
+    }
+
+    .pri_poli__
+    p{
+        font-size: 2vw;
+        padding-left:27%;
+    }
+
+    
+    .policy__lists{
+    display: none;
+    } 
+
+    .check{
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+
+    /* <!-- <<<<<<...Article page 2..>>>>> --> */
+
+    .artic__wnparag
+    main{
+     font-size:2vw;
+     line-height:2vh;
+     letter-spacing: 20%;
+    }
+
+    /* <!--  <<<<<<<< Article page 3 >>>>>>>>>> --> */
+
+    .artic__wnheading{
+        font-size: 3vw;
+    }
+
+    .artic__twparag{
+        font-size: 2vw;
+    }
+
+    .artic__trrparag{
+        font-size: 2vw;
+    }
+
+    .artic__trrparag{
+        font-size: 2vw; 
+    }
+
+    /* <!--<<<<<<<<<<<<<<< informaton page 4 >>>>>>>>>>>>>> --> */
+    .info__artcl
+    p{
+        font-size: 2vw;
+    }
+
+    .info__artcl{
+        font-size: 2vw; 
+    }
+
+}
+
