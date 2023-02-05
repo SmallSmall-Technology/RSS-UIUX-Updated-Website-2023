@@ -82,6 +82,52 @@ button{
 }
 
 
+/* <<<<<< button icon styling >>>>>>> */
+.sub__image{
+    vertical-align: middle;
+    padding-right:22px ;
+    
+}
+
+
+
+
+.apartmtpoli_-image{
+    vertical-align: middle;
+    padding-right:22px ; 
+    width: 2.3vw; 
+}
+
+
+.mv_in_outimage{
+    vertical-align: text-bottom;
+    padding-right:22px ;
+    width: 2vw; 
+}
+
+
+.safety__image{
+    vertical-align: middle;
+    padding-right:22px ;
+    width: 2vw; 
+}
+
+/* .tenant__image{
+    /* padding-left: 9rem; */
+/* } */ 
+
+
+.payout__image{
+   width: 1.7vw;
+   vertical-align: text-bottom;
+}
+
+
+.propmanag__image{
+    width: 2vw;
+    vertical-align: text-bottom;
+}
+
 .secuity__btn{
     background: #FFFFFF;
     border-radius: 10px;
