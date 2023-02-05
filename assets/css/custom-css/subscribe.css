@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     /* display: none; */
 
 }
+
 
 @media screen and (max-width: 480px) {
    
@@ -158,23 +160,6 @@ sub__type{
 input{
 
 
-    /* width: 359px; */
-    /* height: 56px;
-    left: 60px;
-    top: 588px; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    align-items: center;
-    /* background: #FFFFFF; */
-    /* background:#FFFFFF ;
-    border-radius: 5%;
-    margin-top: 5%;
-    border:none;
-    padding: 9% 15% 9% 12%;
-    width: 100%;  */
-
 }
 
 
@@ -208,8 +193,9 @@ input{
 .page__five{
     display: flex;
     flex-direction: row;
-    gap: 15%; 
-    background-color: white
+    gap: 21%; 
+    background-color: white;
+    padding-left: 6%;
   
  }
 
@@ -268,7 +254,7 @@ input{
         justify-content: center;
         
         background-color: white;
-        gap:7%;
+        gap:12%;
         border-top:1px solid #E3EBEF ;
 }
 
