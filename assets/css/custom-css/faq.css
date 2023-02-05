@@ -244,6 +244,58 @@ button{
 @media screen and (max-width: 480px) {
    
     /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+        font-size:4.5vw;
+
+    }
+
+
+    .sub__image{
+        padding-right:1rem ; 
+        vertical-align: middle; 
+    }
+
+    .apartmtpoli_-image{
+        vertical-align: middle;
+        /* padding-right:7% ; */
+
+        width: 9vw; 
+    }
+
+
+    .mv_in_outimage{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 7vw; 
+    }
+
+    .safety__image{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 7vw; 
+    }
+
+    .tenant__image{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 7vw;  
+    }
+
+    .payout__image{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 6vw; 
+    }
+
+    .propmanag__image{
+        vertical-align: text-bottom;
+        gap:14%;
+        width: 6vw; 
+    }
+
+
     .faqgen__header{
         font-family: 'Poppins',sans-serif;
         font-style: normal;
@@ -276,6 +328,8 @@ button{
        display: flex;
        margin-left:5%;
     }
+    
+
     
 
     .faq__sub{
@@ -393,7 +447,11 @@ button{
    p{
        font-size:3.2vw;
        padding-top: 16%;
+       vertical-align: baseline;
    }
+
+
+
    
    
    }
