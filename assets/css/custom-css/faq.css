@@ -244,6 +244,158 @@ button{
 @media screen and (max-width: 480px) {
    
     /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+        font-size:4.3vw;
+
+
+    }
+
+
+
+
+    .sub__image{
+        padding-right:1rem ; 
+        vertical-align: middle; 
+    }
+
+    .apartmtpoli_-image{
+        vertical-align: middle;
+        padding-right:7% ;
+
+        width: 9vw; 
+    }
+
+
+    .mv_in_outimage{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 7vw; 
+    }
+
+    .safety__image{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 7vw; 
+    }
+
+    .tenant__image{
+        vertical-align: middle;
+        /* padding-right:22px ; */
+        width: 6vw;  
+    }
+
+    .payout__image{
+        vertical-align: text-bottom;
+        padding-right:22px ;
+        width: 6vw; 
+    }
+
+    .propmanag__image{
+        vertical-align: text-bottom;
+        gap:14%;
+        width: 6vw; 
+    }
+
+
+/*<<<<<< styling the button icons and letters >>>> */
+ 
+    .aa
+   img{
+    padding-right:5.5% ;
+   }
+
+
+   .aa
+    a{
+    margin-left:-30%;
+    }
+
+
+
+
+   .ab
+    img{
+            padding-right:5.5% ;
+    }
+
+
+    .ab
+    a{
+    margin-left:-20%;
+    }
+
+
+
+
+    .ac
+    img{
+        padding-right:5.5% ;
+    }
+
+
+   .ac
+    a{
+    margin-left:-13%;
+    }
+
+
+
+    .secuity__btn
+    img{
+        padding-right:5%;
+
+    }
+
+
+    .secuity__btn
+    a{
+        margin-left:-23%;
+    }
+
+
+
+    .ba
+    img{
+        padding-right:7% ;
+    }
+
+    .ba
+    a{
+    margin-left:-45%;
+    }
+
+
+
+
+    .bb
+    img{
+        padding-right:5% ;
+    }
+
+
+    .bb
+    a{
+    margin-left:-46.8%;
+    }
+
+
+
+    .bc{
+        padding-left:16% ;
+    }
+
+    .bc
+    a{
+    margin-left:-3.2%;
+    }
+
+
+    
+
+
+
     .faqgen__header{
         font-family: 'Poppins',sans-serif;
         font-style: normal;
@@ -259,8 +411,9 @@ button{
         font-family: 'Poppins',sans-serif;
         font-style: normal;
         font-weight: 300;
-        font-size: 18px;
-        line-height: 27px;
+        /* font-size: 18px; */
+        font-size: 4vw;
+        line-height: 5vh;
         color: #282828;
         
         mix-blend-mode: multiply;
@@ -275,7 +428,10 @@ button{
        font-size: 6vw;
        display: flex;
        margin-left:5%;
+
     }
+    
+
     
 
     .faq__sub{
@@ -316,6 +472,7 @@ button{
        
    }
 
+   
 
    /* <<< MOBILE STYLING fourth button styling >>> */
     .secuity__btn{
@@ -364,8 +521,9 @@ button{
    
    
       .landld__basics{
-       font-size:5vw;
+       font-size:5.5vw;
        padding-left: 5%;
+       color: black;
    }
    
    
@@ -393,7 +551,11 @@ button{
    p{
        font-size:3.2vw;
        padding-top: 16%;
+       vertical-align: baseline;
    }
+
+
+
    
    
    }
