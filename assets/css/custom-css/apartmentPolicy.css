@@ -50,7 +50,7 @@ details {
   
   
   .diva__styling{
-    height: 100vh;
+    /* height: 100vh; */
     font-family: "Poppins",sans-serif;
     color:black;
     line-height: 1.5;
