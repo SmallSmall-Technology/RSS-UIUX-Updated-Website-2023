@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
-    /* display: none; */
+@media screen and (min-width: 580px) {
+    body{display: none;}
 
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
    
     /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
     *{
@@ -24,6 +24,7 @@
     align-items: center;
 
 }
+
 
 /* >>>>>>>>>>page 1 styling <<<<<<<<<<< */
 
@@ -284,3 +285,24 @@ input{
 
 
 
+form >input {
+    width: 17.5rem;
+    /* height: 61px; */
+    /* font-size: 16px; */
+    font-size: 3.5vw;
+    font-family: 'Poppins',sans-serif;
+    margin: 10px 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    /* border: 1px solid #DDDDDD; */
+    /* padding-left: 5%; */
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    color: #000000;
+}
+
+.pagefr__form{
+    margin-left: 5%;
+
+}
