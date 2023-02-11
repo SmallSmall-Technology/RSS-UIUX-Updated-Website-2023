@@ -7,7 +7,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 .main-section {
   position: relative;
   top: 7em;
@@ -21,8 +20,20 @@
   padding: 0 10em;
 }
 
+.primary-background {
+  background: #007dc1;
+  color: #ffffff;
+}
+.secondary-background {
+  background: #e6ebf1;
+  /* color: #ffffff; */
+}
+
 .primary-text-color {
   color: #050505;
+}
+.primary-text-color-alt {
+  color: #007dc1;
 }
 
 .primary-text-color a {
@@ -120,8 +131,6 @@
   display: none !important;
 }
 
-
-
 /*****MEDIA QUERY****/
 
 /* Small devices (landscape phones, 576px and up) */
@@ -157,8 +166,6 @@
     font-weight: bolder;
     font-size: 13px;
   }
-
-  
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -171,7 +178,6 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media screen and (992px <= width <=1024px) {
-  
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
