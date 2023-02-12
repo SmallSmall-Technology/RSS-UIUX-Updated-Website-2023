@@ -209,6 +209,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3%;
 
 }
 
@@ -300,7 +301,7 @@ button{
     }
 
 
-/*<<<<<< styling the button icons and letters >>>> */
+/*<<<<<<  mobile styling the button icons and letters >>>> */
  
     .aa
    img{
@@ -544,6 +545,7 @@ button{
        justify-content: center;
        align-items: center;
        padding-bottom: 30%;
+       
    
    }
    

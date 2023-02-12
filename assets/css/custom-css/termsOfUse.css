@@ -418,4 +418,119 @@ p{
 /* to be continued */
 /* #tandc__p
 
-    
+
+  /*<<<<< Mobile styling for terms of use >>>>>>   */
+@media screen and (max-width: 480px) {
+    /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
+    /* <!-- <<<<<<<<<< Terms of use  page 1>>>>>>>>>>>>>> --> */
+    /* .terms__conditn{
+     margin-top:3%;
+    }   */
+
+
+    .terms__headingwn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:3vw;
+    }
+
+    .terms__headingtw{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size:3vw; */
+    }
+
+    .terrmms_rss{
+   margin-top: 2%;
+   margin-bottom: 0%;
+}
+
+
+.tandc__wnparag
+main{
+font-size: 2vw;
+line-height: 2.5vh;
+margin-bottom:1.5%;
+}
+
+
+.tandc__artcl,
+.tandc__artcl
+p{
+    font-size: 2vw;
+    line-height: 2.5vh;
+    margin-bottom:1.5%;  
+}
+
+
+
+
+    #tandc__p {
+        font-size:2.3vw;
+    }
+
+    #tandc__pa{
+        font-size:2.3vw;
+    }
+
+    #tandc__pag {
+        font-size:2.3vw; 
+}
+
+#tandc__conduct{
+    font-size:2.3vw;
+}
+#tandc__memacc{
+    font-size:2.3vw;
+}
+
+#tandc__disclaimer{
+    font-size:2.3vw;
+}
+
+#tandc__details{
+    font-size:2.3vw;
+}
+
+#tandc__diswarranty{
+    font-size:2.3vw;
+}
+
+
+#tandc__unsolicit{
+    font-size:2.3vw;
+}
+
+
+#tandc__minitoring{
+    font-size:2.3vw;
+}
+
+
+#tandc__indemnificatn{
+    font-size:2.3vw;
+}
+
+
+#tandc__terminatn{
+    font-size:2.3vw;
+}
+
+
+#tandc__intellectual{
+    font-size:2.3vw;
+}
+
+
+#tandc__miscellns{
+    font-size:2.3vw;
+}
+
+
+#tandc__useservices {
+    font-size:2.3vw;
+}
+
+}

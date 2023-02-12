@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* <!-- <<<<<< page one styling >>>>>> --> */
+/* >>>>>>> Verify section styling <<<<<<< */
+   
+.verify__first{
+    display: flex;
+    gap: 5%;
+    margin-top:10%;
+    margin-bottom: 7%;
+}
+
+
+
+.pagethrmob__details{
+    display: none;
+}
+
+
+
+.verify__heading{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    /* line-height: 39px; */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #414042; 
+}
+
+
+
+.verify__parag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 128.2%;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+
+
+.verify__divv{
+padding-left: 4%;
+}
+
+
+.index__check{
+    display: flex;
+    flex-direction: row;
+    gap:4%;
+    /* padding-left: 9%; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    border-radius:4px;
+    margin-top:2%;
+    justify-content: space-between;
+    letter-spacing:2%;
+}
+
+
+
+
+.index__check
+    p{
+        display: flex;
+        flex-direction: row;
+        font-size:0.9vw;
+        font-weight: 500;
+        font-family: 'Poppins';
+    
+    
+}
+
+
+
+
+.upperline__break{
+    display: flex;
+    flex-direction: row;  
+    margin: auto;
+    padding-left:0.95%;
+
+}
+
+
+.colored__linebreak{
+ border-radius: 15px;
+ height: 0.2px !important;
+ width:20.9vw;
+ border: none;
+ background-color: #007DC1;
+}
+
+
+
+.transparent__linebreak{
+    width:34vw;
+    border-radius: 15px;
+    height: 0.2px !important;  
+    border: none;
+    background-color: #E6EBF1;
+}
+
+
+/* CHECKMATE SESSION ENDS */
+
+
+
+
+/* <!-- <<<<<< page 2 styling >>>>>> --> */
+
+
+
+.gt__history{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+.rental_ss{
+    margin-left: 3.5%;
+
+}
+
+
+
+.rental__parag{
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    margin-top: -12%;
+}
+
+
+.rental__header{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    padding-top: 9%;
+    color: #414042;
+}
+
+
+
+.pastrent__details{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: center;
+    gap:13%;
+    padding-top:4%;
+}
+
+
+
+.addre__ss{
+    width: 23rem;
+    padding-top:3%;
+    padding-bottom:32% ;
+    padding-left:3% ;
+    background: #E6EBF1;
+    border-radius: 10px; 
+    margin-bottom:1%; 
+    border:none; 
+    margin-left:7%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+
+
+.reasons__{
+    width: 100%;
+    padding-top:3%;
+    padding-bottom:30% ;
+    padding-left:4% ;
+
+    background: #E6EBF1;
+    border-radius: 10px;
+    border:none;
+    margin-left:7%; 
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    border:none; 
+}
+
+
+
+/* <!-- <<<<<<<<<<< page  3 >>>>>>>>>>>> --> */
+.rent_status{
+    /* width: 30vw; */
+    width: 103%;
+
+    padding-left: 2.5%;
+    padding-top:4.5%;
+    padding-bottom: 4.5%;
+
+    background: #E6EBF1;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    border:none; 
+
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+
+
+.address__period{
+    width: 26.8rem;
+    padding-left: 2.9%;
+    padding-top:4.5%;
+    padding-bottom: 4.5%;
+
+    background: #E6EBF1;
+    border-radius: 10px; 
+    margin-bottom:1%;
+    border:none; 
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+
+
+
+.eviction__status{
+    width: 103%;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    padding-left:3%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+
+    background: #E6EBF1;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    border:none;    
+}
+
+
+
+.address__rns{
+    display: none;
+}
+
+
+
+
+.mobileaddress__reasons{
+    display: flex;
+    flex-direction: column;
+    margin-top:13%;
+}
+
+
+.mobile__address{
+    display: none;
+}
+
+
+.mobile__reasons{
+    display: none;
+}
+/* <!-- <<<<<<<< page 4 >>>>>>>> --> */
+
+.line_building{
+    border-top:1% ;
+    height: 2px;
+    /* left: 436px; */
+    /* top: 730px; */
+    margin-right: 9%;
+    margin-left: 27%;
+    margin-top:-11%;
+    margin-bottom:3%;
+    background: #E6EBF1;
+    border-radius: 15px;
+   
+}
+
+
+.landlord__info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 1rem; */
+    margin-left:3.4%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+
+.landlord__nameaddrssdiv{
+    /* margin-left: 26.5%;  */
+    padding-left: 28.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.landlord__name{
+    padding-left: 2%;
+    padding-right:22%;
+    padding-top:2.5%;
+    padding-bottom: 2%;
+
+    background: #E6EBF1;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    border:none; 
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+
+
+.landlords_address{
+    padding-top: 1.5%;
+    padding-bottom: 13%;
+    padding-right: 20.5%;
+    padding-left:2%;
+    background: #E6EBF1;
+    border-radius: 10px;
+    border: none;
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    /* line-height: 1.7vw; */
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+
+/* <!-- <<<<<<<<< page 5 styling >>>>>>>>> --> */
+.back__contine{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+}
+
+
+
+.back__btn{
+    background: #E6EBF1;
+    border-radius: 10px;
+    padding-left:4%; 
+    padding-right: 4%;
+    padding-top:1%;
+    padding-bottom:1%;
+    color: black;
+    border: none;
+    font-size:1.1rem;
+    
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    
+}
+
+
+.continue__btn{
+    padding-left:9% ;
+    padding-right: 9%;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-radius: 10px;
+    border: none;
+    background: #007DC1;
+    color: #fff;
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    }
+
+
+
+    .landlord__nameaddrssdiv{
+        margin-top:-1.4%;
+    }
+
+
+
+    .bottom__gap{
+        padding-bottom:20%;
+    }
+
+
+   
+
+
+    /*>>>>>>>>>> MOBILE STYLING STARTS HERE <<<<<<<<<<<<< */
+    @media screen and (max-width: 480px){
+
+        *{
+            background-color:  #E5E5E5;
+        }
+    /* <!-- <<<<<<MOBILE page 1 styling >>>>>> --> */
+
+    .verify__first{
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        margin-top:10%;
+    } 
+    
+    .verify__heading{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.75rem;
+        /* line-height: 39px; */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #414042; 
+    }
+    
+    .verify__parag{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.8rem;
+        line-height: 128.2%;
+        display: flex;
+        align-items: center;
+    
+        color: #414042;
+    }
+
+
+    .verify__divv{
+        padding-left: 4%;
+        }
+     
+        
+        .indicators__{
+            display:flex;
+            flex-direction:row;
+            gap:4%;
+            align-items:center;
+            justify-content:center;
+            margin-bottom:40px;
+            font-family:sans-serif;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1vw;
+            color: #414042;
+        }
+     
+        
+        .rental__detailinfo{
+            border-radius:10px;
+            background: #E6EBF1;
+            height:5px;
+            width:100%;
+            gap:70px;
+            border:none;
+            padding: 0.001%;
+            border-radius:3px;
+            width:100%;
+            margin-left:-32%;
+        }
+
+
+        .employ__mentinfo{
+            border-radius:10px;
+            background: #E6EBF1;
+            height:5px;
+            width:100%;
+            gap:70px;
+            border:none;
+            padding: 0.001%;
+            border-radius:3px;
+            width:100%;
+            margin-right:-32%;
+        }
+        
+        
+        .guarantor__detailinfo{
+            border-radius:10px;
+            background: #E6EBF1;
+            height:5px;
+            width:100%;
+            gap:70px;
+            border:none;
+            padding: 0.001%;
+            border-radius:3px;
+            width:100%; 
+        }
+        
+        
+        
+        .verifyid__detailinfo{
+            border-radius:10px;
+            background: #E6EBF1;
+            height:5px;
+            width:100%;
+            gap:70px;
+            border:none;
+            padding: 0.001%;
+            border-radius:3px;
+            width:100%;  
+        }
+        
+
+        /* <!-- <<<<<<MOBILE page 2 styling >>>>>> --> */
+       .gt__history{
+            display: flex;
+            flex-direction: column;
+
+        }
+       
+        
+        .rental_ss{
+            /* line-height: 2vh; */
+            margin-bottom:2%;
+        }
+
+
+        .rental__header{
+            margin-bottom: 4%;
+        }
+
+
+        .rental__parag{
+            margin-top: 0%;
+        }
+
+
+         /* <!-- FIRST STYLING FOR WEB VIEW APPEARANCE STARTS HERE>> --> */
+
+        .address__reasons{
+            display:none;
+        }
+             /* <!-- FIRST STYLING FOR WEB VIEW APPEARANCE ENDS HERE>> --> */
+
+    
+         /* <!-- <<<<<<<<<<< MOBILE page  3 >>>>>>>>>>>> --> */
+        .rent_status{
+            width: 95vw;
+            height: 27%;
+            background: #FFFFFF;
+            border-radius: 5px;
+            border: none;
+       
+    
+    }
+    
+
+
+     .address__period {
+        width: 60%;
+        height: 27%;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border: none;
+     }
+    
+
+
+ /* .<!-- <<<<<<<< MOBILE page 4 >>>>>>>> -->     */
+        
+ /* .line_building{
+    border-top:5% ;
+    height: 2px;
+    left: 436px;
+    top: 730px;
+    margin-right: 9%;
+    margin-left: 27%;
+    margin-top: 4%;
+    background: #007DC1;
+    border-radius: 15px;
+ } 
+
+
+ .landlord__info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left:3.4%;
+    margin-top: 18%
+}
+
+
+.mobileaddress__reasons{
+
+} */
+
+    
+}
+    
+      

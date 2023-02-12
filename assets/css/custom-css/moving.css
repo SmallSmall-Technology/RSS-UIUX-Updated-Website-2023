@@ -65,9 +65,14 @@ img{
   
   .details-expanded {
       padding: 0 2rem;
-      font-size: 1rem;
+      font-size: 1.2vw;
   }
   
+
+  .details-expanded
+  p{
+   font-size:1.3vw;
+  }
   
   .diva__styling{
     height: 100vh;

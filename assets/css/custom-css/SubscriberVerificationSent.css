@@ -1,0 +1,35 @@
+.subver__sent{
+padding-top: 10%;
+padding-left:6%;
+}
+
+.subver__sent
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #414042;
+}
+
+
+.subver__sent
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 168.39%;
+    /* or 27px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #414042;
+}
