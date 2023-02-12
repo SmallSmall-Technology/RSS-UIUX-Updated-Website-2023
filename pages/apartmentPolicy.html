@@ -48,9 +48,7 @@
         </a>
       </div>
 
-      <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon text-white"></span>
-        </button> -->
+
 
       <!-- Navbar links -->
       <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
@@ -94,29 +92,88 @@
 
       <div class="login-btn">
         <div class="user_icon nav-item dropdown">
-          <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0" data-toggle="dropdown" href="#" role="button"
-            aria-expanded="false">
+          <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-block d-none" data-toggle="dropdown"
+            href="#" role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
           </a>
-          <div class="dropdown-menu user_icon--dropdown">
-            <a class="dropdown-item" href="#">
-              <i class="fa-solid fa-right-to-bracket"></i>
-              &nbsp;&nbsp;Login
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa-solid fa-user-plus"></i>
-              &nbsp;&nbsp;Create Account
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-              Dashboard
-            </a>
-            <a class="dropdown-item" href="#">
-              <i class="fa-solid fa-right-from-bracket"></i>
-              &nbsp;&nbsp;logout
-            </a>
+
+          <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-none d-block" data-toggle="dropdown"
+            role="button" aria-expanded="false">
+            <img src="../assets/images/users.svg" alt="users" />
+          </a>
+          <div class="dropdown-menu user_icon--dropdown desktopDropdown p-0">
+            <!-- Desktop view for login and logout -->
+            <div class="d-md-block d-none">
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-right-to-bracket"></i>
+                  &nbsp;&nbsp;Login
+                </a>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-user-plus"></i>
+                  &nbsp;&nbsp;Create Account
+                </a>
+              </div>
+
+              <!-- Desktop view for logout and Dashboad -->
+              <!-- <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                  Dashboard
+                </a>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-right-from-bracket"></i>
+                  &nbsp;&nbsp;logout
+                </a>
+              </div> -->
+
+            </div>
+
+            <!-- mobile view for login and logout -->
+            <div class="d-md-none d-block">
+              <div class="mobileDropdown">
+                <div class="px-3 py-4">
+                  <a class="dropdown-item" href="subscriberLogin.html">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    &nbsp;&nbsp;Login
+                  </a>
+                </div>
+                <div style="background-color: #ffffff; height: 1px;"></div>
+                <div class="px-3 py-4">
+                  <a class="dropdown-item" href="signup.html">
+                    <i class="fa-solid fa-user-plus"></i>
+                    &nbsp;&nbsp;Create Account
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- mobile view for logout and dashboard -->
+            <!-- <div class="d-md-none d-block">
+              <div class="mobileDropdown">
+                <div class="px-3 py-4">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                    Dashboard
+                  </a>
+                </div>
+                <div style="background-color: #ffffff; height: 1px;"></div>
+                <div class="px-3 py-4">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    &nbsp;&nbsp;logout
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
           </div>
+
         </div>
 
         <div class="menu_icon">
@@ -125,27 +182,28 @@
             <span class="menu_icon--text">Menu</span>
           </a>
           <div class="dropdown-menu menu_icon--dropdown">
-            <a class="dropdown-item" href="#">Subcribe</a>
-            <a class="dropdown-item" href="#">Property Owner</a>
+            <a class="dropdown-item mb-3" href="#">Subcribe</a>
+            <a class="dropdown-item mb-3" href="#">Property Owner</a>
+            <a class="dropdown-item" href="#">FAQ</a>
             <!-- <div class="dropdown-divider"></div> -->
-            <a class="dropdown-item" href="#">
-              <small>
-                <i class="fa-solid fa-envelope mr-3"></i>
-                rent@smallsmall.com
-              </small>
-            </a>
-            <a class="dropdown-item" href="#">
-              <small>
-                <i class="fa-solid fa-phone mr-3"></i>
-                0903 633 9800
-              </small>
-            </a>
-            <a class="dropdown-item" href="#">
-              <small>
-                <i class="fa-solid fa-phone mr-3"></i>
-                0903 722 2669
-              </small>
-            </a>
+            <!-- <a class="dropdown-item my-4" href="#"> -->
+            <p class="pl-4 font-weight-lighter my-4">
+              <i class="fa-solid fa-envelope mr-3"></i>
+              rent@smallsmall.com
+            </p>
+            <!-- </a> -->
+            <!-- <a class="dropdown-item" href="#"> -->
+            <p class="pl-4 font-weight-lighter m-0">
+              <i class="fa-solid fa-phone mr-3"></i>
+              0903 633 9800
+            </p>
+            <!-- </a> -->
+            <!-- <a class="dropdown-item" href="#"> -->
+            <p class="pl-4 font-weight-lighter m-0">
+              <i class="fa-solid fa-phone mr-3"></i>
+              0903 722 2669
+            </p>
+            <!-- </a> -->
           </div>
 
           <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
@@ -153,7 +211,13 @@
         </div>
       </div>
     </nav>
+    <!-- Button trigger modal -->
+
   </header>
+
+
+
+
   <p><a href="./faq.html"><img src="../assets/images/back.svg" alt="backarrow">Back</a></p>
   <div class="diva__styling">
 
