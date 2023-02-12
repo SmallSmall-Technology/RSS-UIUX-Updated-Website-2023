@@ -2,10 +2,250 @@
   font-family: "Poppins", sans-serif;
 }
 
+.primary-text-color {
+  color: #007dc1;
+}
 
-
+.primary-background {
+  background: #007dc1;
+  color: #ffffff;
+}
+.secondary-background {
+  background: #e6ebf1;
+  /* color: #ffffff; */
+}
 
 .main-section {
   position: relative;
   top: 7em;
+}
+
+.subscription-container {
+  border: 1px solid #d1cece;
+  border-radius: 16px;
+  padding: 2em;
+  position: relative;
+}
+
+.subscription-availability {
+  position: absolute;
+  padding: 7px;
+  top: 20px;
+  right: 34px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.subscription-available {
+  color: #007dc1;
+  border: 1px solid #007dc1;
+}
+.subscription-unavailable {
+  color: red;
+  border: 1px solid red;
+}
+
+.subcription-amount {
+  color: #007dc1;
+  font-size: 30px;
+}
+
+.subscription-deposit {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.switch-button {
+  background: #e6eaed;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 240px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #b0b7c5;
+  position: relative;
+  padding-right: 120px;
+  position: relative;
+}
+.switch-button:before {
+  content: "subcribe now";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+}
+.switch-button-checkbox {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+.switch-button-checkbox:checked + .switch-button-label:before {
+  transform: translateX(120px);
+  transition: transform 300ms linear;
+}
+.switch-button-checkbox + .switch-button-label {
+  position: relative;
+  padding: 15px 0;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+.switch-button-checkbox + .switch-button-label:before {
+  content: "";
+  background: #ffffff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+  position: relative;
+}
+
+.furnished-title {
+  color: #007dc1;
+}
+
+.schedule-container {
+  background: #e6ebf1;
+  border-radius: 60px;
+  padding: 0.6em;
+  font-size: 14px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.schedule-container__subscribe,
+.schedule-container__schedule {
+  padding: 1em;
+  border-radius: 60px;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.schedule-item-container {
+  background-color: #ffffff;
+}
+
+.schedule-container__subscribe {
+  color: #b0b7c5;
+}
+
+.close-modal-custom {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  z-index: 500;
+}
+.close-modal {
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  color: #007dc1;
+  cursor: pointer;
+}
+.show-result button {
+  width: 100%;
+  border: none;
+  padding: 1.8em;
+  background: #007dc1;
+  color: #ffffff;
+}
+/*****MEDIA QUERY****/
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 480px) {
+  .furnished-title {
+    font-size: 20px;
+  }
+
+  .mobile-subscription-price,
+  .mobile-subscription-security {
+    font-size: 12px;
+  }
+
+  .mobile-subscription-amount {
+    font-size: 20px;
+  }
+
+  .subscription-availability {
+    position: relative !important;
+    /* width: 75%; */
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 14px;
+    top: 0;
+    right: 0;
+  }
+
+  .schedule-container {
+    background: #e6ebf1;
+    border-radius: 60px;
+    padding: 0.6em;
+    font-size: 14px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .schedule-container__subscribe,
+  .schedule-container__schedule {
+    padding: 1em;
+    border-radius: 60px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .schedule-item-container {
+    background-color: #ffffff;
+  }
+  .managed-title {
+    font-size: 14px;
+  }
+
+  .subscription-unavailable {
+    color: red;
+    border: 1px solid #d1cece;
+  }
+  .schedule-container__subscribe {
+    color: black;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (992px <= width <=1024px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
 }
