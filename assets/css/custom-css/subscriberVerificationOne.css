@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* <!-- <<<<<< page one styling >>>>>> --> */
+/* >>>>>>> Verify section styling <<<<<<< */
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+} 
+
+
+.verify__first{
+    display: flex;
+    gap: 1%;
+    margin-top:3%;
+}
+
+
+.pagethrmob__details{
+    display: none;
+}
+
+
+.verify__heading{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    
+    color: #414042; 
+}
+
+
+.verify__divv{
+    padding-left: 2%;
+    }
+
+
+.verify__parag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+
+  .index__check{
+    display: flex;
+    flex-direction: row;
+    gap:4%;
+    padding-left: 9%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    border-radius:4px;
+    margin-top:2%;
+    justify-content: space-between;
+    letter-spacing:2%;
+}
+
+
+
+
+.index__check
+    p{
+        display: flex;
+        flex-direction: row;
+        font-size:0.9vw;
+        font-weight: 500;
+        font-family: 'Poppins';
+    
+    
+}
+
+
+
+
+.upperline__break{
+    display: flex;
+    flex-direction: row;  
+    margin: auto;
+    padding-left:9%;
+
+}
+
+
+.colored__linebreak{
+ border-radius: 15px;
+ height: 0.2px !important;
+ width:12vw;
+ border: none;
+ background-color: #007DC1;
+}
+
+
+
+.transparent__linebreak{
+    width:43vw;
+    border-radius: 15px;
+    height: 0.2px !important;  
+    border: none;
+    background-color: #E6EBF1;
+}
+
+
+
+
+/* <!-- <<<<<< page 2 styling >>>>>> --> */
+
+.page__twflx{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-left:2%;
+    /* padding-right: 6%; */
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: white;
+}
+
+
+.page__twdiv{
+   /* border: 1px solid black;  */
+   margin-top:-0.1%;
+}
+
+
+.details__header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+.details__parag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 128.2%;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+ 
+select{
+    padding: 4%;
+    font-size: 16px;
+    width: 100%;
+    background: #E6EBF1;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.monthly_income{
+    margin-bottom:1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 100%; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+.marital__status{
+    margin-bottom:1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 100%; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+}
+
+
+.country{
+    margin-bottom: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 100%; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA; 
+} 
+
+
+.naija__states{
+    margin-bottom: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA; 
+   
+
+}
+
+
+.cities__view{
+    margin-bottom: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 100%; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA; 
+}
+
+
+
+/* <!-- <<<<<< page 3 styling >>>>>> --> */
+
+.gender{
+    margin-bottom: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 25.3rem; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+    padding-right:3%;    
+}
+
+
+.d_o_b{
+    margin-bottom: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 93%; 
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.d_o_b{
+    padding: 4%;
+    font-size: 16px;
+    width: 92%;
+    background: #E6EBF1;
+    border-radius: 10px;
+    border: none;
+    gap: 5%;
+}
+
+/* <!-- <<<<<< page 3 styling >>>>>> --> */
+
+/* input[type="date"]:not(.has-value):before{
+    color: lightgray;
+    content: attr(placeholder);
+  } */
+
+
+  input[type="date"]::before {
+	color: #BABABA;
+	content: attr(placeholder);
+}
+
+
+input[type="date"] {
+	color: #E6EBF1;
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: #666666;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}
+
+
+.continue__btn{
+    display: flex;
+    margin-left:50%;
+    margin-top:7%;
+    margin-bottom:12%;
+    background: #007DC1;
+    border-radius: 10px;
+    padding:1.2% 12%;
+    border: none;
+    color: #ffffff;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+
+
+/* >>>>>>> MOBILE STYLING STARTS <<<<<<<*/
+
+@media screen and (max-width: 480px) {
+    /* <!-- <<<<<< MOBILE STYLING  page one styling >>>>>> --> */
+
+    *{
+        background-color: #E5E5E5;;
+    }
+
+
+    .verify__first{
+        display: flex;
+        flex-direction: column;
+
+        gap: 5%;
+        margin-top:10%;  
+    }
+
+
+   .verify__divv{
+      padding-left: 2%;
+   }
+
+
+   .verify__parag{
+    font-size:2.6vw;
+   }
+
+   .header__img{
+    display: flex;
+    flex-direction: row;
+   }
+
+
+   .ff{
+    margin: 0%;
+   }
+  
+
+   .index__check{
+    display: flex;
+    flex-direction: row;
+    /* gap:4%; */
+    /* padding-left: 9%; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    border-radius:4px;
+    margin-top:2%;
+    justify-content: space-between;
+    letter-spacing:2%;
+}
+
+
+
+
+.index__check
+    p{
+        display: flex;
+        flex-direction: row;
+        font-size:1.5vw;
+        font-weight: 500;
+        font-family: 'Poppins';
+    
+    
+}
+
+
+
+
+.upperline__break{
+    display: flex;
+    flex-direction: row;  
+    margin: auto;
+    /* padding-left:9%; */
+
+}
+
+
+.colored__linebreak{
+ border-radius: 15px;
+ height: 0.2px !important;
+ width:12vw;
+ border: none;
+ background-color: #007DC1;
+}
+
+
+
+.transparent__linebreak{
+    width:73vw;
+    border-radius: 15px;
+    height: 0.2px !important;  
+    border: none;
+    background-color: #E6EBF1;
+}
+
+
+    /* <!-- <<<<<< MOBILE STYLING  page 2 styling >>>>>> --> */
+   .page__twflx{
+    display: flex;
+    flex-direction: column;
+
+    background-color:#E5E5E5; 
+   } 
+
+
+   
+   .header__img{
+    margin-top: 4%;
+   }
+
+
+
+   select{
+    padding: 4%;
+    font-size: 16px;
+    width: 100%;
+    background:#FFFFFF;
+    border-radius: 10px;
+    border: none;
+    /* box-sizing: border-box; */
+}
+
+
+/* <!-- <<<<<<  Mobile stylin page 3 styling >>>>>> --> */
+.d_o_b {
+    margin-bottom: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 92%; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA; 
+}
+
+
+.gender{
+    width:100%;
+    background-color: #FFFFFF;
+}
+
+
+input{
+    background-color: #FFFFFF;
+}
+
+
+.pagethrmob__details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/* <!-- <<<<<<  Mobile stylin page 4 styling >>>>>> --> */
+.continue__btn {
+margin-left:6%;
+margin-right:5%;
+margin-top:7%;
+margin-bottom:12%;
+padding-left:32% ;
+padding-right: 34%;
+padding-top:3.5%;
+padding-bottom:3.5%;
+border-radius: 10px;
+
+}
+
+
+.ft{
+    padding-bottom: 12%;
+}
+
+/* <<<< DISPLAY NONE SESSION FOR MOBILE VIEW>>> */
+.pagethr__detailsss{
+display: none;
+}
+
+}
+
+
+
+/* <<<<<<<<<< STYLING FOR TABLETS AND IPADS>>>>>>>>> */
+
+@media screen and (max-width: 768px){
+
+    *{
+        background-color: #E5E5E5;;
+    }
+
+
+    .verify__first{
+        display: flex;
+        flex-direction: column;
+
+        gap: 5%;
+        margin-top:10%;  
+    }
+
+
+   .verify__divv{
+      padding-left: 2%;
+   }
+
+
+   .verify__parag{
+    font-size:2.6vw;
+   }
+
+   .header__img{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .indicators__{
+    padding-left:-2%;
+    padding-top: 8%;
+   }
+
+
+    /* <!-- <<<<<< MOBILE STYLING  page 2 styling >>>>>> --> */
+   .page__twflx{
+    display: flex;
+    flex-direction: column;
+
+    background-color:#E5E5E5; 
+   } 
+
+
+   
+   .header__img{
+    margin-top: 4%;
+   }
+
+   select{
+    padding: 4%;
+    font-size: 16px;
+    width: 100%;
+    background:#FFFFFF;
+    border-radius: 10px;
+    border: none;
+    /* box-sizing: border-box; */
+}
+
+
+/* <!-- <<<<<<  Mobile stylin page 3 styling >>>>>> --> */
+.d_o_b {
+    margin-bottom: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 92%; 
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA; 
+    background-color: white;
+}
+
+
+.gender{
+    width:100%;
+    background-color: #FFFFFF;
+}
+
+input{
+    background-color: #FFFFFF;
+}
+
+
+
+
+/* <!-- <<<<<<  Mobile stylin page 4 styling >>>>>> --> */
+.continue__btn {
+margin-left:6%;
+margin-right:5%;
+margin-top:29%;
+margin-bottom:12%;
+padding-left:38.5% ;
+padding-right: 40%;
+padding-top:3.5%;
+padding-bottom:3.5%;
+border-radius: 10px;
+
+}
+
+
+.ft{
+    padding-bottom: 12%;
+}
+
+/* <<<< DISPLAY NONE SESSION FOR MOBILE VIEW>>> */
+.pagethr__detailsss{
+display: none;
+}
+} 
+
+
+
+
+/* <<<<<<<< TABLET STYLING >>>>>>> */
+
+@media screen and (max-width: 760px){
+
+    /* <!-- <<<<<<<<< page 4 styling >>>>>>>>> --> */
+
+   .continue__btn{
+    margin: auto;
+    margin-bottom: 12%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    border-radius: 10px;
+   } 
+
+}
