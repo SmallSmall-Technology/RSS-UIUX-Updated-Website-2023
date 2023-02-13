@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* <!-- <<<<<< page one styling >>>>>> --> */
+/* >>>>>>> Verify section styling <<<<<<< */
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.verify__first{
+    display: flex;
+    gap: 5%;
+    margin-top:10%;
+}
+
+
+.pagethrmob__details{
+    display: none;
+}
+
+
+.verify__heading{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    /* line-height: 39px; */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #414042; 
+}
+
+
+
+.verify__parag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 128.2%;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+.verify__divv
+a{
+color: #007DC1;
+text-decoration: none;
+}
+
+
+
+
+.verify__divv{
+padding-left: 4%;
+}
+
+
+.index__check{
+    display: flex;
+    flex-direction: row;
+    gap:4.1%;
+    padding-left: 4%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    border-radius:4px;
+    margin-top:2%;
+    letter-spacing:2%;
+}
+
+
+
+
+.clear__font{
+        display: flex;
+        flex-direction: row;
+        font-size:0.9vw;
+        font-weight: 500;
+        font-family: 'Poppins';
+        color: #414042;
+    
+    
+}
+
+
+.unclear__font{
+    display: flex;
+    flex-direction: row;
+    font-size:0.9vw;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #D1CECE;
+
+
+}
+
+
+
+.upperline__break{
+    display: flex;
+    flex-direction: row;  
+    margin: auto;
+    padding-left:3.95%;
+   
+
+}
+
+
+
+.colored__linebreak{
+ border-radius: 15px;
+ height: 0.2px !important;
+ width:43vw;
+ border: none;
+ background-color: #007DC1;
+}
+
+
+
+.transparent__linebreak{
+    width:9.55vw;
+    border-radius: 15px;
+    height: 0.2px !important;  
+    border: none;
+    background-color: #E6EBF1;
+    /* padding-right:0.1%; */
+    /* padding-left:-140%; */
+}
+
+
+
+
+/* <!-- <<<<<<<<<<<< page 2 >>>>>>>>> --> */
+.employment__details{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top:7%;
+    gap: 10%;
+}
+
+
+.employment__history{
+   margin-left: 4%;
+}
+
+
+.employment__history
+h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6vw;
+    display: flex;
+    align-items: center;
+    
+    color: #414042;
+}
+
+
+.employment__history
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    color: #414042;
+}
+
+
+.pagetw_inputdiv{
+    margin-top:1.9% ;
+    display: flex;
+    flex-direction: row;
+    gap: 75%;
+}
+
+.employ__status{
+    width: 220%;
+    padding:7.5%;
+    margin-bottom:1%;
+
+    background: #E6EBF1;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #BABABA;
+}
+
+
+.compname__address{
+    display: block;
+    padding-left: 9%;
+    padding-right: 112%;
+    padding-top: 9%;
+    padding-bottom: 39%;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BABABA;
+    background: #E6EBF1;
+    border: none;
+    resize: none;
+    width: 14vw;
+   
+}
+
+
+
+.companyname__address{
+    display:none;
+}
+
+
+
+.occupatn__job{
+  padding-left: 5.5%;
+  padding-right:123%;
+  padding-top:9%;
+  padding-bottom:9%;
+  color: #BABABA;
+  background: #E6EBF1;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 8%;
+
+}
+
+
+
+.border__line{
+    border-bottom:3px solid #E6EBF1;
+    background: #E6EBF1;
+    border-radius: 15px;
+
+    margin-top:8%;
+    margin-bottom:4%;
+    margin-left:29%;
+    margin-right:8%;
+}
+
+.occup__job{
+display: none;
+}
+
+
+
+
+/* <!-- <<<<<<<<<<< page 3 >>>>>>>> --> */
+
+.hr_details{
+    display:flex;
+    flex-direction:row;
+    gap:13%;
+
+}
+
+
+
+.hrdetail__header{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    margin-top:-10%;
+    /* padding-left:23%; */
+
+}
+
+
+.dependantsheader__parag{
+    padding-left:3.5%;   
+}
+
+.hr__information{
+    display: none;
+ }
+ 
+
+
+.hr__info{
+    display:block;
+    flex-direction:column;
+    margin-top:0.9%;  
+   
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042; 
+
+}
+
+
+
+.hr__name{
+    margin-bottom: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    background: #E6EBF1;
+    padding-left: 17%;
+    padding-right:64%;
+    padding-top:9%;
+    padding-bottom:9%;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    font-size: 100%; 
+
+    /* margin-left:8%; */
+    margin-top: 13%;
+}
+
+
+.hr__number{
+    margin-bottom: 5%;
+    margin-top:2%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    background: #E6EBF1;
+    padding-left: 17%;
+    padding-right:64%;
+    padding-top:9%;
+    padding-bottom:9%;
+    width: 190%;
+    border: none;
+    border-radius: 10px;
+    font-size: 100%;
+    
+    margin-left: 48%;
+    margin-top: 13%;
+}
+
+
+
+.hr__email{
+    margin-top:2%;
+    margin-bottom: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    background: #E6EBF1;
+    padding-left: 17%;
+    padding-right:64%;
+    padding-top:9%;
+    padding-bottom:9%;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    font-size: 100%;
+    
+    margin-top: 13%;
+}
+
+
+
+.final__agreement{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 27.7%;
+    margin-right: 8%;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 140%;
+
+    color: #414042;
+   
+}
+
+.final__agreement
+a{
+color: #007DC1;
+}
+
+
+.formage__gender{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    /* margin-left: -14%; */
+}
+
+.guarantors__age{
+    width: 183px;
+    height: 56px;
+    border: none;
+    background: #E6EBF1;
+    border-radius: 10px;
+}
+
+
+.guarantors__gender{
+    width: 236px;
+    height: 56px;
+    
+    background: #E6EBF1;
+    border-radius: 10px;
+}
+
+/* <!-- <<<<<<<<< page 4 styling >>>>>>>>> --> */
+.back__contine{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+}
+
+
+
+.back__btn{
+    background: #E6EBF1;
+    border-radius: 10px;
+    padding-left:4%; 
+    padding-right: 4%;
+    padding-top:1%;
+    padding-bottom:1%;
+    color: black;
+    border: none;
+    font-size:1.1rem;
+    
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    
+}
+
+
+.continue__btn{
+    padding-left:9% ;
+    padding-right: 9%;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-radius: 10px;
+    border: none;
+    background: #007DC1;
+    color: #fff;
+    
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    }
+
+
+
+    .landlord__nameaddrssdiv{
+        margin-top:-1.4%;
+    }
+
+
+
+    .bottom__gap{
+        padding-bottom:20%;
+    }
+
+
+
+
+
+/* .fname{
+    border-radius:10px;
+    box-sizing:border-box; */
+    /* width: 47%;
+    height: 61px;
+    left: 51px;
+    top: 439px; */
+    /* border: 1px solid #64318A;
+    margin-right:10px;
+
+    padding-left:5%;
+
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px; */
+    /* color:#000000; */
+
+   
+/* } */
+
+
+/* .lname{
+    border-radius:10px;
+    box-sizing: border-box;
+    width: 50%; */
+    /* height: 61px;
+    left: 51px;
+    top: 439px; */
+    /* border: 1px solid #DDDDDD; 
+    padding-left:5%;
+
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color:#000000;
+
+   
+} */
+
+
+
+
+    /*>>>>>>>>>>> MOBILE STYLING <<<<<<< */
+    @media screen and (max-width: 480px) {
+*{
+    background: #E6EBF1;
+    /* background: grey; */
+}
+/* <!-- <<<<<< MOBILE STYLING  page one styling >>>>>> --> */
+.verify__first{
+    display: flex;
+    flex-direction: column;
+    }    
+
+
+
+    /* <!-<<<<<<< MOBILE STYLING  page 2 >>>>>>>>> --> */
+
+.employment__details {
+    display: flex;
+    flex-direction: column;
+
+   }
+
+
+
+ .employment__history
+   h2{
+       font-family: 'Poppins',sans-serif;
+       font-style: normal;
+       font-weight: 700;
+       font-size: 1.3rem;
+       display: flex;
+       align-items: center;
+       color: #414042;
+   }
+   
+.employment__history
+   p{
+       font-family: 'Poppins',sans-serif;
+       font-style: normal;
+       font-weight: 300;
+       font-size: 3vw;
+       display: flex;
+       align-items: center;
+       color: #414042;
+   }
+   
+
+
+.pagetw_inputdiv{
+    display: flex;
+    flex-direction: column;
+   }
+
+
+.employ__status{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 85%;
+
+    padding: left 10%;
+    padding-top:2.2%;
+    padding-bottom:2.2%;
+    margin-bottom:3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #BABABA; 
+
+}
+
+
+.occup__job{
+    display: block;
+
+    background: #fff;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #BABABA;
+
+    border-radius: 5px;
+    width: 85%;
+
+    padding: left 10%;
+    padding-top:2.2%;
+    padding-bottom:2.2%;
+    margin-bottom:3%;
+
+   }
+
+
+   .compname__address {
+    display:none;
+}
+
+
+.companyname__address{
+    display: block;
+    display: block;
+    width: 85%;
+    padding: 2.3% 0 17% 2%;
+    resize: none;
+    margin-top:6%;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+    border: none;
+
+ }
+
+.occupatn__job{
+    display: none;
+   }
+
+
+.border__line{
+        /* margin-right: 9%; */
+        margin-left: 2%;
+        margin-top: 19%;
+        margin-bottom: 6%;
+        background: #414042;
+        border-radius: 5px;
+        color:#414042;;
+        border-bottom: 3px solid #414042;;
+    }
+
+
+
+/* <!-- <<<<< MOBILE STYLING  page 3 >>>>>>>> --> */
+  
+.dependant__parag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.2vw;
+    line-height: 128.2%;
+    display: flex;
+    align-items: center;
+    color: #414042;
+}
+
+  .hr_details{
+   display: flex;
+   flex-direction:column;
+   width: 20%;
+  }  
+
+
+  .hrdetail__header{
+    margin-bottom: 13vw;
+  }
+
+
+  .hr__info{
+    display: none;  
+  }
+
+
+  /* <!--<<<<< MOBILE DISPLAY ONLY <<<<<<<<< --> */
+  .hr__information{
+    display: block;
+  }
+
+
+.hr__nam{
+    width:80vw;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding:12%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    margin-bottom:12%;
+    border:none;
+
+  }
+
+
+.hr__numb{
+    width:80vw;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding:12%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    margin-bottom:15%;
+    border:none;
+ } 
+
+
+.hr__mail{
+    width:80vw;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding:12%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    margin-bottom:15%;
+    border:none; 
+ }
+
+
+
+
+
+
+
+
+  /* <!--<<<<< END OF MOBILE  DISPLAY ONLY <<<<<<<<< --> */
+
+
+
+  /* <!-- <<<<<<<<< page 4 styling >>>>>>>>> --> */
+
+.back__contine{
+    gap:12%;
+}
+
+
+.back__btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    background-color: white;
+    padding:3.8% 10%;
+    color: #414042
+    }
+
+
+
+.continue__btn{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+    
+        display: flex;
+        align-items: center;
+    
+        color: #414042;
+        background: #007DC1;
+        color: white;
+        border-radius: 10px;
+        padding:4% 12%;
+
+
+        text-decoration: none;
+    color: inherit;
+    }
+
+
+
+    
+}

@@ -10,7 +10,7 @@ a, a:hover, a:focus, a:active {
 
 .verify__first{
     display: flex;
-    gap: 1%;
+    gap: 1.65%;
     margin-top:3%;
 }
 
@@ -35,6 +35,13 @@ a, a:hover, a:focus, a:active {
 .verify__divv{
     padding-left: 2%;
     }
+
+.verify__divv
+    a{
+    color: #007DC1;
+    text-decoration: none;
+    }
+    
 
 
 .verify__parag{
@@ -74,6 +81,7 @@ a, a:hover, a:focus, a:active {
         font-size:0.9vw;
         font-weight: 500;
         font-family: 'Poppins';
+        color: #414042;
     
     
 }
@@ -98,15 +106,6 @@ a, a:hover, a:focus, a:active {
  background-color: #007DC1;
 }
 
-
-
-/* .transparent__linebreak{
-    width:43vw;
-    border-radius: 15px;
-    height: 0.2px !important;  
-    border: none;
-    background-color: #E6EBF1;
-} */
 
 
 
@@ -161,8 +160,8 @@ p{
 .verifylist_icons{
     display: flex;
     flex-direction: row;
-    gap: 45%;
-    padding-left: 9%;
+    gap: 43%;
+    padding-left: 8.3%;
 
 }
 
@@ -345,3 +344,70 @@ img{
     }
 
 
+
+
+
+  /* >>>>>>>>>  MOBILE STYLING <<<<<<<<<<< */
+  @media screen and (max-width: 480px){
+
+
+     *{
+        background-color: green;
+    } 
+
+
+    /* <!-- <<<<<< page one styling >>>>>> --> */
+    .verify__first{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    /* <!-- <<<<<< mobile page 2 styling >>>>>> --> */
+    .pagetwo__verification{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+
+        .verifyid__clicks{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .verifylist_icons{
+            display: flex;
+            flex-direction: column;
+        }
+                
+
+        .verified__logosign{
+            display: none;
+        }
+
+
+        
+     
+        .index__check{
+        display: flex;
+        flex-direction: row;
+        /* gap:4%; */
+        /* padding-left: 9%; */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        border-radius:4px;
+        margin-top:2%;
+        /* justify-content: space-between; */
+        letter-spacing:2%;
+    }
+
+
+   .verifyid__clicks{
+
+   }
+    
+  }
