@@ -37,6 +37,11 @@ a, a:hover, a:focus, a:active {
     }
 
 
+    .verify__divv
+    a{
+    color: #007DC1;
+    }
+
 .verify__parag{
     font-family: 'Poppins';
     font-style: normal;
@@ -66,17 +71,35 @@ a, a:hover, a:focus, a:active {
 
 
 
+.clear__font{
+    display: flex;
+    flex-direction: row;
+    font-size:0.9vw;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #414042;
+         
 
-.index__check
-    p{
+}
+
+
+
+
+    .unclear__font{
+        font-size:0.9vw;  
         display: flex;
         flex-direction: row;
         font-size:0.9vw;
         font-weight: 500;
         font-family: 'Poppins';
-    
-    
+        color: #D1CECE; 
 }
+
+
+
+
+
+
 
 
 
@@ -409,15 +432,22 @@ input[type="date"]:valid::before {
 
 
 
-.index__check
-    p{
+.clear__font{
         display: flex;
         flex-direction: row;
         font-size:1.5vw;
         font-weight: 500;
-        font-family: 'Poppins';
+        font-family: 'Poppins';   
     
-    
+}
+
+.unclear__font{
+    display: flex;
+    flex-direction: row;
+    font-size:1.5vw;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #D1CECE; 
 }
 
 
@@ -649,6 +679,11 @@ border-radius: 10px;
 
 }
 
+
+
+input[type="date"] {
+    color: white;
+}
 
 .ft{
     padding-bottom: 12%;

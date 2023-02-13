@@ -52,6 +52,13 @@
 padding-left: 4%;
 }
 
+.verify__divv
+a{
+color: #007DC1;
+text-decoration: none;
+}
+
+
 
 .index__check{
     display: flex;
@@ -70,17 +77,26 @@ padding-left: 4%;
 
 
 
-.index__check
-    p{
+.clear__font{
         display: flex;
         flex-direction: row;
         font-size:0.9vw;
         font-weight: 500;
         font-family: 'Poppins';
+        color: #414042;
     
     
 }
 
+
+.unclear__font{
+        display: flex;
+        flex-direction: row;
+        font-size:0.9vw;
+        font-weight: 500;
+        font-family: 'Poppins';
+        color: #D1CECE;
+}
 
 
 
