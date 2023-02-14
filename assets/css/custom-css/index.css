@@ -356,6 +356,10 @@ body {
   .partners-section h1 {
     font-size: 20px;
   }
+
+  .phone-apps {
+    margin-bottom: 3em;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
