@@ -24,6 +24,7 @@
   background: #007dc1;
   color: #ffffff;
 }
+
 .secondary-background {
   background: #e6ebf1;
   /* color: #ffffff; */
@@ -32,6 +33,7 @@
 .primary-text-color {
   color: #050505;
 }
+
 .primary-text-color-alt {
   color: #007dc1;
 }
@@ -195,6 +197,7 @@
     background-color: #e6ebf1;
     width: 100vw;
   }
+
   .dropdown-divider {
     background-color: #ffffff;
   }
@@ -202,20 +205,38 @@
   .mobileDropdown.show {
     display: block;
   }
+
+  .menu-desktop.show {
+    display: none;
+  }
+
+  .menu-mobile.show {
+    display: block;
+  }
+
+  .menu_icon--dropdown {
+    right: -15px;
+    top: 4em;
+    left: unset;
+
+  }
+
+  .menu-mobile {
+    background: #007DC1;
+    color: #ffffff;
+    height: 100vh;
+    width: 100vw
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <= width <=1024px) {
-}
+@media screen and (992px <=width <=1024px) {}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}
