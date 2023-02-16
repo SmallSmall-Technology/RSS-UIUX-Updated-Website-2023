@@ -54,12 +54,12 @@
 }
 
 .banner-text h1 {
-  font-size: 4.4em;
+  font-size: 50px;
   font-weight: 800;
 }
 
 .banner-text p {
-  font-size: 2em;
+  font-size: 20px;
   font-weight: 100;
 }
 
@@ -68,8 +68,7 @@
   top: 7em;
 }
 
-.expect-section {
-}
+.expect-section {}
 
 .expect-section h1 {
   font-weight: 700;
@@ -82,6 +81,7 @@
 .faq-section h1 {
   font-weight: 700;
 }
+
 .faq-section h3 {
   font-weight: 500;
 }
@@ -106,6 +106,7 @@
   font-family: "Poppins", sans-serif;
   color: #414042;
 }
+
 .proud-satistics-text h1 {
   font-weight: 600;
   font-size: 5em;
@@ -120,6 +121,7 @@
 .proud-satistics-figure {
   color: #007dc1;
 }
+
 .proud-satistics-figure h3 {
   font-weight: 600;
   color: #007dc1;
@@ -166,6 +168,10 @@
     padding: 0 !important;
   }
 
+  .banner-text {
+    width: 100% !important;
+  }
+
   .banner-text h1 {
     font-size: 2em;
   }
@@ -204,6 +210,7 @@
   .ready-partner-container {
     padding: 4em 0;
   }
+
   .ready-partner-container h1 {
     font-size: 2em;
   }
@@ -236,9 +243,11 @@
   .faq-section p {
     text-align: center;
   }
+
   .proud-satistics-text {
     text-align: left;
   }
+
   .proud-satistics-text h1 {
     font-weight: 800;
     line-height: normal;
@@ -255,20 +264,17 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <= width <=1024px) {
+@media screen and (992px <=width <=1024px) {
   .footer-gutters {
     padding: 0 4em;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}
