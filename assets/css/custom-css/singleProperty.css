@@ -252,6 +252,11 @@
 
   .schedule-item-container {
     background-color: #ffffff;
+    /* color: black; */
+  }
+
+  .schedule-item-container span {
+    /* color: black !important; */
   }
 
   .managed-title {
