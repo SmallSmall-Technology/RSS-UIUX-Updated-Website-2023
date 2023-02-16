@@ -43,14 +43,14 @@
     <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
       <!-- Brand -->
       <div class="logo-container">
-        <a class="navbar-brand logo-link mr-4" href="#">
+        <a class="navbar-brand logo-link mr-4" href="../index.html">
           <img class="logo-img img-fluid" src="../assets/images/logo.png" alt="" />
         </a>
       </div>
-  
+
       <!-- Navbar links -->
       <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-        <ul class="navbar-nav w-100 primary-text-color" style="justify-content: space-evenly;">
+        <ul class="navbar-nav w-100 primary-text-color">
           <li class="nav-item mr-5">
             <a class="nav-link d-sm-inline-block primary-text-color" href="#">
               <small>Nightly stay</small>
@@ -58,27 +58,27 @@
               <span class="font-weight-bold">Stayone</span>
             </a>
           </li>
-  
+
           <li class="nav-item">
-            <a class="nav-link d-sm-inline-block primary-text-color" href="#">
-              <small>Invest</small>
+            <a class="nav-link d-sm-inline-block primary-text-color" href="https://buy.smallsmall.com">
+              <small>Own</small>
               <br />
               <span class="font-weight-bold">BuySmallsmall</span>
             </a>
           </li>
         </ul>
       </div>
-  
-      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-        <div class="search">
+
+      <div class="collapse navbar-collapse justify-content-center  mr-5" id="collapsibleNavbar">
+        <div class="search w-100">
           <form action="">
             <div class="row m-0">
-              <div class="col-10 search-left">
+              <div class="col-11 search-left">
                 <i class="fa-solid fa-location-dot location-icon"></i>
                 <span class="">City..</span>
                 <input class="search-input" type="text" placeholder="which city would you like to live in?" />
               </div>
-              <div class="col-2 search-icon">
+              <div class="col-1 search-icon">
                 <button class="submit-container" type="submit">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -87,14 +87,13 @@
           </form>
         </div>
       </div>
-  
+
       <div class="login-btn">
         <div class="user_icon nav-item dropdown">
           <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-block d-none" data-toggle="dropdown"
             href="#" role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
           </a>
-  
           <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-none d-block" data-toggle="dropdown"
             role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
@@ -110,28 +109,28 @@
               </div>
               <div class="dropdown-divider"></div>
               <div class="px-3 py-4">
-                <a class="dropdown-item" href="signup.html">
+                <a class="dropdown-item" href="pages/signup.html">
                   <i class="fa-solid fa-user-plus"></i>
                   &nbsp;&nbsp;Create Account
                 </a>
               </div>
-  
+
               <!-- Desktop view for logout and Dashboad -->
               <!-- <div class="px-3 py-4">
-                  <a class="dropdown-item" href="#">
-                    <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                    Dashboard
-                  </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <div class="px-3 py-4">
-                    <a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-right-from-bracket"></i>
-                      &nbsp;&nbsp;logout
-                    </a>
-                  </div> -->
+                                                        <a class="dropdown-item" href="#">
+                                                          <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                                                          Dashboard
+                                                        </a>
+                                                        </div>
+                                                        <div class="dropdown-divider"></div>
+                                                        <div class="px-3 py-4">
+                                                          <a class="dropdown-item" href="#">
+                                                            <i class="fa-solid fa-right-from-bracket"></i>
+                                                            &nbsp;&nbsp;logout
+                                                          </a>
+                                                        </div> -->
             </div>
-  
+
             <!-- mobile view for login and logout -->
             <div class="d-md-none d-block">
               <div class="mobileDropdown">
@@ -143,7 +142,7 @@
                 </div>
                 <div style="background-color: #ffffff; height: 1px;"></div>
                 <div class="px-3 py-4">
-                  <a class="dropdown-item" href="signup.html">
+                  <a class="dropdown-item" href="pages/signup.html">
                     <i class="fa-solid fa-user-plus"></i>
                     &nbsp;&nbsp;Create Account
                   </a>
@@ -152,63 +151,112 @@
             </div>
             <!-- mobile view for logout and dashboard -->
             <!-- <div class="d-md-none d-block">
-                <div class="mobileDropdown">
-                  <div class="px-3 py-4">
-                    <a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                      Dashboard
-                    </a>
-                  </div>
-                  <div style="background-color: #ffffff; height: 1px;"></div>
-                  <div class="px-3 py-4">
-                    <a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-right-from-bracket"></i>
-                      &nbsp;&nbsp;logout
-                    </a>
-                  </div>
-                </div>
-                </div> -->
+                                                                  <div class="mobileDropdown">
+                                                                    <div class="px-3 py-4">
+                                                                      <a class="dropdown-item" href="#">
+                                                                        <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                                                                        Dashboard
+                                                                      </a>
+                                                                    </div>
+                                                                    <div style="background-color: #ffffff; height: 1px;"></div>
+                                                                    <div class="px-3 py-4">
+                                                                      <a class="dropdown-item" href="#">
+                                                                        <i class="fa-solid fa-right-from-bracket"></i>
+                                                                        &nbsp;&nbsp;logout
+                                                                      </a>
+                                                                    </div>
+                                                                  </div>
+                                                                  </div> -->
           </div>
-  
+
         </div>
-  
+
         <div class="menu_icon">
-          <a class="nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0" data-toggle="dropdown" href="#"
-            role="button" aria-expanded="false">
+          <a class="d-md-block d-none nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0"
+            data-toggle="dropdown" href="#" role="button" aria-expanded="false">
             <span class="menu_icon--text">Menu</span>
           </a>
-          <div class="dropdown-menu menu_icon--dropdown">
-            <a class="dropdown-item mb-3" href="#">Subcribe</a>
-            <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
-            <a class="dropdown-item" href="faq.html">FAQ</a>
-            <!-- <div class="dropdown-divider"></div> -->
-            <!-- <a class="dropdown-item my-4" href="#"> -->
-            <p class="pl-4 font-weight-lighter my-4">
-              <i class="fa-solid fa-envelope mr-3"></i>
-              rent@smallsmall.com
-            </p>
-            <!-- </a> -->
-            <!-- <a class="dropdown-item" href="#"> -->
-            <p class="pl-4 font-weight-lighter m-0">
-              <i class="fa-solid fa-phone mr-3"></i>
-              0903 633 9800
-            </p>
-            <!-- </a> -->
-            <!-- <a class="dropdown-item" href="#"> -->
-            <p class="pl-4 font-weight-lighter m-0">
-              <i class="fa-solid fa-phone mr-3"></i>
-              0903 722 2669
-            </p>
-            <!-- </a> -->
+          <a class="d-md-none d-block  nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0"
+            data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+            <span class="menu_icon--text">Menu</span>
+          </a>
+          <div class="dropdown-menu menu_icon--dropdown p-0">
+            <div class=" menu-desktop d-md-block d-none">
+              <a class="dropdown-item mb-3" href="#">Subcribe</a>
+              <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <!-- <a class="dropdown-item my-4" href="#"> -->
+              <p class="pl-4 font-weight-lighter my-4">
+                <i class="fa-solid fa-envelope mr-3"></i>
+                rent@smallsmall.com
+              </p>
+              <!-- </a> -->
+              <!-- <a class="dropdown-item" href="#"> -->
+              <p class="pl-4 font-weight-lighter m-0">
+                <i class="fa-solid fa-phone mr-3"></i>
+                0903 633 9800
+              </p>
+              <!-- </a> -->
+              <!-- <a class="dropdown-item" href="#"> -->
+              <p class="pl-4 font-weight-lighter m-0">
+                <i class="fa-solid fa-phone mr-3"></i>
+                0903 722 2669
+              </p>
+              <!-- </a> -->
+            </div>
+            <div class="menu-mobile p-4 d-md-none d-block">
+              <div class="mb-4">
+                <i class="fa-solid fa-xmark fa-3x"></i>
+              </div>
+              <div class="mb-5">
+                <p class="mb-3">
+                  <a class="text-white mb-3" href="#">Subcribe</a>
+                </p>
+                <p class="mb-3">
+                  <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
+                </p>
+                <p class="mb-3">
+                  <a class="text-white" href="faq.html">hellooooo</a>
+                </p>
+              </div>
+              <div>
+                <p><a class="text-white" href="#"><small class="font-weight-light" style="font-size:10px">Nightly
+                      stay</small><br>StayOne</a> </p>
+                <p><a class="text-white" href="#"><small class="font-weight-light"
+                      style="font-size:10px">Invest</small><br>BuySmallsmall</a> </p>
+              </div>
+              <div>
+                <p class="font-weight-lighter m-0">
+                  <i class="fa-solid fa-envelope mr-3"></i>
+                  rent@smallsmall.com
+                </p>
+                <p class="font-weight-lighter m-0">
+                  <i class="fa-solid fa-phone mr-3"></i>
+                  0903 633 9800
+                </p>
+                <p class="font-weight-lighter m-0">
+                  <i class="fa-solid fa-phone mr-3"></i>
+                  0903 722 2669
+                </p>
+              </div>
+
+
+            </div>
+
           </div>
-  
-          <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
-          <i class="fa-solid fa-bars"></i>
+
         </div>
+
+        <!-- MENU MOBILE VIEW DROPDOWN -->
+
+        <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
+        <i class="fa-solid fa-bars"></i>
+      </div>
       </div>
     </nav>
     <!-- Button trigger modal -->
-  
+
   </header>
 
 
@@ -228,7 +276,7 @@
           security deposit of the new property depending on the new rate of the new/alternate
           property.</p>
 
-<!-- 
+        <!-- 
 <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
   <summary itemprop="name">When I can I move-out?</summary>
     <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -237,307 +285,313 @@
 </details> -->
 
 
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary itemprop="name">When I can I move-out?</summary>
-      <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p>You can move out at the end of your subscription period after all outstanding have been cleared, if any and
-          at any time subject to company policies.</p>
+        <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary itemprop="name">When I can I move-out?</summary>
+          <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p>You can move out at the end of your subscription period after all outstanding have been cleared, if any
+              and
+              at any time subject to company policies.</p>
+          </div>
+        </details>
+
+
+
+        <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary itemprop="name">Can I host guests in my apartment?</summary>
+          <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p>You are allowed to host a guest for not more than 3 days, after
+              which you will be in breach of our policy</p>
+          </div>
+        </details>
+
+
+
+        <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary itemprop="name">What happens when I lose the keys to my apartment </summary>
+          <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p>You would be required to pay for replacement.</p>
+          </div>
+        </details>
+
+
+
+
+        <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary itemprop="name">Can I keep a pet in my apartment?</summary>
+          <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p>It depends on the property. There are certain properties where pets are not allowed, in which case, you
+              cannot keep a pet. However, in properties where pets are allowed, you are required to sign our pet policy
+              and
+              adhere to our pet policy and pay the refundable 50k. Pets are only allowed in the properties with profile
+              that
+              states “Pet Friendly” filter on the listing on the platform. RSS will not be liable for the upkeep or
+              responsibility of the pet or in the event any liability, damage/ harm is caused to any co-subscriber or
+              co-subscriber’s pet. Also, the owner of the pet will be liable to bear the cost of any liability or damage
+              caused to any co-subscriber, neighbors, guest or the property due to their pe
+            </p>
+          </div>
+        </details>
+
+
+        <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <summary itemprop="name">Furnishings </summary>
+          <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p>In the case of theft or loss of any furnishing or appliance or furniture in the property, the subscribers
+              staying at the scheduled premises at that point of time shall be held responsible. The subscriber have the
+              right to report such theft to the security of the property or to the appropriate authority for
+              investigation.
+              A reasonable sum shall be deducted from the security deposit of subscribers towards compensation of the
+              loss/
+              theft and damage or an amount as mentioned in cancellation & refund policy. In case the recovery amount
+              exceeds the security deposit, the subscribers shall be liable to pay the amount.
+              For general maintenance RSS may keep a copy of the keys of your house. And for shared houses, RSS may show
+              houses to other subscribers hence, we advise existing subscribers to keep your valuables locked inside
+              their
+              respective apartments/rooms or cupboards and never leave them unattended to in open places.
+              We shall not be responsible for any theft or accidental damage to your valuables in case of an untoward
+              incident.</p>
+          </div>
+        </details>
+
       </div>
-    </details>
 
 
+      <!-- FOOTER Section Desktop view -->
+      <footer class="footer footer-gutters text-white d-none d-lg-block">
+        <div class="container-fluid">
+          <div class="row py-5 text-white">
+            <div class="col footer-logo-container align-self-end">
+              <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
+            </div>
+            <div class="col align-self-end">
+              <!-- <p> -->
+              <i class="fa-solid fa-phone mr-3"></i>
+              <span>07038654256, 080659568</span>
+              <!-- </p> -->
+            </div>
+            <div class="col align-self-end">
+              <i class="fa-solid fa-envelope mr-3"></i>
+              <span>rent@smallsmall.com</span>
+            </div>
+            <div class="col">
+              <h5 class="mb-0">Follow Us</h5>
+              <div class="d-flex justify-content-between mt-4 font footer-social-media">
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="border border-white"></div>
+          <div class="row py-5 justify-content-center">
+            <div class="col-2 text-white">
+              <h5>Product</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Rent</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Buy</a>
+                </li>
+              </ul>
+            </div>
 
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary itemprop="name">Can I host guests in my apartment?</summary>
-      <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p>You are allowed to host a guest for not more than 3 days, after
-          which you will be in breach of our policy</p>
-      </div>
-    </details>
+            <div class="col-2 text-white">
+              <h5>Company</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
 
+            <div class="col-2 text-white">
+              <h5>Legal</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Terms Of Use</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">
+                    Subscription Terms
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
 
-
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary itemprop="name">What happens when I lose the keys to my apartment </summary>
-      <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p>You would be required to pay for replacement.</p>
-      </div>
-    </details>
-
-
-
-
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary itemprop="name">Can I keep a pet in my apartment?</summary>
-      <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p>It depends on the property. There are certain properties where pets are not allowed, in which case, you
-          cannot keep a pet. However, in properties where pets are allowed, you are required to sign our pet policy and
-          adhere to our pet policy and pay the refundable 50k. Pets are only allowed in the properties with profile that
-          states “Pet Friendly” filter on the listing on the platform. RSS will not be liable for the upkeep or
-          responsibility of the pet or in the event any liability, damage/ harm is caused to any co-subscriber or
-          co-subscriber’s pet. Also, the owner of the pet will be liable to bear the cost of any liability or damage
-          caused to any co-subscriber, neighbors, guest or the property due to their pe
-        </p>
-      </div>
-    </details>
-
-
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary itemprop="name">Furnishings </summary>
-      <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p>In the case of theft or loss of any furnishing or appliance or furniture in the property, the subscribers
-          staying at the scheduled premises at that point of time shall be held responsible. The subscriber have the
-          right to report such theft to the security of the property or to the appropriate authority for investigation.
-          A reasonable sum shall be deducted from the security deposit of subscribers towards compensation of the loss/
-          theft and damage or an amount as mentioned in cancellation & refund policy. In case the recovery amount
-          exceeds the security deposit, the subscribers shall be liable to pay the amount.
-          For general maintenance RSS may keep a copy of the keys of your house. And for shared houses, RSS may show
-          houses to other subscribers hence, we advise existing subscribers to keep your valuables locked inside their
-          respective apartments/rooms or cupboards and never leave them unattended to in open places.
-          We shall not be responsible for any theft or accidental damage to your valuables in case of an untoward
-          incident.</p>
-      </div>
-    </details>
-
-  </div>
-
-
-  <!-- FOOTER Section Desktop view -->
-  <footer class="footer footer-gutters text-white d-none d-lg-block">
-    <div class="container-fluid">
-      <div class="row py-5 text-white">
-        <div class="col footer-logo-container align-self-end">
-          <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
-        </div>
-        <div class="col align-self-end">
-          <!-- <p> -->
-          <i class="fa-solid fa-phone mr-3"></i>
-          <span>07038654256, 080659568</span>
-          <!-- </p> -->
-        </div>
-        <div class="col align-self-end">
-          <i class="fa-solid fa-envelope mr-3"></i>
-          <span>rent@smallsmall.com</span>
-        </div>
-        <div class="col">
-          <h5 class="mb-0">Follow Us</h5>
-          <div class="d-flex justify-content-between mt-4 font footer-social-media">
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
+            <div class="col-2 text-white">
+              <h6>Download the Mobile App</h6>
+              <div class="footer-apps d-flex flex-column w-100">
+                <a href="#">
+                  <img src="../assets/images/googleplay.svg" class="w-50 my-2" alt="" />
+                </a>
+                <a href="#">
+                  <img src="../assets/images/appstore.svg" class="w-50 my-2" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row py-4 justify-content-center">
+            <p>&copy; 2022 Smallsmall Technology</p>
           </div>
         </div>
-      </div>
-      <div class="border border-white"></div>
-      <div class="row py-5 justify-content-center">
-        <div class="col-2 text-white">
-          <h5>Product</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Rent</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Buy</a>
-            </li>
-          </ul>
-        </div>
+      </footer>
 
-        <div class="col-2 text-white">
-          <h5>Company</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Careers</a>
-            </li>
-          </ul>
-        </div>
+      <!-- FOOTER section Mobile view -->
+      <footer class="footer d-lg-none">
+        <div class="container-fluid">
+          <div class="row text-center text-white py-5">
+            <div class="col-12 footer-logo-container">
+              <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
+            </div>
+            <div class="col-12 footer-contact mt-3">
+              <p class="mb-0">
+                <i class="fa-solid fa-phone mr-3"></i>
+                <span>07038654256</span>
+              </p>
+              <p class="mb-0">
+                <i class="fa-solid fa-phone mr-3"></i>
+                <span>07038654256</span>
+              </p>
+            </div>
+            <div class="col-12 footer-contact">
+              <i class="fa-solid fa-envelope mr-3"></i>
+              <span>rent@smallsmall.com</span>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-6 text-white">
+              <h5>Product</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Rent</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Buy</a>
+                </li>
+              </ul>
+            </div>
 
-        <div class="col-2 text-white">
-          <h5>Legal</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Terms Of Use</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">
-                Subscription Terms
+            <div class="col-6 text-white">
+              <h5>Company</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-6 text-white">
+              <h5>Legal</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">Terms Of Use</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">
+                    Subscription Terms
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0 text-white" href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 text-white">
+              <h6 class="mb-0">Follow Us</h6>
+              <div class="d-flex justify-content-between mt-4 font footer-social-media">
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="text-white">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row text-white justify-content-center text-center mb-3">
+            <div class="col-12">
+              <h6>Download the Mobile app</h6>
+            </div>
+            <div class="d-flex text-center">
+              <a href="#">
+                <img src="../assets/images/appstore.svg" class="w-75 my-2" alt="" />
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">FAQ</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-2 text-white">
-          <h6>Download the Mobile App</h6>
-          <div class="footer-apps d-flex flex-column w-100">
-            <a href="#">
-              <img src="../assets/images/googleplay.svg" class="w-50 my-2" alt="" />
-            </a>
-            <a href="#">
-              <img src="../assets/images/appstore.svg" class="w-50 my-2" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row py-4 justify-content-center">
-        <p>&copy; 2022 Smallsmall Technology</p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- FOOTER section Mobile view -->
-  <footer class="footer d-lg-none">
-    <div class="container-fluid">
-      <div class="row text-center text-white py-5">
-        <div class="col-12 footer-logo-container">
-          <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
-        </div>
-        <div class="col-12 footer-contact mt-3">
-          <p class="mb-0">
-            <i class="fa-solid fa-phone mr-3"></i>
-            <span>07038654256</span>
-          </p>
-          <p class="mb-0">
-            <i class="fa-solid fa-phone mr-3"></i>
-            <span>07038654256</span>
-          </p>
-        </div>
-        <div class="col-12 footer-contact">
-          <i class="fa-solid fa-envelope mr-3"></i>
-          <span>rent@smallsmall.com</span>
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-6 text-white">
-          <h5>Product</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Rent</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Buy</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 text-white">
-          <h5>Company</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Careers</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-6 text-white">
-          <h5>Legal</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Terms Of Use</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">
-                Subscription Terms
+              <a href="#">
+                <img src="../assets/images/googleplay.svg" class="w-75 my-2" alt="" />
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">FAQ</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 text-white">
-          <h6 class="mb-0">Follow Us</h6>
-          <div class="d-flex justify-content-between mt-4 font footer-social-media">
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="#" class="text-white">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-12 text-white text-center">
+              <small>&copy; 2022 Smallsmall Technology</small>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row text-white justify-content-center text-center mb-3">
-        <div class="col-12">
-          <h6>Download the Mobile app</h6>
-        </div>
-        <div class="d-flex text-center">
-          <a href="#">
-            <img src="../assets/images/appstore.svg" class="w-75 my-2" alt="" />
-          </a>
-          <a href="#">
-            <img src="../assets/images/googleplay.svg" class="w-75 my-2" alt="" />
-          </a>
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-12 text-white text-center">
-          <small>&copy; 2022 Smallsmall Technology</small>
-        </div>
-      </div>
-    </div>
-  </footer>
+      </footer>
 
-  <!-- Jquery js -->
-  <script src="../assets/js/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <!-- Bootstrap js and Popper js -->
+      <!-- Jquery js -->
+      <script src="../assets/js/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <!-- Bootstrap js and Popper js -->
 
-  <script src="../assets/js/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="../assets/js/bootstrap-js/bootstrap.min.js"
-    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-    crossorigin="anonymous"></script>
+      <script src="../assets/js/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+      <script src="../assets/js/bootstrap-js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 
 </body>
 

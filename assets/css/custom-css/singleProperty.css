@@ -10,6 +10,7 @@
   background: #007dc1;
   color: #ffffff;
 }
+
 .secondary-background {
   background: #e6ebf1;
   /* color: #ffffff; */
@@ -40,6 +41,7 @@
   color: #007dc1;
   border: 1px solid #007dc1;
 }
+
 .subscription-unavailable {
   color: red;
   border: 1px solid red;
@@ -68,6 +70,7 @@
   padding-right: 120px;
   position: relative;
 }
+
 .switch-button:before {
   content: "subcribe now";
   position: absolute;
@@ -81,6 +84,7 @@
   z-index: 3;
   pointer-events: none;
 }
+
 .switch-button-checkbox {
   cursor: pointer;
   position: absolute;
@@ -92,18 +96,21 @@
   opacity: 0;
   z-index: 2;
 }
-.switch-button-checkbox:checked + .switch-button-label:before {
+
+.switch-button-checkbox:checked+.switch-button-label:before {
   transform: translateX(120px);
   transition: transform 300ms linear;
 }
-.switch-button-checkbox + .switch-button-label {
+
+.switch-button-checkbox+.switch-button-label {
   position: relative;
   padding: 15px 0;
   display: block;
   user-select: none;
   pointer-events: none;
 }
-.switch-button-checkbox + .switch-button-label:before {
+
+.switch-button-checkbox+.switch-button-label:before {
   content: "";
   background: #ffffff;
   height: 100%;
@@ -115,7 +122,8 @@
   transform: translateX(0);
   transition: transform 300ms;
 }
-.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+
+.switch-button-checkbox+.switch-button-label .switch-button-label-span {
   position: relative;
 }
 
@@ -156,6 +164,7 @@
   right: 2em;
   z-index: 500;
 }
+
 .close-modal {
   cursor: pointer;
 }
@@ -164,6 +173,7 @@
   color: #007dc1;
   cursor: pointer;
 }
+
 .show-result button {
   width: 100%;
   border: none;
@@ -171,6 +181,28 @@
   background: #007dc1;
   color: #ffffff;
 }
+
+.available {
+  position: absolute;
+  z-index: 500;
+  background: #ffff;
+  border-radius: 23px;
+  padding: 0.7em;
+  top: 10px;
+  left: 10px;
+}
+
+.available small {
+  color: #00cd2d;
+}
+
+
+
+
+
+
+
+
 /*****MEDIA QUERY****/
 
 /* Small devices (landscape phones, 576px and up) */
@@ -221,6 +253,7 @@
   .schedule-item-container {
     background-color: #ffffff;
   }
+
   .managed-title {
     font-size: 14px;
   }
@@ -229,23 +262,20 @@
     color: red;
     border: 1px solid #d1cece;
   }
+
   .schedule-container__subscribe {
     color: black;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <= width <=1024px) {
-}
+@media screen and (992px <=width <=1024px) {}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}
