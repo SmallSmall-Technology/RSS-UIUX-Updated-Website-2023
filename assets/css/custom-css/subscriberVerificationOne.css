@@ -8,6 +8,14 @@ a, a:hover, a:focus, a:active {
 } 
 
 
+
+
+body{
+    background-color: #ffffff;
+}
+
+
+
 .verify__first{
     display: flex;
     gap: 1%;
@@ -58,7 +66,7 @@ a, a:hover, a:focus, a:active {
   .index__check{
     display: flex;
     flex-direction: row;
-    gap:4%;
+    gap:3%;
     padding-left: 9%;
     font-family: 'Poppins';
     font-style: normal;
@@ -89,16 +97,12 @@ a, a:hover, a:focus, a:active {
         font-size:0.9vw;  
         display: flex;
         flex-direction: row;
-        font-size:0.9vw;
+        font-size:0.85vw;
         font-weight: 500;
         font-family: 'Poppins';
         color: #D1CECE; 
+       
 }
-
-
-
-
-
 
 
 
@@ -124,7 +128,7 @@ a, a:hover, a:focus, a:active {
 
 
 .transparent__linebreak{
-    width:43vw;
+    width:39vw;
     border-radius: 15px;
     height: 0.2px !important;  
     border: none;
@@ -139,7 +143,7 @@ a, a:hover, a:focus, a:active {
 .page__twflx{
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 11%;
     padding-left:2%;
     /* padding-right: 6%; */
     padding-top: 6%;
@@ -151,6 +155,7 @@ a, a:hover, a:focus, a:active {
 .page__twdiv{
    /* border: 1px solid black;  */
    margin-top:-0.1%;
+   margin-left: 3.%;
 }
 
 
@@ -183,7 +188,7 @@ a, a:hover, a:focus, a:active {
 select{
     padding: 4%;
     font-size: 16px;
-    width: 100%;
+    width: 95%;
     background: #E6EBF1;
     border-radius: 10px;
     border: none;
@@ -197,12 +202,14 @@ select{
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 100%; 
+    width: 95%; 
 
     display: flex;
     align-items: center;
 
     color: #BABABA;
+    margin-left: 3%;
+    margin-left: 3%;
 }
 
 .marital__status{
@@ -212,12 +219,13 @@ select{
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 100%; 
+    width: 95%; 
 
     display: flex;
     align-items: center;
 
     color: #BABABA;
+    margin-left: 3%;
 }
 
 
@@ -228,12 +236,13 @@ select{
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 100%; 
+    width: 95%;  
 
     display: flex;
     align-items: center;
 
     color: #BABABA; 
+    margin-left: 3%;
 } 
 
 
@@ -249,6 +258,7 @@ select{
     align-items: center;
 
     color: #BABABA; 
+    margin-left: 3%;
    
 
 }
@@ -261,12 +271,13 @@ select{
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 100%; 
+    width: 95%; 
 
     display: flex;
     align-items: center;
 
     color: #BABABA; 
+    margin-left: 3%;
 }
 
 
@@ -290,30 +301,34 @@ select{
 }
 
 
-.d_o_b{
+/* .d_o_b{
     margin-bottom: 1%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 93%; 
+    width: 100%; 
 
     display: flex;
     align-items: center;
 
-}
+} */
 
 
 
 .d_o_b{
     padding: 4%;
     font-size: 16px;
-    width: 92%;
+    width: 100%;
     background: #E6EBF1;
     border-radius: 10px;
     border: none;
     gap: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 /* <!-- <<<<<< page 3 styling >>>>>> --> */
@@ -381,9 +396,18 @@ input[type="date"]:valid::before {
 @media screen and (max-width: 480px) {
     /* <!-- <<<<<< MOBILE STYLING  page one styling >>>>>> --> */
 
-    *{
-        background-color: #E5E5E5;;
+/*<<<<<<<<<<MOBILE  page 1 styling>>>>>>>>>> */
+
+.body__container{
+        background-color: #E5E5E5;
+        padding-top:12vw;
     }
+
+
+    .main__body{
+        background-color: #E5E5E5;
+     }
+        
 
 
     .verify__first{
@@ -396,13 +420,29 @@ input[type="date"]:valid::before {
 
 
    .verify__divv{
-      padding-left: 2%;
+    margin-left:5%;
+    font-size:3vw;
+    margin-bottom: 4%;
    }
 
 
    .verify__parag{
     font-size:2.6vw;
    }
+
+
+
+   .verify__heading{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vw;
+    display: flex;
+    align-items: center;
+    color: #414042; 
+}
+
+
 
    .header__img{
     display: flex;
@@ -427,6 +467,7 @@ input[type="date"]:valid::before {
     margin-top:2%;
     justify-content: space-between;
     letter-spacing:2%;
+    /* margin-left:1%; */
 }
 
 
@@ -435,7 +476,7 @@ input[type="date"]:valid::before {
 .clear__font{
         display: flex;
         flex-direction: row;
-        font-size:1.5vw;
+        font-size:1.7vw;
         font-weight: 500;
         font-family: 'Poppins';   
     
@@ -485,9 +526,11 @@ input[type="date"]:valid::before {
    .page__twflx{
     display: flex;
     flex-direction: column;
-
+    padding-left: 4%;
     background-color:#E5E5E5; 
+    padding-right:5%;
    } 
+
 
 
    
@@ -509,21 +552,25 @@ input[type="date"]:valid::before {
 
 
 /* <!-- <<<<<<  Mobile stylin page 3 styling >>>>>> --> */
-.d_o_b {
+/* .d_o_b {
     margin-bottom: 5%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 92%; 
+    width: 120%; 
 
     display: flex;
     align-items: center;
 
     color: #BABABA; 
-}
+} */
 
+
+.page__twdiv {
+    margin-top: -0.1%;
+    margin-left: 3%;}
 
 .gender{
     width:100%;
@@ -550,8 +597,8 @@ margin-left:6%;
 margin-right:5%;
 margin-top:7%;
 margin-bottom:12%;
-padding-left:32% ;
-padding-right: 34%;
+/* padding-left:32% ; */
+/* padding-right: 34%; */
 padding-top:3.5%;
 padding-bottom:3.5%;
 border-radius: 10px;
@@ -576,7 +623,7 @@ display: none;
 
 @media screen and (max-width: 768px){
 
-    *{
+    .body__container{
         background-color: #E5E5E5;;
     }
 
@@ -627,11 +674,11 @@ display: none;
    select{
     padding: 4%;
     font-size: 16px;
-    width: 100%;
+    width: 95%; 
     background:#FFFFFF;
     border-radius: 10px;
     border: none;
-    /* box-sizing: border-box; */
+   
 }
 
 
@@ -643,19 +690,22 @@ display: none;
     font-weight: 500;
     font-size: 1rem;
     line-height: 24px;
-    width: 92%; 
+    width: 95%; 
 
     display: flex;
     align-items: center;
 
     color: #BABABA; 
     background-color: white;
+    margin-left: 3%;
+
 }
 
 
 .gender{
-    width:100%;
+    width:95%;
     background-color: #FFFFFF;
+    margin-left: 3%;
 }
 
 input{
@@ -667,15 +717,15 @@ input{
 
 /* <!-- <<<<<<  Mobile stylin page 4 styling >>>>>> --> */
 .continue__btn {
-margin-left:6%;
+margin-left: 3%;
 margin-right:5%;
-margin-top:29%;
+margin-top:15%;
 margin-bottom:12%;
-padding-left:38.5% ;
-padding-right: 40%;
 padding-top:3.5%;
 padding-bottom:3.5%;
 border-radius: 10px;
+padding-left: 35.8%;
+padding-right: 35.8%;
 
 }
 
@@ -705,7 +755,10 @@ display: none;
     /* <!-- <<<<<<<<< page 4 styling >>>>>>>>> --> */
 
    .continue__btn{
-    margin: auto;
+    padding-left: 9%;
+    padding-left: 31%;
+    padding-right: 36%;
+    margin-left: 7%;
     margin-bottom: 12%;
     padding-top: 3.5%;
     padding-bottom: 3.5%;

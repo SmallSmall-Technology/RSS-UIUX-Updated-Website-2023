@@ -2,7 +2,12 @@
 
 /* <!-- <<<<<< page one styling >>>>>> --> */
 /* >>>>>>> Verify section styling <<<<<<< */
-   
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}   
+
+
 .verify__first{
     display: flex;
     gap: 5%;
@@ -18,13 +23,23 @@
 
 
 
+.line_building {
+    border-top: 1%;
+    height: 2px;
+    margin-right: 5.9%;
+    margin-left: 4%;
+    margin-top: -11%;
+    margin-bottom: 3%;
+    background: #E6EBF1;
+    border-radius: 15px;}
+
+
+
 .verify__heading{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.75rem;
-    /* line-height: 39px; */
-    
     display: flex;
     align-items: center;
     
@@ -49,7 +64,8 @@
 
 
 .verify__divv{
-padding-left: 4%;
+    padding-left: 4%;
+    font-size: 0.9vw;
 }
 
 .verify__divv
@@ -59,18 +75,21 @@ text-decoration: none;
 }
 
 
+.ff{
+    /* margin-left: 3%; */
+}
+
 
 .index__check{
     display: flex;
     flex-direction: row;
-    gap:4%;
-    /* padding-left: 9%; */
+    gap: 6.3%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     border-radius:4px;
     margin-top:2%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     letter-spacing:2%;
 }
 
@@ -89,6 +108,7 @@ text-decoration: none;
 }
 
 
+
 .unclear__font{
         display: flex;
         flex-direction: row;
@@ -104,7 +124,7 @@ text-decoration: none;
     display: flex;
     flex-direction: row;  
     margin: auto;
-    padding-left:0.95%;
+    /* padding-left:0.95%; */
 
 }
 
@@ -112,7 +132,8 @@ text-decoration: none;
 .colored__linebreak{
  border-radius: 15px;
  height: 0.2px !important;
- width:20.9vw;
+ width: 25vw;
+ 
  border: none;
  background-color: #007DC1;
 }
@@ -120,7 +141,7 @@ text-decoration: none;
 
 
 .transparent__linebreak{
-    width:34vw;
+    width:33.6vw;
     border-radius: 15px;
     height: 0.2px !important;  
     border: none;
@@ -130,7 +151,7 @@ text-decoration: none;
 
 /* CHECKMATE SESSION ENDS */
 
-
+ 
 
 
 /* <!-- <<<<<< page 2 styling >>>>>> --> */
@@ -140,6 +161,7 @@ text-decoration: none;
 .gt__history{
     display: flex;
     flex-direction: row;
+    margin-right: 8%;
     
 }
 
@@ -162,7 +184,7 @@ text-decoration: none;
     align-items: center;
 
     color: #414042;
-    margin-top: -12%;
+    margin-top: 0;
 }
 
 
@@ -182,10 +204,10 @@ text-decoration: none;
 .pastrent__details{
     display: flex;
     flex-direction: row;
-    margin:auto;
+    padding-top: 2.5%;
+    margin-left: 20%;
     justify-content: center;
     gap:13%;
-    padding-top:4%;
 }
 
 
@@ -194,7 +216,7 @@ text-decoration: none;
     width: 23rem;
     padding-top:3%;
     padding-bottom:32% ;
-    padding-left:3% ;
+    padding-left:7% ;
     background: #E6EBF1;
     border-radius: 10px; 
     margin-bottom:1%; 
@@ -218,7 +240,7 @@ text-decoration: none;
     width: 100%;
     padding-top:3%;
     padding-bottom:30% ;
-    padding-left:4% ;
+    padding-left:7% ;
 
     background: #E6EBF1;
     border-radius: 10px;
@@ -240,9 +262,13 @@ text-decoration: none;
 
 
 /* <!-- <<<<<<<<<<< page  3 >>>>>>>>>>>> --> */
+.gen__status{
+    width: 100%;
+}
+
 .rent_status{
     /* width: 30vw; */
-    width: 103%;
+    width: 100%;
 
     padding-left: 2.5%;
     padding-top:4.5%;
@@ -282,19 +308,19 @@ text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.2vw;
 
     display: flex;
     align-items: center;
 
-    color: #BABABA;
+    color: #BABABA;;
 }
 
 
 
 
 .eviction__status{
-    width: 103%;
+    width: 100%;
     padding-top: 4.5%;
     padding-bottom: 4.5%;
     padding-left:3%;
@@ -302,7 +328,7 @@ text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.2vw;
 
     display: flex;
     align-items: center;
@@ -344,10 +370,8 @@ text-decoration: none;
 .line_building{
     border-top:1% ;
     height: 2px;
-    /* left: 436px; */
-    /* top: 730px; */
-    margin-right: 9%;
-    margin-left: 27%;
+    margin-right: 9.%;
+    margin-left: 32.7%;
     margin-top:-11%;
     margin-bottom:3%;
     background: #E6EBF1;
@@ -360,10 +384,9 @@ text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    /* font-size: 1rem; */
     margin-left:3.4%;
     margin-top: 4%;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     line-height: 24px;
 
     display: flex;
@@ -375,8 +398,7 @@ text-decoration: none;
 
 
 .landlord__nameaddrssdiv{
-    /* margin-left: 26.5%;  */
-    padding-left: 28.5%;
+    padding-left: 33%;
     display: flex;
     flex-direction: column;
 }
@@ -384,10 +406,10 @@ text-decoration: none;
 
 
 .landlord__name{
-    padding-left: 2%;
-    padding-right:22%;
-    padding-top:2.5%;
-    padding-bottom: 2%;
+    width: 39.5%;
+    padding-top: 2%;
+    padding-bottom: 2.1%;
+    padding-left: 2.1%;
 
     background: #E6EBF1;
     border-radius: 10px;
@@ -398,7 +420,7 @@ text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1.1vw;
     display: flex;
     align-items: center;
 
@@ -408,10 +430,10 @@ text-decoration: none;
 
 
 .landlords_address{
-    padding-top: 1.5%;
-    padding-bottom: 13%;
-    padding-right: 20.5%;
-    padding-left:2%;
+    width: 39.5%;
+    padding-top: 2%;
+    padding-bottom: 12%;
+    padding-left: 2%;
     background: #E6EBF1;
     border-radius: 10px;
     border: none;
@@ -421,7 +443,6 @@ text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 1.1vw;
-    /* line-height: 1.7vw; */
 
     display: flex;
     align-items: center;
@@ -435,20 +456,39 @@ text-decoration: none;
     margin-top: 15%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    padding-left: 47%;
     align-items: center;
-    gap:2%;
+    gap: 25%;
 }
 
 
 
 .back__btn{
+
     background: #E6EBF1;
     border-radius: 10px;
-    padding-left:4%; 
-    padding-right: 4%;
-    padding-top:1%;
-    padding-bottom:1%;
+    padding-left: 190%;
+    padding-right: 190%;
+    padding-right: 34;
+    padding-top: 42%;
+    padding-bottom: 45%;
+    color: black;
+    border: none;
+    font-size: 1.1rem;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: #414042;
+
+
+    /* background: #E6EBF1;
+    border-radius: 10px;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     color: black;
     border: none;
     font-size:1.1rem;
@@ -461,16 +501,16 @@ text-decoration: none;
     display: flex;
     align-items: center;
 
-    color: #414042;
+    color: #414042; */
     
 }
 
 
 .continue__btn{
-    padding-left:9% ;
-    padding-right: 9%;
-    padding-top:1%;
-    padding-bottom:1%;
+    /* padding-left:15% ;
+    padding-right: 15%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
     border-radius: 10px;
     border: none;
     background: #007DC1;
@@ -485,7 +525,25 @@ text-decoration: none;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #FFFFFF; */
+
+        padding-left: 150%;
+        padding-right: 150%;
+        padding-top: 28%;
+        padding-top: 28%;
+        padding-bottom: 28%;
+        border-radius: 10px;
+        border: none;
+        background: #007DC1;
+        color: #fff;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        color: #FFFFFF;
     }
 
 
@@ -507,10 +565,12 @@ text-decoration: none;
     /*>>>>>>>>>> MOBILE STYLING STARTS HERE <<<<<<<<<<<<< */
     @media screen and (max-width: 480px){
 
-        *{
-            background-color:  #E5E5E5;
-        }
     /* <!-- <<<<<<MOBILE page 1 styling >>>>>> --> */
+.main__body{
+    background:#E5E5E5;
+}
+
+
 
     .verify__first{
         display: flex;
@@ -519,54 +579,57 @@ text-decoration: none;
         margin-top:10%;
     } 
     
+
     .verify__heading{
         font-family: 'Poppins',sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 1.75rem;
-        /* line-height: 39px; */
+        font-size: 10vw;
         
         display: flex;
         align-items: center;
         
         color: #414042; 
     }
+
+
+
+   
+    .ff {
+        margin-left: 12%;
+    }
+  
+
+
+   .index__check{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    border-radius:4px;
+    margin-top:2%;
+
+}
+
+
     
     .verify__parag{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 0.8rem;
-        line-height: 128.2%;
-        display: flex;
-        align-items: center;
-    
-        color: #414042;
+        font-size:2.6vw; 
     }
 
 
     .verify__divv{
-        padding-left: 4%;
+        margin-left:4%;
+        font-size:3vw;
+        margin-bottom: 4%;
         }
      
+
         
-        .indicators__{
-            display:flex;
-            flex-direction:row;
-            gap:4%;
-            align-items:center;
-            justify-content:center;
-            margin-bottom:40px;
-            font-family:sans-serif;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 1vw;
-            color: #414042;
-        }
-     
         
-        .rental__detailinfo{
+        
+      .rental__detailinfo{
             border-radius:10px;
             background: #E6EBF1;
             height:5px;
@@ -578,34 +641,6 @@ text-decoration: none;
             width:100%;
             margin-left:-32%;
         }
-
-
-        .employ__mentinfo{
-            border-radius:10px;
-            background: #E6EBF1;
-            height:5px;
-            width:100%;
-            gap:70px;
-            border:none;
-            padding: 0.001%;
-            border-radius:3px;
-            width:100%;
-            margin-right:-32%;
-        }
-        
-        
-        .guarantor__detailinfo{
-            border-radius:10px;
-            background: #E6EBF1;
-            height:5px;
-            width:100%;
-            gap:70px;
-            border:none;
-            padding: 0.001%;
-            border-radius:3px;
-            width:100%; 
-        }
-        
         
         
         .verifyid__detailinfo{
@@ -621,17 +656,63 @@ text-decoration: none;
         }
         
 
+
+        .clear__font{
+            display: flex;
+            flex-direction: row;
+            font-size:1.7vw;
+            font-weight: 500;
+           font-family: 'Poppins';   
+        
+    }
+
+
+
+
+    .colored__linebreak {
+        border-radius: 15px;
+        height: 0.2px !important;
+        width: 35vw;
+        border: none;
+        background-color: #007DC1;
+    }
+
+
+
+        .transparent__linebreak {
+            width: 43vw;
+            border-radius: 15px;
+            height: 0.2px !important;
+            border: none;
+            background-color: #E6EBF1;
+        }
+
+
+
+        .rental__header {
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            padding-top: 0%;
+            display: flex;
+            align-items: center;
+
+            color: #414042;
+        }
+
+
         /* <!-- <<<<<<MOBILE page 2 styling >>>>>> --> */
        .gt__history{
             display: flex;
             flex-direction: column;
+            /* margin-left:5%; */
 
         }
        
         
         .rental_ss{
-            /* line-height: 2vh; */
-            margin-bottom:2%;
+            
+            margin-left: 19%;
         }
 
 
@@ -655,8 +736,8 @@ text-decoration: none;
     
          /* <!-- <<<<<<<<<<< MOBILE page  3 >>>>>>>>>>>> --> */
         .rent_status{
-            width: 95vw;
-            height: 27%;
+            width: 100%;
+            
             background: #FFFFFF;
             border-radius: 5px;
             border: none;
@@ -666,46 +747,324 @@ text-decoration: none;
     
 
 
-     .address__period {
-        width: 60%;
-        height: 27%;
-        background: #FFFFFF;
-        border-radius: 5px;
-        border: none;
-     }
+        .address__period {
+            width: 100%;
+            /* height: 27%; */
+            border-radius: 5px;
+            background: #FFFFFF;
+            /* border-radius: 5px; */
+            border: none;
+            font-size: 2.4vw;
+
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 5vw;
+           
+            display: flex;
+            align-items: center;
+
+            color: #BABABA;
+        }
+        
+
+
+
+        .rental__period{
+            width: 60%;
+            height: 27%;
+            background: #FFFFFF;
+            border-radius: 5px;
+            border: none;
+ 
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.7vw;
+            line-height: 24px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+
+            color: #BABABA;
+
+ 
+        }
     
 
 
- /* .<!-- <<<<<<<< MOBILE page 4 >>>>>>>> -->     */
-        
- /* .line_building{
-    border-top:5% ;
-    height: 2px;
-    left: 436px;
-    top: 730px;
-    margin-right: 9%;
-    margin-left: 27%;
-    margin-top: 4%;
-    background: #007DC1;
+     .eviction__status{
+        width: 100%;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
+        padding-left: 3%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+
+        display: flex;
+        align-items: center;
+        color: #BABABA;
+        background: #fff;
+        /* border-radius: 10px; */
+        margin-bottom: 3%;
+        border: none;
+        font-size: 5vw;
+        border-radius: 5px;
+     } 
+     
+     
+
+     /* <!-- >>>>>>>>> FOR MOBILE VIEW ONLY <<<<<<<<< --> */
+
+
+.mobile__address{
+    display: block;
+    width: 70%;
+    margin-left: 22%;
+    padding-top: 5;
+
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 16%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+    
+
+
+.mobile__reasons{
+    display: block;
+    display: block;
+    width: 70%;
+    margin-left: 22%;
+    padding-top: 5;
+
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 16%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 16%;
+    margin-top: 3%;
+}
+
+
+
+/* <!-- <<<<<<<< mobile page 4 >>>>>>>> --> */
+
+.line_building{
+    border-bottom:4px #414042 ;
+
+    background: #414042;
     border-radius: 15px;
- } 
+    margin-left: 22%;
+    margin-bottom: 3%;
+}
 
 
- .landlord__info{
+.landlord__info{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex;
+        align-items: center;
+
+        color: #414042;
+        margin-left: 21%;
+        margin-top: 7%;
+}
+
+
+.landlord__nameaddrssdiv{
+    margin-right:1% ;
+}
+
+
+.landlord__nameaddrssdiv {
+    padding-left: 23.5%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landlord__name{
+    width: 100%;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
-    margin-left:3.4%;
-    margin-top: 18%
-}
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #BABABA;
+    }
 
 
-.mobileaddress__reasons{
 
-} */
-
+    .landlords_address{
+            width: 100%;
+            padding-top: 5%;
+            font-size: 3vw;
+            padding-bottom: 12%;
+            background:#fff;
+            border-radius: 5px;
+            border: none;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4.5vw;
+            display: flex;
+            align-items: center;
+            color: #BABABA;
+            padding-left: 7%;
+            padding-right: 21%;
+        }
     
+
+
+
+    /* <!-- <<<<<<<<< page 5 styling >>>>>>>>> --> */
+
+
+
+
+
+
+    /* .back__contine {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: row;
+        /* padding-left: 15%; */
+        /* justify-content: space-between; */
+        /* align-items: center;
+        gap:13%;
+        width: 7vw;
+         */
+    /* } */ 
+
+
+
+
+    /* .back__btn{
+
+        background: #E6EBF1;
+        border-radius: 10px; */
+        /* padding-left: 90%; */
+        /* padding-right: 190%; */
+        /* padding-right: 34;
+        padding-top: 42%;
+        padding-bottom: 45%;
+        color: black;
+        border: none;
+        font-size: 1.1rem;
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        color: #414042;
+    
+        
+    } */
+    
+/*     
+    
+    
+    .continue__btn{
+    
+        padding-left: 150%;
+        padding-right: 150%;
+        padding-top: 28%;
+        padding-top: 28%;
+        padding-bottom: 28%;
+        border-radius: 10px;
+        border: none;
+        background: #007DC1;
+        color: #fff;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        color: #FFFFFF;
+    
+        } */
+    
+
+
+        .back__contine{
+            /* gap:7%; */
+            margin-top: 15%;
+            display: flex;
+            flex-direction: row;
+            padding-left: 12%;
+            align-items: center;
+            gap: 24%;
+        }
+        
+        
+        
+        .back__btn{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 26px;
+        
+            display: flex;
+            align-items: center;
+        
+            color: #414042;
+            background-color: white;
+            padding-top: 14%;
+            padding-bottom: 14%;
+            padding-right: 75%;
+            padding-left: 56%;
+        
+            color: #414042;
+            }
+        
+        
+        
+            .continue__btn {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                color: #414042;
+                background: #007DC1;
+                color: white;
+                border-radius: 10px;
+                padding-top: 9%;
+                padding-bottom: 9%;
+                text-decoration: none;
+        
+                padding-right: 39%;
+                 padding-left: 39%;
+            }
+    
+
+
 }
     
-      
+    
