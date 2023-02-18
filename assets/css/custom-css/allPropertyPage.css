@@ -80,8 +80,7 @@
   top: 7em;
 }
 
-.expect-section {
-}
+.expect-section {}
 
 .expect-section h1 {
   font-weight: 700;
@@ -116,6 +115,7 @@
   background: #007dc1;
   color: #ffffff;
 }
+
 .filter-modal-body {
   background-color: #e6ebf1;
 }
@@ -132,10 +132,12 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
 .custom-active {
   color: #ffffff;
   background-color: #007dc1;
 }
+
 .custom-group-btn label {
   border: 1px solid #e6ebf1;
 }
@@ -144,6 +146,20 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.desktop-filter {
+  padding: 0 60px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*****MEDIA QUERY****/
 
@@ -155,20 +171,17 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <= width <=1024px) {
+@media screen and (992px <=width <=1024px) {
   .footer-gutters {
     padding: 0 4em;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}
