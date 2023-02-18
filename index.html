@@ -36,7 +36,7 @@
     <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
       <!-- Brand -->
       <div class="logo-container">
-        <a class="navbar-brand logo-link mr-4" href="../index.html">
+        <a class="navbar-brand logo-link mr-4" href="./index.html">
           <img class="logo-img img-fluid" src="./assets/images/logo.png" alt="" />
         </a>
       </div>
@@ -87,6 +87,7 @@
             href="#" role="button" aria-expanded="false">
             <img src="./assets/images/users.svg" alt="users" />
           </a>
+
           <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-none d-block" data-toggle="dropdown"
             role="button" aria-expanded="false">
             <img src="./assets/images/users.svg" alt="users" />
@@ -95,14 +96,14 @@
             <!-- Desktop view for login and logout -->
             <div class="d-md-block d-none">
               <div class="px-3 py-4">
-                <a class="dropdown-item" href="pages/subscriberLogin.html">
+                <a class="dropdown-item" href="./pages/subscriberLogin.html">
                   <i class="fa-solid fa-right-to-bracket"></i>
                   &nbsp;&nbsp;Login
                 </a>
               </div>
               <div class="dropdown-divider"></div>
               <div class="px-3 py-4">
-                <a class="dropdown-item" href="pages/signup.html">
+                <a class="dropdown-item" href="./pages/signup.html">
                   <i class="fa-solid fa-user-plus"></i>
                   &nbsp;&nbsp;Create Account
                 </a>
@@ -110,32 +111,32 @@
 
               <!-- Desktop view for logout and Dashboad -->
               <!-- <div class="px-3 py-4">
-                                                        <a class="dropdown-item" href="#">
-                                                          <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                                                          Dashboard
-                                                        </a>
-                                                        </div>
-                                                        <div class="dropdown-divider"></div>
-                                                        <div class="px-3 py-4">
-                                                          <a class="dropdown-item" href="#">
-                                                            <i class="fa-solid fa-right-from-bracket"></i>
-                                                            &nbsp;&nbsp;logout
-                                                          </a>
-                                                        </div> -->
+                    <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                      Dashboard
+                    </a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="px-3 py-4">
+                      <a class="dropdown-item" href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        &nbsp;&nbsp;logout
+                      </a>
+                    </div> -->
             </div>
 
             <!-- mobile view for login and logout -->
             <div class="d-md-none d-block">
               <div class="mobileDropdown">
                 <div class="px-3 py-4">
-                  <a class="dropdown-item" href="pages/subscriberLogin.html">
+                  <a class="dropdown-item" href="./pages/subscriberLogin.html">
                     <i class="fa-solid fa-right-to-bracket"></i>
                     &nbsp;&nbsp;Login
                   </a>
                 </div>
                 <div style="background-color: #ffffff; height: 1px;"></div>
                 <div class="px-3 py-4">
-                  <a class="dropdown-item" href="pages/signup.html">
+                  <a class="dropdown-item" href="./pages/signup.html">
                     <i class="fa-solid fa-user-plus"></i>
                     &nbsp;&nbsp;Create Account
                   </a>
@@ -144,22 +145,22 @@
             </div>
             <!-- mobile view for logout and dashboard -->
             <!-- <div class="d-md-none d-block">
-                                                                  <div class="mobileDropdown">
-                                                                    <div class="px-3 py-4">
-                                                                      <a class="dropdown-item" href="#">
-                                                                        <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                                                                        Dashboard
-                                                                      </a>
-                                                                    </div>
-                                                                    <div style="background-color: #ffffff; height: 1px;"></div>
-                                                                    <div class="px-3 py-4">
-                                                                      <a class="dropdown-item" href="#">
-                                                                        <i class="fa-solid fa-right-from-bracket"></i>
-                                                                        &nbsp;&nbsp;logout
-                                                                      </a>
-                                                                    </div>
-                                                                  </div>
-                                                                  </div> -->
+                  <div class="mobileDropdown">
+                    <div class="px-3 py-4">
+                      <a class="dropdown-item" href="#">
+                        <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                        Dashboard
+                      </a>
+                    </div>
+                    <div style="background-color: #ffffff; height: 1px;"></div>
+                    <div class="px-3 py-4">
+                      <a class="dropdown-item" href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        &nbsp;&nbsp;logout
+                      </a>
+                    </div>
+                  </div>
+                  </div> -->
           </div>
 
         </div>
@@ -174,7 +175,8 @@
             <span class="menu_icon--text">Menu</span>
           </a>
           <div class="dropdown-menu menu_icon--dropdown p-0">
-            <div class=" menu-desktop d-md-block d-none">
+            <!-- Menu Desktop view -->
+            <div class=" menu-desktop d-md-block d-none p-4">
               <a class="dropdown-item mb-3" href="#">Subcribe</a>
               <a class="dropdown-item mb-3" href="./pages/landlordLanding.html">Property Owner</a>
               <a class="dropdown-item" href="./pages/faq.html">FAQ</a>
@@ -198,6 +200,8 @@
               </p>
               <!-- </a> -->
             </div>
+
+            <!-- Menu mobile view -->
             <div class="menu-mobile p-4 d-md-none d-block">
               <div class="mb-4">
                 <i class="fa-solid fa-xmark fa-3x"></i>
@@ -207,10 +211,10 @@
                   <a class="text-white mb-3" href="#">Subcribe</a>
                 </p>
                 <p class="mb-3">
-                  <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
+                  <a class="text-white mb-3" href="./pages/landlordLanding.html">Property Owner</a>
                 </p>
                 <p class="mb-3">
-                  <a class="text-white" href="faq.html">hellooooo</a>
+                  <a class="text-white" href="./pages/faq.html">Faq</a>
                 </p>
               </div>
               <div>
@@ -245,7 +249,7 @@
 
         <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
         <i class="fa-solid fa-bars"></i>
-      </div>
+
       </div>
     </nav>
     <!-- Button trigger modal -->
@@ -257,7 +261,7 @@
     <!-- Banner section -->
     <section class="banner">
       <h2>Do you want to pay rent monthly?</h2>
-      <p>
+      <p class="font-weight-lighter">
         Renting doesn’t have to be hard, enjoy the ease that comes with a
         monthly payment plan.
       </p>
@@ -275,9 +279,9 @@
       </form>
     </section>
 
-    <div class="container-md constainer-fluid">
+    <div class="container-md constainer-fluid my-5">
       <section class="smart-way row my-5">
-        <div class="col-12">
+        <div class="col-12 my-5">
           <h1 class="font-weight-bold">
             The smart way to live with no barriers
           </h1>
@@ -285,7 +289,7 @@
             Experience a better way to live and pay flexibly.
           </p>
         </div>
-        <div class="col-12">
+        <div class="col-12 mb-5">
           <div class="primary-custom-container">
             <div class="row">
               <div class="col-md-6 col-12">
@@ -345,8 +349,8 @@
       </section>
 
       <section class="how-works-container row my-5">
-        <div class="col-12">
-          <div class="secondary-custom-container">
+        <div class="col-12 my-5">
+          <div class="secondary-custom-container my-5">
             <div class="row mx-0">
               <div class="col-md-6 col-12 how-it-works">
                 <p class="title mb-0">HOW IT WORKS</p>
@@ -487,14 +491,14 @@
 
       <section class="find-neighbour my-5">
         <div class="row">
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12 my-5">
             <h2 class="font-weight-bold">Find a neighborhood near you</h2>
             <p>
               Enjoy quality living experience within proximity. It’s closer
               than you think!
             </p>
           </div>
-          <div class="col-md-8 col-12">
+          <div class="col-md-8 col-12 my-5">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button"
@@ -633,7 +637,7 @@
                 <td class="border-0 font-weight-lighter pt-4">
                   Why choose RentSmallsmall?
                 </td>
-                <td
+                <td style="width: 40px;"
                   class="pt-4 border-0 text-center secondary-background primary-text-color font-weight-bold top-middle-table">
                   RentSmallSmall
                 </td>
@@ -642,7 +646,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="font-weight-bold border-right-0 border-left-0">
+                <td class="p-4 font-weight-bold border-right-0 border-left-0">
                   Flexible payment plans
                 </td>
                 <td class="text-center primary-text-color secondary-background border-0">
@@ -653,7 +657,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="font-weight-bold border-right-0 border-left-0">
+                <td class="p-4 font-weight-bold border-right-0 border-left-0">
                   Monthly movement options
                 </td>
                 <td class="text-center primary-text-color secondary-background border-0">
@@ -664,7 +668,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="font-weight-bold border-right-0 border-left-0">
+                <td class="p-4 font-weight-bold border-right-0 border-left-0">
                   Zero hidden fees
                 </td>
                 <td class="text-center primary-text-color secondary-background border-0">
@@ -675,8 +679,8 @@
                 </td>
               </tr>
               <tr>
-                <td class="font-weight-bold border-right-0 border-left-0">
-                  Gender & Ethinic equality
+                <td class="p-4 font-weight-bold border-right-0 border-left-0">
+                  Gender & Ethnic equality
                 </td>
                 <td class="text-center primary-text-color secondary-background border-0">
                   <i class="fa-solid fa-circle-check"></i>
@@ -686,7 +690,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="font-weight-bold border-right-0 border-left-0">
+                <td class="p-4 font-weight-bold border-right-0 border-left-0">
                   100% transparency
                 </td>
                 <td class="text-center primary-text-color secondary-background border-0">
@@ -1023,7 +1027,7 @@
     <div class="container-fluid">
       <div class="row py-5 text-white">
         <div class="col footer-logo-container align-self-end">
-          <a href="../index.html">
+          <a href="./index.html">
             <img src="./assets/images/rssfooterlogo.svg" alt="rss_logo" />
           </a>
         </div>
@@ -1064,7 +1068,7 @@
           <h5>Product</h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="../index.html">
+              <a class="nav-link pl-0 text-white" href="./index.html">
                 Rent
               </a>
             </li>
