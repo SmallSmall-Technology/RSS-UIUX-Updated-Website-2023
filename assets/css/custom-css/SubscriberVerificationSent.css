@@ -29,10 +29,30 @@ p{
     font-size: 16px;
     line-height: 168.39%;
     /* or 27px */
-    
+    margin-bottom: 29%;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     
     color: #414042;
+}
+
+
+
+/* >>>>>>>>> Mobile styling <<<<<<< */
+@media screen and (max-width: 480px) {
+    .subver__sent
+    h1 {
+        font-size: 8vw;
+    }
+
+    .subver__sent
+    img{
+      width: 10vw;
+    }
+
+    .subver__sent
+    p{
+     font-size:4vw;
+    }
 }
