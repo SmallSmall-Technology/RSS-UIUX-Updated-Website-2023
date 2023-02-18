@@ -34,6 +34,7 @@
 </head>
 
 <body class="main-section">
+  
   <header class="container-fluid fixed-top bg-white header-section">
     <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top"> -->
     <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
@@ -178,7 +179,8 @@
             <span class="menu_icon--text">Menu</span>
           </a>
           <div class="dropdown-menu menu_icon--dropdown p-0">
-            <div class=" menu-desktop d-md-block d-none">
+            <!-- Menu Desktop view -->
+            <div class=" menu-desktop d-md-block d-none p-4">
               <a class="dropdown-item mb-3" href="#">Subcribe</a>
               <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
               <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -203,6 +205,7 @@
               <!-- </a> -->
             </div>
 
+            <!-- Menu mobile view -->
             <div class="menu-mobile p-4 d-md-none d-block">
               <div class="mb-4">
                 <i class="fa-solid fa-xmark fa-3x"></i>
@@ -215,7 +218,7 @@
                   <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
                 </p>
                 <p class="mb-3">
-                  <a class="text-white" href="faq.html">hellooooo</a>
+                  <a class="text-white" href="faq.html">Faq</a>
                 </p>
               </div>
               <div>
@@ -250,13 +253,12 @@
 
         <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
         <i class="fa-solid fa-bars"></i>
-      </div>
+
       </div>
     </nav>
     <!-- Button trigger modal -->
 
   </header>
-
   <!-- MAIN SECTION -->
   <main class="container">
     <!-- Mobile Filter section -->
@@ -268,8 +270,6 @@
           <span style="font-size: 0.9em;">Filter</span>
         </div>
 
-        <!-- Button trigger modal -->
-        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Launch static backdrop modal</button> -->
 
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
@@ -457,7 +457,7 @@
 
     <!-- Desktop Filter section -->
     <div class="row my-5 filter-section d-lg-flex d-none">
-      <div class="col-12 d-md-flex flex-row justify-content-between">
+      <div class="col-12 d-md-flex flex-row justify-content-between desktop-filter">
         <div class="dropdown">
           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
             aria-expanded="false">
@@ -644,6 +644,9 @@
     <!-- Properties section -->
     <div class="properties-section">
       <div class="row">
+        <div class="col-12">
+          <p>302 properties</p>
+        </div>
         <div class="col-lg-4 col-md-6 col-12 my-4">
           <div class="card">
             <div class="available">
