@@ -62,7 +62,7 @@ text-decoration: none;
 
 .verify__divv{
 padding-left: 4%;
-font-size:1.25vw;
+font-size:1.1vw;
 }
 
 
@@ -77,8 +77,8 @@ padding-right:6%;
 .index__check{
     display: flex;
     flex-direction: row;
-    gap:2.5%;
-    padding-left: 4%;
+    gap:2.2%;
+    padding-left: 4.2%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -88,6 +88,9 @@ padding-right:6%;
 }
 
 
+.mobile__pagination{
+    display: none;
+}
 
 
 .clear__font{
@@ -192,14 +195,15 @@ p{
     margin-top:1.9% ;
     display: flex;
     flex-direction: row;
-    gap: 75%;
+    /* gap: 75%; */
+    gap:13.5%;
 }
 
 
 .employ__status{
-    width: 220%;
-    padding:7.5%;
-    margin-bottom:1%;
+    width: 100%;
+    padding:4.5%;
+    /* margin-bottom:1%; */
 
     background: #E6EBF1;
     border-radius: 10px;
@@ -218,9 +222,9 @@ p{
 .compname__address{
     display: block;
     padding-left: 9%;
-    padding-right: 112%;
-    padding-top: 9%;
-    padding-bottom: 39%;
+    padding-right: 2%;
+    padding-top: 4%;
+    padding-bottom: 29%;
     border-radius: 10px;
     font-family: 'Poppins';
     font-style: normal;
@@ -230,7 +234,7 @@ p{
     background: #E6EBF1;
     border: none;
     resize: none;
-    width: 14vw;
+    width: 28vw;
    
 }
 
@@ -243,17 +247,14 @@ p{
 
 
 .occupatn__job{
-  padding-left: 5.5%;
-  padding-right:123%;
-  padding-top:12%;
-  padding-bottom:12%;
-  color: #BABABA;
-  background: #E6EBF1;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  margin-bottom: 11%;
-
+    padding: 4.5%;
+    width: 28vw;
+    color: rgb(186, 186, 186);
+    background: rgb(230, 235, 241);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10%;
 }
 
 
@@ -353,15 +354,15 @@ display: none;
     align-items: center;
     color: #BABABA;
     background: #E6EBF1;
-    padding-left: 5%;
+    padding-left: 2%;
     border: none;
     border-radius: 10px;
     font-size: 1.1vw;
-    width: 11vw;
-    padding-right:60%;
+    width: 100%;
+    padding-right:4%;
     padding-top:3.5%;
     padding-bottom:3.5%;
-    margin-right: 17%;
+    margin-right: 18%;
 }
 
 
@@ -403,7 +404,7 @@ display: none;
     color: #BABABA;
     background: #E6EBF1;
     padding-left: 4%;
-    padding-right: 59.5%;
+    padding-right: 5%;
     padding-top: 3.5%;
     padding-bottom: 3.5%;
     margin-right: 17%;
@@ -411,6 +412,7 @@ display: none;
     font-size: 1.1vw;
     margin-top: 5%;
     border: none;
+    width: 100%;
 }
 
 
@@ -419,7 +421,7 @@ display: none;
 .final__agreement{
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 27.7%;
+    margin-left: 28%;
     margin-right: 8%;
 
 
@@ -446,9 +448,9 @@ color: #007DC1;
 .formage__gender{
     display: flex;
     flex-direction: row;
-    gap: 4%;
-    margin-right:17%;
-    margin-top: 0%;
+    gap: 5%;
+    margin-right: 17%;
+    margin-top: 0%
   
     /* width: 100%; */
     /* margin-left: -14%; */
@@ -474,7 +476,7 @@ color: #007DC1;
     background: #E6EBF1;
     border: none;
     border-radius: 10px;
-    width: 19vw;
+    width: 15vw;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 9%;
@@ -551,54 +553,13 @@ input[type="checkbox" i]{
     display: flex;
     align-items: center;
     color: #414042;
-
-
-    /* background: #E6EBF1;
-    border-radius: 10px;
-    padding-left:4%; 
-    padding-right: 4%;
-    padding-top:1%;
-    padding-bottom:1%;
-    color: black;
-    border: none;
-    font-size:1.1rem;
-    
-
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-
-    display: flex;
-    align-items: center;
-
-    color: #414042; */
     
 }
 
 
 
 .continue__btn{
-    /* padding-left:9% ;
-    padding-right: 9%;
-    padding-top:1%;
-    padding-bottom:1%;
-    border-radius: 10px;
-    border: none;
-    background: #007DC1;
-    color: #fff;
-    
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    color: #FFFFFF; */
-
-
+  
     padding-left: 150%;
     padding-right: 150%;
     padding-top: 28%;
@@ -636,59 +597,20 @@ input[type="checkbox" i]{
 
 
 
-/* .fname{
-    border-radius:10px;
-    box-sizing:border-box; */
-    /* width: 47%;
-    height: 61px;
-    left: 51px;
-    top: 439px; */
-    /* border: 1px solid #64318A;
-    margin-right:10px;
-
-    padding-left:5%;
-
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 20px; */
-    /* color:#000000; */
-
-   
-/* } */
-
-
-/* .lname{
-    border-radius:10px;
-    box-sizing: border-box;
-    width: 50%; */
-    /* height: 61px;
-    left: 51px;
-    top: 439px; */
-    /* border: 1px solid #DDDDDD; 
-    padding-left:5%;
-
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
-    color:#000000;
-
-   
-} */
 
 
 
 
     /*>>>>>>>>>>> MOBILE STYLING <<<<<<< */
     @media screen and (max-width: 480px) {
-*{
-    background: #E6EBF1;
-    /* background: grey; */
-}
+
 /* <!-- <<<<<< MOBILE STYLING  page one styling >>>>>> --> */
+
+.index__body{
+    background:  #E5E5E5;
+    padding-top: 8%;
+}
+
 
 .verify__first{
     display: flex;
@@ -698,7 +620,7 @@ input[type="checkbox" i]{
     
     .verify__divv {
         padding-left: 7%;
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
 
@@ -722,8 +644,13 @@ input[type="checkbox" i]{
     }
 
 
+    .mobile__pagination{
+        display: block;
+    }
 
-    .index__check{
+
+
+    .pagefour__mobiledisplay{
         display: flex;
         flex-direction: row;
         /* gap:2.5%; */
@@ -814,7 +741,7 @@ input[type="checkbox" i]{
 .employ__status{
     background: #FFFFFF;
     border-radius: 5px;
-    width: 89%;
+    width: 87%;
 
     padding-left: 5%;
     padding-top:2.2%;
@@ -846,7 +773,7 @@ input[type="checkbox" i]{
     border: none;
     color: #BABABA;
     border-radius: 5px;
-    width: 85%;
+    width: 88%;
     padding-top: 3.5%;
     padding-left:4%;
     padding-bottom: 2.2%;
@@ -952,7 +879,7 @@ input[type="checkbox" i]{
 
 .hr__nam{
     /* width: 235px; */
-    width: 70vw;
+    width: 79vw;
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
@@ -962,14 +889,13 @@ input[type="checkbox" i]{
     font-style: normal;
     font-weight: 500;
     font-size: 3vw;
-    
     display: flex;
     align-items: center;
     color: #BABABA;
     padding-top: 19%;
     padding-left: 19%;
     padding-bottom: 20%;
-    margin-left: 40%;
+    margin-left: 38%;
   }
 
 
@@ -980,16 +906,6 @@ input[type="checkbox" i]{
 
 
 .age__range{
-    /* width: 150px;
-    height: 47px;
-    left: 69px;
-    top: 970px;
-    
-    background: #FFFFFF;
-    border-radius: 5px;  */
-
-
-    /* width: 70vw; */
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
@@ -1016,6 +932,7 @@ input[type="checkbox" i]{
 
 .gender__select{
     /* width: 70vw; */
+    width: 100vw;
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
@@ -1031,13 +948,11 @@ input[type="checkbox" i]{
     color: #BABABA;
     padding-top: 15.5%;
     padding-left: 35%;
-    padding-right: 113%;
+    padding-right: 158%;
     padding-bottom: 15.2%;
     margin-left: 40%;
     
 }
-
-
 
 
  .guarantors__gender{  
@@ -1057,25 +972,23 @@ input[type="checkbox" i]{
 
 
 .hr__mail{
-    
-    width: 70vw;
-    border: none;
-    background: #FFFFFF;
-    border-radius: 5px;
-    margin-top: 2%;
-    margin-bottom: 17%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 3vw;
-    
-    display: flex;
-    align-items: center;
-    color: #BABABA;
-    padding-top: 19%;
-    padding-left: 19%;
-    padding-bottom: 20%;
-    margin-left: 40%;
+        width: 79vw;
+        border: none;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 2%;
+        margin-bottom: 17%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        display: flex;
+        align-items: center;
+        color: #BABABA;
+        padding-top: 19%;
+        padding-left: 19%;
+        padding-bottom: 20%;
+        margin-left: 40%;
    
  }
 
@@ -1108,7 +1021,7 @@ input[type="checkbox" i]{
     font-weight: 500;
     color: #414042;
     font-size: 2.5vw;
-    margin-left:5%;
+    margin-left:11%;
 }
 
 
@@ -1168,7 +1081,34 @@ input[type="checkbox" i]{
          padding-left: 39%;
     }
 
-
-
-    
+/* >>>>>>>> MOBILE DISPLAY NONE <<<<<<<<< */
+.index__check{
+display: none;
 }
+
+
+.pageone__mobiledisplay,
+.pagetwo__mobiledisplay,
+.pagethree__mobiledisplay,
+.pagefive__mobiledisplay{
+    display: none;
+}
+
+br{
+    display: none;
+}
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -44,14 +44,16 @@
     <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
       <!-- Brand -->
       <div class="logo-container">
-        <a class="navbar-brand logo-link mr-4" href="../index.html">
+        <a class="navbar-brand logo-link mr-4" href="#">
           <img class="logo-img img-fluid" src="../assets/images/logo.png" alt="" />
         </a>
       </div>
 
+    
+
       <!-- Navbar links -->
       <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-        <ul class="navbar-nav w-100 primary-text-color">
+        <ul class="navbar-nav w-100 primary-text-color" style="justify-content: space-evenly;">
           <li class="nav-item mr-5">
             <a class="nav-link d-sm-inline-block primary-text-color" href="#">
               <small>Nightly stay</small>
@@ -61,8 +63,8 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link d-sm-inline-block primary-text-color" href="https://buy.smallsmall.com">
-              <small>Own</small>
+            <a class="nav-link d-sm-inline-block primary-text-color" href="#">
+              <small>Invest</small>
               <br />
               <span class="font-weight-bold">BuySmallsmall</span>
             </a>
@@ -70,16 +72,16 @@
         </ul>
       </div>
 
-      <div class="collapse navbar-collapse justify-content-center  mr-5" id="collapsibleNavbar">
-        <div class="search w-100">
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <div class="search">
           <form action="">
             <div class="row m-0">
-              <div class="col-11 search-left">
+              <div class="col-10 search-left">
                 <i class="fa-solid fa-location-dot location-icon"></i>
                 <span class="">City..</span>
                 <input class="search-input" type="text" placeholder="which city would you like to live in?" />
               </div>
-              <div class="col-1 search-icon">
+              <div class="col-2 search-icon">
                 <button class="submit-container" type="submit">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -95,6 +97,7 @@
             href="#" role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
           </a>
+
           <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-none d-block" data-toggle="dropdown"
             role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
@@ -103,14 +106,14 @@
             <!-- Desktop view for login and logout -->
             <div class="d-md-block d-none">
               <div class="px-3 py-4">
-                <a class="dropdown-item" href="subscriberLogin.html">
+                <a class="dropdown-item" href="#">
                   <i class="fa-solid fa-right-to-bracket"></i>
                   &nbsp;&nbsp;Login
                 </a>
               </div>
               <div class="dropdown-divider"></div>
               <div class="px-3 py-4">
-                <a class="dropdown-item" href="pages/signup.html">
+                <a class="dropdown-item" href="#">
                   <i class="fa-solid fa-user-plus"></i>
                   &nbsp;&nbsp;Create Account
                 </a>
@@ -118,18 +121,19 @@
 
               <!-- Desktop view for logout and Dashboad -->
               <!-- <div class="px-3 py-4">
-                                                        <a class="dropdown-item" href="#">
-                                                          <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                                                          Dashboard
-                                                        </a>
-                                                        </div>
-                                                        <div class="dropdown-divider"></div>
-                                                        <div class="px-3 py-4">
-                                                          <a class="dropdown-item" href="#">
-                                                            <i class="fa-solid fa-right-from-bracket"></i>
-                                                            &nbsp;&nbsp;logout
-                                                          </a>
-                                                        </div> -->
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                  Dashboard
+                </a>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-right-from-bracket"></i>
+                  &nbsp;&nbsp;logout
+                </a>
+              </div> -->
+
             </div>
 
             <!-- mobile view for login and logout -->
@@ -143,7 +147,7 @@
                 </div>
                 <div style="background-color: #ffffff; height: 1px;"></div>
                 <div class="px-3 py-4">
-                  <a class="dropdown-item" href="pages/signup.html">
+                  <a class="dropdown-item" href="signup.html">
                     <i class="fa-solid fa-user-plus"></i>
                     &nbsp;&nbsp;Create Account
                   </a>
@@ -152,113 +156,66 @@
             </div>
             <!-- mobile view for logout and dashboard -->
             <!-- <div class="d-md-none d-block">
-                                                                  <div class="mobileDropdown">
-                                                                    <div class="px-3 py-4">
-                                                                      <a class="dropdown-item" href="#">
-                                                                        <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                                                                        Dashboard
-                                                                      </a>
-                                                                    </div>
-                                                                    <div style="background-color: #ffffff; height: 1px;"></div>
-                                                                    <div class="px-3 py-4">
-                                                                      <a class="dropdown-item" href="#">
-                                                                        <i class="fa-solid fa-right-from-bracket"></i>
-                                                                        &nbsp;&nbsp;logout
-                                                                      </a>
-                                                                    </div>
-                                                                  </div>
-                                                                  </div> -->
+              <div class="mobileDropdown">
+                <div class="px-3 py-4">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                    Dashboard
+                  </a>
+                </div>
+                <div style="background-color: #ffffff; height: 1px;"></div>
+                <div class="px-3 py-4">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    &nbsp;&nbsp;logout
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
           </div>
 
         </div>
 
         <div class="menu_icon">
-          <a class="d-md-block d-none nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0"
-            data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+          <a class="nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0" data-toggle="dropdown" href="#"
+            role="button" aria-expanded="false">
             <span class="menu_icon--text">Menu</span>
           </a>
-          <a class="d-md-none d-block  nav-link text-dark dropdown-toggle dropdown-toggle--custom p-0"
-            data-toggle="dropdown" href="#" role="button" aria-expanded="false">
-            <span class="menu_icon--text">Menu</span>
-          </a>
-          <div class="dropdown-menu menu_icon--dropdown p-0">
-            <div class=" menu-desktop d-md-block d-none">
-              <a class="dropdown-item mb-3" href="#">Subcribe</a>
-              <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <!-- <div class="dropdown-divider"></div> -->
-              <!-- <a class="dropdown-item my-4" href="#"> -->
-              <p class="pl-4 font-weight-lighter my-4">
-                <i class="fa-solid fa-envelope mr-3"></i>
-                rent@smallsmall.com
-              </p>
-              <!-- </a> -->
-              <!-- <a class="dropdown-item" href="#"> -->
-              <p class="pl-4 font-weight-lighter m-0">
-                <i class="fa-solid fa-phone mr-3"></i>
-                0903 633 9800
-              </p>
-              <!-- </a> -->
-              <!-- <a class="dropdown-item" href="#"> -->
-              <p class="pl-4 font-weight-lighter m-0">
-                <i class="fa-solid fa-phone mr-3"></i>
-                0903 722 2669
-              </p>
-              <!-- </a> -->
-            </div>
-            <div class="menu-mobile p-4 d-md-none d-block">
-              <div class="mb-4">
-                <i class="fa-solid fa-xmark fa-3x"></i>
-              </div>
-              <div class="mb-5">
-                <p class="mb-3">
-                  <a class="text-white mb-3" href="#">Subcribe</a>
-                </p>
-                <p class="mb-3">
-                  <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
-                </p>
-                <p class="mb-3">
-                  <a class="text-white" href="faq.html">hellooooo</a>
-                </p>
-              </div>
-              <div>
-                <p><a class="text-white" href="#"><small class="font-weight-light" style="font-size:10px">Nightly
-                      stay</small><br>StayOne</a> </p>
-                <p><a class="text-white" href="#"><small class="font-weight-light"
-                      style="font-size:10px">Invest</small><br>BuySmallsmall</a> </p>
-              </div>
-              <div>
-                <p class="font-weight-lighter m-0">
-                  <i class="fa-solid fa-envelope mr-3"></i>
-                  rent@smallsmall.com
-                </p>
-                <p class="font-weight-lighter m-0">
-                  <i class="fa-solid fa-phone mr-3"></i>
-                  0903 633 9800
-                </p>
-                <p class="font-weight-lighter m-0">
-                  <i class="fa-solid fa-phone mr-3"></i>
-                  0903 722 2669
-                </p>
-              </div>
-
-
-            </div>
-
+          <div class="dropdown-menu menu_icon--dropdown">
+            <a class="dropdown-item mb-3" href="#">Subcribe</a>
+            <a class="dropdown-item mb-3" href="#">Property Owner</a>
+            <a class="dropdown-item" href="#">FAQ</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <!-- <a class="dropdown-item my-4" href="#"> -->
+            <p class="pl-4 font-weight-lighter my-4">
+              <i class="fa-solid fa-envelope mr-3"></i>
+              rent@smallsmall.com
+            </p>
+            <!-- </a> -->
+            <!-- <a class="dropdown-item" href="#"> -->
+            <p class="pl-4 font-weight-lighter m-0">
+              <i class="fa-solid fa-phone mr-3"></i>
+              0903 633 9800
+            </p>
+            <!-- </a> -->
+            <!-- <a class="dropdown-item" href="#"> -->
+            <p class="pl-4 font-weight-lighter m-0">
+              <i class="fa-solid fa-phone mr-3"></i>
+              0903 722 2669
+            </p>
+            <!-- </a> -->
           </div>
 
+          <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
+          <i class="fa-solid fa-bars"></i>
         </div>
-
-        <!-- MENU MOBILE VIEW DROPDOWN -->
-
-        <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
-        <i class="fa-solid fa-bars"></i>
-      </div>
       </div>
     </nav>
     <!-- Button trigger modal -->
 
   </header>
+
 
 
 
@@ -520,7 +477,7 @@
 
 
 
-      <h2 id="consent__">8. Consent</h2>
+      <h2 id="consent__"> 8. Consent </h2>
 
       <article class="info__artcl">
         10.1. By visiting, accessing or availing any services available on the Site, You explicitly <br>
@@ -555,9 +512,7 @@
     <div class="container-fluid">
       <div class="row py-5 text-white">
         <div class="col footer-logo-container align-self-end">
-          <a href="../index.html">
-            <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
-          </a>
+          <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
         </div>
         <div class="col align-self-end">
           <!-- <p> -->
@@ -572,77 +527,77 @@
         <div class="col">
           <h5 class="mb-0">Follow Us</h5>
           <div class="d-flex justify-content-between mt-4 font footer-social-media">
-            <a target="_blank" href="https://twitter.com/smallsmall_tech" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-twitter"></i>
             </a>
-            <a target="_blank" a href="https://www.instagram.com/smallsmall.tech" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a target="_blank" a href="#" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-facebook"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/company/small-small-technology" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a target="_blank" a href="#" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-youtube"></i>
             </a>
           </div>
         </div>
       </div>
       <div class="border border-white"></div>
-      <div class="row p-5 justify-content-center">
-        <div class="col-3 text-white">
+      <div class="row py-5 justify-content-center">
+        <div class="col-2 text-white">
           <h5>Product</h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="../index.html">Rent</a>
+              <a class="nav-link pl-0 text-white" href="#">Rent</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="https://buy.smallsmall.com">Buy</a>
+              <a class="nav-link pl-0 text-white" href="#">Buy</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-3 text-white">
+        <div class="col-2 text-white">
           <h5>Company</h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="aboutUs.html">About Us</a>
+              <a class="nav-link pl-0 text-white" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="blogs.html">Blogs</a>
+              <a class="nav-link pl-0 text-white" href="#">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="careers.html">Careers</a>
+              <a class="nav-link pl-0 text-white" href="#">Careers</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-3 text-white">
+        <div class="col-2 text-white">
           <h5>Legal</h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="privacyPolicy.html">Privacy Policy</a>
+              <a class="nav-link pl-0 text-white" href="#">Privacy Policy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="subscriptionTerms.html">
+              <a class="nav-link pl-0 text-white" href="#">Terms Of Use</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-0 text-white" href="#">
                 Subscription Terms
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="termsOfUse.html">Terms Of Use</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="faq.html">FAQ</a>
+              <a class="nav-link pl-0 text-white" href="#">FAQ</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-3 text-white">
+        <div class="col-2 text-white">
           <h6>Download the Mobile App</h6>
           <div class="footer-apps d-flex flex-column w-100">
             <a href="#">
@@ -693,7 +648,7 @@
               <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="https://buy.smallsmall.com">Buy</a>
+              <a class="nav-link pl-0 text-white" href="#">Buy</a>
             </li>
           </ul>
         </div>
@@ -702,13 +657,13 @@
           <h5>Company</h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="aboutUs.html">About Us</a>
+              <a class="nav-link pl-0 text-white" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="blogs.html">Blogs</a>
+              <a class="nav-link pl-0 text-white" href="#">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="careers.html">Careers</a>
+              <a class="nav-link pl-0 text-white" href="#">Careers</a>
             </li>
           </ul>
         </div>
@@ -718,18 +673,18 @@
           <h5>Legal</h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="privacyPolicy.html">Privacy Policy</a>
+              <a class="nav-link pl-0 text-white" href="#">Privacy Policy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="termsOfUse.html">Terms Of Use</a>
+              <a class="nav-link pl-0 text-white" href="#">Terms Of Use</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="subscriptionTerms.html">
+              <a class="nav-link pl-0 text-white" href="#">
                 Subscription Terms
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="faq.html">FAQ</a>
+              <a class="nav-link pl-0 text-white" href="#">FAQ</a>
             </li>
           </ul>
         </div>
@@ -737,19 +692,19 @@
         <div class="col-6 text-white">
           <h6 class="mb-0">Follow Us</h6>
           <div class="d-flex justify-content-between mt-4 font footer-social-media">
-            <a target="_blank" href="https://twitter.com/smallsmall_tech" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-twitter"></i>
             </a>
-            <a target="_blank" a href="https://www.instagram.com/smallsmall.tech" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a target="_blank" a href="#" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-facebook"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/company/small-small-technology" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a target="_blank" a href="#" class="text-white">
+            <a href="#" class="text-white">
               <i class="fa-brands fa-youtube"></i>
             </a>
           </div>
@@ -775,7 +730,6 @@
       </div>
     </div>
   </footer>
-
 
   <!-- Jquery js -->
   <script src="../assets/js/jquery.slim.min.js"

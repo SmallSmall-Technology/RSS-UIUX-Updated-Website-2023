@@ -195,12 +195,12 @@ p{
     margin-top:1.9% ;
     display: flex;
     flex-direction: row;
-    gap: 75%;
+    gap: 25%;
 }
 
 .employ__status{
-    width: 220%;
-    padding:7.5%;
+    width: 100%;
+    padding:4%;
     margin-bottom:9%;
 
     background: #E6EBF1;
@@ -219,10 +219,10 @@ p{
 
 .compname__address{
     display: block;
-    padding-left: 9%;
-    padding-right: 112%;
-    padding-top: 9%;
-    padding-bottom: 39%;
+    padding-left: 4%;
+    width: 27vw;
+    padding-top: 4%;
+    padding-bottom: 23%;
     border-radius: 10px;
     font-family: 'Poppins';
     font-style: normal;
@@ -252,7 +252,7 @@ p{
         border: none;
         border-radius: 10px;
         font-size: 16px;
-        width: 22rem;
+        width:  24.5vw;
         margin-right: 18%;
     }
 
@@ -405,10 +405,9 @@ p{
     margin-top: 15%;
     display: flex;
     flex-direction: row;
-    padding-left: 37%;
-    /* justify-content: center; */
+    padding-left: 35%;
     align-items: center;
-    gap:25%;
+    gap:27%;
 }
 
 
@@ -475,8 +474,10 @@ p{
 
 
 
-
-
+    /* <!-- <<<<<<< DISPLAY NONE >>>>>>>> --> */
+.mobile__pagination{
+    display: none;
+}
 
 
 
@@ -500,7 +501,12 @@ p{
 }
 
 
-.index__check {
+.mobile__pagination{
+    display: block;
+}
+
+
+.pagethree__mobiledisplay{
     display: flex;
     flex-direction: row;
     gap: 2%;
@@ -509,7 +515,7 @@ p{
     font-size: 3vw;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 4px;
     margin-top: 2%;
  }
@@ -562,7 +568,7 @@ p{
 
 .transparent__linebreak{
     /* width:22.4vw; */
-    width: 10%;
+    width: 100%;
     border-radius: 15px;
     height: 0.2px !important;  
     border: none;
@@ -917,10 +923,24 @@ p{
             padding-bottom: 9%;
             text-decoration: none;
     
-            padding-right: 39%;
-             padding-left: 39%;
+            padding-right: 69%;
+             padding-left: 69%;
         }
 
+
+
+        /* <<<< DISPLAY NONE FOR MOBILE VIEW >>>>> */
+
+    .index__check{
+        display: none;
+    }   
+    
+    .pageone__mobiledisplay,
+    .pagetwo__mobiledisplay,
+    .pagefour__mobiledisplay,
+    .pagefive__mobiledisplay{
+        display: none;
+    }
 
     }
 

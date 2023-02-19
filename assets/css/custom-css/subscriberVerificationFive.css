@@ -58,6 +58,14 @@ a, a:hover, a:focus, a:active {
 
 
 
+
+
+.mobile__pagination{
+    display: none;
+}
+
+
+
   .index__check{
     display: flex;
     flex-direction: row;
@@ -300,8 +308,8 @@ img{
     margin-bottom: 25%;
     display: flex;
     flex-direction: row;
-    padding-left:40%;
-    gap:27%;
+    padding-left:38%;
+    gap:32%;
 
     
 }
@@ -326,49 +334,23 @@ img{
     align-items: center;
     color: #414042;
 
-
-
-
-    /* background: #E6EBF1;
-    border-radius: 10px;
-    padding-left:9%; 
-    padding-right: 9%;
-    padding-top:2%;
-    padding-bottom:2%;
-    color: black;
-    border: none;
-    font-size:1.1rem;
-    
-
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-
-    display: flex;
-    align-items: center;
-
-    color: #414042; */
-    
 }
 
 
 
 .continue__btn{
-    padding-left:16% ;
-    padding-top:1.5%;
-    padding-right: 16%;
-    padding-bottom:1.5%;
+    padding-left: 200%;
+    padding-right: 200%;
+    padding-top: 40.1%;
+    padding-bottom: 40.1%;
     border-radius: 10px;
     border: none;
     background: #007DC1;
     color: #fff;
-    
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
-
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -420,7 +402,17 @@ img{
 
 
 
-        .index__check{
+
+
+       .mobile__pagination{
+        display: block;
+
+       } 
+
+
+
+
+        .pagefive__mobiledisplay{
             display: flex;
             flex-direction: row;
             gap:1.6%;
@@ -450,7 +442,7 @@ img{
         .colored__linebreak {
             border-radius: 15px;
             height: 0.2px !important;
-            width: 89vw;
+            width: 80vw;
             border: none;
             background-color: #007DC1;
         }
@@ -470,7 +462,7 @@ img{
         .verifyid__clicks{
             display: flex;
             flex-direction: column;
-            margin-left: 9%;
+            margin-left: 22%;
         }
 
 
@@ -526,9 +518,8 @@ img{
             margin-top: 15%;
             display: flex;
             flex-direction: row;
-            padding-left: 7%;
-            /* align-items: center; */
-            gap: 28%;
+            padding-left:20%;
+            gap: 23%;
         }
         
         
@@ -553,10 +544,10 @@ img{
         
             color: #414042;
             }
-        
-        
-        
-            /* .continue__btn {
+
+
+
+            .continue__btn {
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 700;
@@ -572,13 +563,16 @@ img{
                 padding-bottom: 9%;
                 text-decoration: none;
         
-                padding-right: 39%;
-                 padding-left: 39%;
-            } */
-        
+                padding-right: 40%;
+                 padding-left: 40%;
+            }   
+       
     
 /* >>>>>> NO DISPLAY ON MOBILE<<<<<<<< */
 
+.index__check{
+    display: none;
+}
 
    .verify__idiv{
     display: none;
@@ -590,21 +584,13 @@ img{
     }
 
 
-
-
-
-
-    /* .back__contine {
-        margin-top: 15%;
-        margin-bottom: 25%;
-        display: flex;
-        flex-direction: row;
-        padding-left: 12%;
-
-  } */
-
-
-
+/* >>>>>>>>>> DISPLAY NONE FOR MOBILE <<<<<<<<<< */
+.pageone__mobiledisplay,
+.pagetwo__mobiledisplay,
+.pagethree__mobiledisplay,
+.pagefour__mobiledisplay{
+    display: none;
+}
 
   }
   
