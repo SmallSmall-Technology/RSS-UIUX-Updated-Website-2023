@@ -196,6 +196,18 @@
   color: #00cd2d;
 }
 
+.property-stats p {
+  margin: 0;
+}
+
+.property-stats--child:not(:last-child) {
+  border-right: 1px solid #D1CECE;
+  /* padding: 0 10px; */
+}
+
+.property-stats--child {
+  padding: 0 10px;
+}
 
 
 
@@ -270,6 +282,10 @@
 
   .schedule-container__subscribe {
     color: black;
+  }
+
+  .property-stats {
+    font-size: 11px;
   }
 }
 
