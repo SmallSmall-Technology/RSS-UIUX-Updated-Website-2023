@@ -594,9 +594,11 @@ input[type="checkbox" i]{
     }
 
 
+/*   <<<<<<<<< DISPLAY NONE CODES >>>>>> */
 
-
-
+.dependant__mobileparag{
+    display: none;
+}
 
 
 
@@ -605,6 +607,15 @@ input[type="checkbox" i]{
     @media screen and (max-width: 480px) {
 
 /* <!-- <<<<<< MOBILE STYLING  page one styling >>>>>> --> */
+
+.dependant__parag{
+    display: none;
+}
+
+
+
+
+
 
 .index__body{
     background:  #E5E5E5;
