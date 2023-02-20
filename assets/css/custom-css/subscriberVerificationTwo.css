@@ -308,7 +308,7 @@ text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 
     display: flex;
     align-items: center;
@@ -328,7 +328,7 @@ text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 
     display: flex;
     align-items: center;
@@ -362,6 +362,11 @@ text-decoration: none;
 }
 
 
+.mobile__pagination{
+    display: none;
+   }
+ 
+
 .mobile__reasons{
     display: none;
 }
@@ -386,7 +391,7 @@ text-decoration: none;
     font-weight: 600;
     margin-left:3.4%;
     margin-top: 4%;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     line-height: 24px;
 
     display: flex;
@@ -398,7 +403,7 @@ text-decoration: none;
 
 
 .landlord__nameaddrssdiv{
-    padding-left: 33%;
+    margin-left: 33%;
     display: flex;
     flex-direction: column;
 }
@@ -406,47 +411,38 @@ text-decoration: none;
 
 
 .landlord__name{
-    width: 39.5%;
-    padding-top: 2%;
-    padding-bottom: 2.1%;
-    padding-left: 2.1%;
-
-    background: #E6EBF1;
-    border-radius: 10px;
-    margin-bottom: 1%;
-    border:none; 
-
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.1vw;
-    display: flex;
-    align-items: center;
-
-    color: #BABABA;
+width: 39%;
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+padding-left: 2%;
+background: #E6EBF1;
+border-radius: 10px;
+border: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 1.1vw;
+display: flex;
+align-items: center;
+color: #BABABA;
 }
 
 
 
 .landlords_address{
-    width: 39.5%;
+    width:39%;
     padding-top: 2%;
-    padding-bottom: 12%;
-    padding-left: 2%;
+    padding-bottom: 10%;
+    padding-left: 1.2%;
     background: #E6EBF1;
     border-radius: 10px;
     border: none;
-    
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 1.1vw;
-
     display: flex;
     align-items: center;
-
     color: #BABABA;
 }
 
@@ -456,7 +452,7 @@ text-decoration: none;
     margin-top: 15%;
     display: flex;
     flex-direction: row;
-    padding-left: 47%;
+    padding-left: 27%;
     align-items: center;
     gap: 25%;
 }
@@ -481,52 +477,11 @@ text-decoration: none;
     display: flex;
     align-items: center;
     color: #414042;
-
-
-    /* background: #E6EBF1;
-    border-radius: 10px;
-    padding-left: 9%;
-    padding-right: 9%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    color: black;
-    border: none;
-    font-size:1.1rem;
-    
-
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-
-    display: flex;
-    align-items: center;
-
-    color: #414042; */
     
 }
 
 
 .continue__btn{
-    /* padding-left:15% ;
-    padding-right: 15%;
-    padding-top:2.5%;
-    padding-bottom:2.5%;
-    border-radius: 10px;
-    border: none;
-    background: #007DC1;
-    color: #fff;
-    
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    color: #FFFFFF; */
-
         padding-left: 150%;
         padding-right: 150%;
         padding-top: 28%;
@@ -559,7 +514,7 @@ text-decoration: none;
     }
 
 
-   
+  
 
 
     /*>>>>>>>>>> MOBILE STYLING STARTS HERE <<<<<<<<<<<<< */
@@ -600,8 +555,16 @@ text-decoration: none;
     }
   
 
+/* >>>>>>> MOBILE   DISPLAY NONE <<<<<<<<<*/
 
-   .index__check{
+
+ /* <!-- <<<<<<< Mobile dispay only >>>>>>>> --> */
+ .mobile__pagination{
+    display: block;
+   }
+
+
+   .pagetwo__mobiledisplay{
     display: flex;
     flex-direction: row;
     font-family: 'Poppins';
@@ -609,8 +572,12 @@ text-decoration: none;
     font-weight: 500;
     border-radius:4px;
     margin-top:2%;
-
+    justify-content: space-between;
+    letter-spacing:2%;
+    /* margin-left:10%; */
+    font-size: 3.5vw;
 }
+
 
 
     
@@ -702,7 +669,20 @@ text-decoration: none;
 
 
         /* <!-- <<<<<<MOBILE page 2 styling >>>>>> --> */
-       .gt__history{
+    .pastrent__details{
+            display: flex;
+            flex-direction: row;
+            padding-top: 2.5%;
+            margin-left: 9%;
+            /* justify-content: center; */
+            /* gap:13%; */
+        }
+
+       
+       
+       
+       
+        .gt__history{
             display: flex;
             flex-direction: column;
             /* margin-left:5%; */
@@ -712,7 +692,7 @@ text-decoration: none;
         
         .rental_ss{
             
-            margin-left: 19%;
+            margin-left: 9%;
         }
 
 
@@ -749,18 +729,13 @@ text-decoration: none;
 
         .address__period {
             width: 100%;
-            /* height: 27%; */
             border-radius: 5px;
             background: #FFFFFF;
-            /* border-radius: 5px; */
             border: none;
-            font-size: 2.4vw;
-
-
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
-            font-size: 5vw;
+            font-size: 3.7vw;
            
             display: flex;
             align-items: center;
@@ -810,7 +785,7 @@ text-decoration: none;
         /* border-radius: 10px; */
         margin-bottom: 3%;
         border: none;
-        font-size: 5vw;
+        font-size: 3.7vw;
         border-radius: 5px;
      } 
      
@@ -821,8 +796,8 @@ text-decoration: none;
 
 .mobile__address{
     display: block;
-    width: 70%;
-    margin-left: 22%;
+    width: 83%;
+    margin-left: 9%;
     padding-top: 5;
 
     padding-top: 3%;
@@ -839,8 +814,8 @@ text-decoration: none;
 .mobile__reasons{
     display: block;
     display: block;
-    width: 70%;
-    margin-left: 22%;
+    width: 83%;
+    margin-left: 9%;
     padding-top: 5;
 
     padding-top: 3%;
@@ -862,7 +837,8 @@ text-decoration: none;
 
     background: #414042;
     border-radius: 15px;
-    margin-left: 22%;
+    margin-left: 8.7%;
+    margin-right: 7.5%;
     margin-bottom: 3%;
 }
 
@@ -878,25 +854,28 @@ text-decoration: none;
         align-items: center;
 
         color: #414042;
-        margin-left: 21%;
+        margin-left: 9%;
         margin-top: 7%;
 }
 
-
+/* 
 .landlord__nameaddrssdiv{
     margin-right:1% ;
-}
+} */
 
 
-.landlord__nameaddrssdiv {
-    padding-left: 23.5%;
-    padding-right: 8%;
+
+.landlord__nameaddrssdiv{
+    /* padding-left: 33%; */
     display: flex;
     flex-direction: column;
+    margin-left:3%;
 }
 
+
+
 .landlord__name{
-    width: 100%;
+    width: 85%;
 
     background: #FFFFFF;
     border-radius: 5px;
@@ -905,19 +884,20 @@ text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
 
     display: flex;
     align-items: center;
 
     color: #BABABA;
+    margin-left: 6%;
     }
 
 
 
     .landlords_address{
-            width: 100%;
+            width: 85%;
             padding-top: 5%;
             font-size: 3vw;
             padding-bottom: 12%;
@@ -931,8 +911,8 @@ text-decoration: none;
             display: flex;
             align-items: center;
             color: #BABABA;
-            padding-left: 7%;
-            padding-right: 21%;
+            padding-left: 4%;
+            margin-left: 6%;
         }
     
 
@@ -940,49 +920,6 @@ text-decoration: none;
 
     /* <!-- <<<<<<<<< page 5 styling >>>>>>>>> --> */
 
-
-
-
-
-
-    /* .back__contine {
-        margin-top: 15%;
-        display: flex;
-        flex-direction: row;
-        /* padding-left: 15%; */
-        /* justify-content: space-between; */
-        /* align-items: center;
-        gap:13%;
-        width: 7vw;
-         */
-    /* } */ 
-
-
-
-
-    /* .back__btn{
-
-        background: #E6EBF1;
-        border-radius: 10px; */
-        /* padding-left: 90%; */
-        /* padding-right: 190%; */
-        /* padding-right: 34;
-        padding-top: 42%;
-        padding-bottom: 45%;
-        color: black;
-        border: none;
-        font-size: 1.1rem;
-        font-family: 'Poppins',sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        color: #414042;
-    
-        
-    } */
-    
-/*     
     
     
     .continue__btn{
@@ -1063,6 +1000,19 @@ text-decoration: none;
                  padding-left: 39%;
             }
     
+
+    /* >>>> MOBILE   DISPLAY NONE <<<<, */
+.pageone__mobiledisplay,
+.pagethree__mobiledisplay,
+.pagefour__mobiledisplay,
+.pagefive__mobiledisplay{
+    display: none;
+}
+
+
+.index__check{
+    display: none;
+}
 
 
 }

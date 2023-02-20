@@ -178,18 +178,21 @@ a:hover{
 
 
 
-.pri_poli__
-h1{
+.pri_poli__ 
+h1 {
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5vw;
-    margin-top:3%;
-    margin-bottom:1.2%;
+    font-size: 6vw;
+    margin-top: 5%;
+    margin-bottom: 1.2%;
     display: flex;
-    padding-left:42%;
+    padding-left: 35%;
     color: #414042;
 }
+
+
+
 
 .pri_poli__
 p{
@@ -209,6 +212,7 @@ p{
         display: flex;
         flex-direction:row;
         gap:10%;
+        margin-bottom:7%;
 
  }
 
@@ -311,9 +315,26 @@ p{
 
 
 
+  
+
+
 /* >>>>>> MOBILE STYLING FOR PRIVACY POLICY <<<<<<*/
 
 @media screen and (max-width: 480px){
+   
+    #info__p,
+    #info__pa,
+    #info__pag,
+    #share__info,
+    #posting__req,
+    #change__pripol,
+    #advert__thrdpty,
+    #consent__,
+    #quest__tns{
+        font-size: 3vw;
+    }
+   
+   
     .privacy__policy{
     font-size: 2.5vw;
     margin-right:6.6%;
@@ -334,28 +355,42 @@ p{
 
     .pri_poli__
     h1{
-        font-size: 4vw;
-        padding-left:37%;
+    font-size: 7vw;
+    padding-left: 34%;
         
     }
 
     .pri_poli__
     p{
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding-left:36%;
     }
 
     
     .policy__lists{
-    display: none;
+    display: flex;
+    flex-direction:column;
+    font-size: 2.9vw;
+    align-items: flex-start;
+    margin-right: 27%;
+     /* justify-items: left; */
+    /* margin-top: 0%; */
+    
     } 
 
     .check{
-        margin: auto;
+        
         display: flex;
         flex-direction:column;
         align-items: center;
+        margin-left:2%;
     }
+
+
+    br{
+        display: none;
+      }
+        
 
 
     /* <!-- <<<<<<...Article page 2..>>>>> --> */
@@ -367,9 +402,9 @@ p{
 
     .artic__wnparag
     main{
-     font-size:2vw;
-     line-height:2vh;
-     letter-spacing: 20%;
+        font-size: 2.8vw;
+        line-height: 3.9vh;
+     /* letter-spacing: 20%; */
     }
 
     /* <!--  <<<<<<<< Article page 3 >>>>>>>>>> --> */
@@ -379,7 +414,7 @@ p{
     }
 
     .artic__twparag{
-        font-size: 2vw;
+        font-size: 2.8vw;
     }
 
     .artic__trrparag{
@@ -387,17 +422,24 @@ p{
     }
 
     .artic__trrparag{
-        font-size: 2vw; 
+        font-size: 2.5vw; 
     }
 
     /* <!--<<<<<<<<<<<<<<< informaton page 4 >>>>>>>>>>>>>> --> */
     .info__artcl
     p{
-        font-size: 2vw;
+        font-size: 2.8vw;
     }
 
     .info__artcl{
-        font-size: 2vw; 
+        font-size: 2.8vw; 
+    }
+
+
+
+    .back__top {
+        color: blue !important;
+        font-size: 1.5vw !important;
     }
 
 }

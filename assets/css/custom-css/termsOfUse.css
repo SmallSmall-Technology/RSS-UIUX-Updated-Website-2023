@@ -14,63 +14,75 @@ a:hover{
 
 
 /* <<<<<< general h1 styling >>>> */
+
+.back__top{
+    font-size:0.7vw;
+    color: blue;
+}
+
+
 #tandc__p{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    /* color:black;  */
+    color: #414042;
 }
 
 
 #tandc__pa{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__pag{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042; 
 }
 
 
 #tandc__conduct{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042; 
 }
 
 
 #tandc__useservices{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042; 
 }
 
 
@@ -78,126 +90,140 @@ a:hover{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.4vw;
+    font-weight: 700;
+    margin-top: 4%;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__disclaimer{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__details{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__diswarranty{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__unsolicit{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__minitoring{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__indemnificatn{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__terminatn{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 
 
 #tandc__intellectual{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042; 
 }
 
 
 #tandc__miscellns{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    margin-top: 4%;
     font-size: 1.4vw;
     display: flex;
     align-items: center;
 
-    color:black; 
+    color: #414042;
 }
 /* <<<<<<<<< --privacy policy  page1 -->>>>>>>>>> */
 .terms__conditn{
     background: #E6EBF1;
-    padding:2.3% 0 3% 5%;
+    padding-top:9%;
+    padding-bottom: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
     min-width: auto;
     max-width:auto;
+    
 }
 
 
@@ -234,8 +260,8 @@ h1{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 3.4vw;
-    /* margin: auto; */
+    font-size: 6vw;
+    margin-top:6%;
     display: flex;
     padding-left:36%;
     color: #414042;
@@ -249,17 +275,17 @@ p{
     font-size: 1.7vw;
     line-height: 141.5%;
     display: flex;
-    padding-left:36%;
+    padding-left:40%;
     color: #414042; 
 }
 
 
-.check{
+.main__content{
     display: flex;
     flex-direction:row;
     gap:10%;
 
-}
+} 
 
 
 
@@ -292,7 +318,7 @@ p{
     line-height: 141.5%;
     display: flex;
     color: #414042;
-    padding-top:11.5%;
+    padding-top:5%;
 }
 
 
@@ -335,17 +361,43 @@ p{
           
     }
 
-    
+  
+    .miscellns__div{
+        margin-bottom: 18%;
+    }
 
     /* <<<<<<<<< Mobile styling for terms of use >>>>>>>>>> */
 
 @media screen and (max-width: 480px) {
    
     /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
-    .tandc__lists {
+    /* .tandc__lists {
      display: none;
         
+    } */
+
+
+
+
+
+    .main__content{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+
+        gap:10%;
+        margin-left:4%;
+        
+    
+    } 
+
+    .tandc__lists
+    p{
+        font-size:2.4vw;
     }
+
+
+
 
 .terms__conditn {
     /* padding-top:3%; */
@@ -359,7 +411,7 @@ p{
         font-family: 'Poppins',sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 50%;
+        font-size: 60%;
         line-height: 2.5vh;
     }
 
@@ -423,34 +475,58 @@ p{
 @media screen and (max-width: 480px) {
     /*>>>>>>> MOBILE STYLING  for the headers<<<<<< */
     /* <!-- <<<<<<<<<< Terms of use  page 1>>>>>>>>>>>>>> --> */
-    /* .terms__conditn{
-     margin-top:3%;
-    }   */
+    
+ .terrmms_rss 
+    h1{
+        font-size:7vw;
+    } 
 
 
-    .terms__headingwn{
+ .terrmms_rss p{
+        font-size:3vw; 
+    }
+
+
+.back__top {
+        font-size: 1.6vw;
+        color: blue;
+    }
+
+
+.back__top::after {
+        font-size: 1.3vw;
+        color: rgb(185, 4, 16);
+    }
+
+
+
+ 
+
+.terms__headingwn{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size:3vw;
+        font-size:3.2vw;
     }
 
-    .terms__headingtw{
+.terms__headingtw{
         display: flex;
         justify-content: center;
         align-items: center;
         /* font-size:3vw; */
     }
 
-    .terrmms_rss{
+
+.terrmms_rss{
    margin-top: 2%;
    margin-bottom: 0%;
+   margin-right: 20%;
 }
 
 
 .tandc__wnparag
 main{
-font-size: 2vw;
+font-size: 2.2vw;
 line-height: 2.5vh;
 margin-bottom:1.5%;
 }
@@ -459,8 +535,8 @@ margin-bottom:1.5%;
 .tandc__artcl,
 .tandc__artcl
 p{
-    font-size: 2vw;
-    line-height: 2.5vh;
+    font-size: 2.8vw;
+    /* line-height: 2.5vh; */
     margin-bottom:1.5%;  
 }
 
@@ -468,69 +544,315 @@ p{
 
 
     #tandc__p {
-        font-size:2.3vw;
+        font-size:3vw;
     }
 
     #tandc__pa{
-        font-size:2.3vw;
+        font-size:3vw;
     }
 
     #tandc__pag {
-        font-size:2.3vw; 
+        font-size:3vw;
 }
 
 #tandc__conduct{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 #tandc__memacc{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 #tandc__disclaimer{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 #tandc__details{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 #tandc__diswarranty{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__unsolicit{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__minitoring{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__indemnificatn{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__terminatn{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__intellectual{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__miscellns{
-    font-size:2.3vw;
+    font-size:3vw;
 }
 
 
 #tandc__useservices {
-    font-size:2.3vw;
+    font-size:3vw;
 }
+
+
+br{
+    display: none;
+  }
+   
+
+
+}
+
+
+
+/*  <<<<<<< TABLET STYLING STARTS HERE >>>>>>> */
+@media screen and (max-width: 780px){
+   
+   
+    .main__content{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+
+        gap:10%;
+        margin-left:4%;
+        
+    
+    } 
+
+    .tandc__lists
+    p{
+        font-size:2.4vw;
+    }
+
+
+
+
+.terms__conditn {
+    /* padding-top:3%; */
+    /* padding-bottom: 3%; */
+}
+
+
+
+
+    .terms__headingtw {
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80%;
+        line-height: 2.5vh;
+    }
+
+
+    .terms__headingwn {
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35%;
+    }
+
+
+
+.hhjj{
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+#tandc__p{
+    font-size:50%;
+}
+
+
+#tandc__pa{
+    font-size: 4%;
+}
+
+
+.tandc__wnparag {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31%;
+}
+
+
+/* .tandc__wnparag
+main{
+font-size: 2vw;
+
+} */
+
+.tandc__artcl
+p{
+    /* padding-top: 2.5%; */
+    /* line-height:1.2vh;  */
+    /* font-size:35%; */
+    font-size:1.3vw;
+    color: black;
+    
+}
+    
+
+#tandc__conduct{
+    margin-top:3%;
+    font-size:8px;
+    /* color: black; */
+} 
+   
+   
+   
+    .terrmms_rss 
+    h1{
+        font-size:7vw;
+    } 
+
+
+ .terrmms_rss p{
+        font-size:3vw; 
+    }
+
+
+.back__top {
+        font-size: 1.6vw;
+        color: blue;
+    }
+
+
+.back__top::after {
+        font-size: 1.3vw;
+        color: rgb(185, 4, 16);
+    }
+
+
+
+ 
+
+.terms__headingwn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:2vw;
+    }
+
+.terms__headingtw{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size:3vw; */
+    }
+
+
+.terrmms_rss{
+   margin-top: 2%;
+   margin-bottom: 0%;
+   margin-right: 20%;
+}
+
+
+.tandc__wnparag
+main{
+font-size: 2.2vw;
+line-height: 4.5vh;
+margin-bottom:1.5%;
+}
+
+
+.tandc__artcl,
+.tandc__artcl
+p{
+    font-size: 2.5vw;
+    margin-bottom:1.5%;  
+}
+
+
+
+
+    #tandc__p {
+        font-size:2.8vw;
+    }
+
+    #tandc__pa{
+        font-size:2.8vw;
+    }
+
+    #tandc__pag {
+        font-size:2.8vw;
+}
+
+#tandc__conduct{
+    font-size:2.8vw;
+}
+#tandc__memacc{
+    font-size:2.8vw;
+}
+
+#tandc__disclaimer{
+    font-size:2.8vw;
+}
+
+#tandc__details{
+    font-size:2.8vw;
+}
+
+#tandc__diswarranty{
+    font-size:2.8vw;
+}
+
+
+#tandc__unsolicit{
+    font-size:2.8vw;
+}
+
+
+#tandc__minitoring{
+    font-size:2.8vw;
+}
+
+
+#tandc__indemnificatn{
+    font-size:2.8vw;
+}
+
+
+#tandc__terminatn{
+    font-size:2.8vw;
+}
+
+
+#tandc__intellectual{
+    font-size:2.8vw;
+}
+
+
+#tandc__miscellns{
+    font-size:2.8vw;
+}
+
+
+#tandc__useservices {
+    font-size:2.8vw;
+}
+
+
+br{
+    display: none;
+  }
+   
 
 }
