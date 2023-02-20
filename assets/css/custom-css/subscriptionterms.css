@@ -43,7 +43,7 @@ h2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.3vw;
     line-height: 27px;
     display: flex;
     align-items: center;
@@ -53,12 +53,14 @@ h2{
     color: #007DC1;
 }
 
+
 .subscription__letterhead
 p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 21px;
+    /* font-size: 21px; */
+    font-size: 1.4vw;
     line-height: 32px;
     display: flex;
     align-items: center;
@@ -86,6 +88,10 @@ p{
     align-items: center;
     justify-content: center;
     padding-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #414042;
+    /* line-height:180%; */
 }
 
 
@@ -94,7 +100,7 @@ h1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 6vw;
     /* line-height: 10vh; */
     display: flex;
     align-items: center;
@@ -121,7 +127,7 @@ h1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 1vw;
     /* line-height: 141.5%; */
     display: flex;
     align-items: center;
@@ -150,7 +156,7 @@ h1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 1.4vw;
     line-height: 141.5%; 
     display: flex;
     align-items: center;
@@ -160,10 +166,10 @@ h1{
 
 
 ul{
-    font-family: 'Poppins';
+    font-family:'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.9vw;
     color: #414042;
 }
 
@@ -172,7 +178,7 @@ h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.9vw;
     line-height: 141.5%;
     /* or 18px */
 
@@ -210,8 +216,140 @@ h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.3vw;
     line-height: 36px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    margin-top: 4%;
+    margin-bottom:3%;
+}
+
+
+.subterm__jobstatusdiv{
+    margin-bottom: 35%;
+}
+
+
+
+
+
+/*>>>>>> MOBILE STYLING <<<<<<< */
+
+@media screen and (max-width: 480px){
+
+    a,  a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    
+    a:hover{
+        color:#007DC1;
+    }
+    
+
+    .back__top {
+        color: blue !important;
+        font-size: 1.5vw !important;
+    }
+
+
+  .subscription__letterhead
+  h2{
+   font-size:3vw;
+  } 
+   
+   
+  .subscription__letterhead
+  p{
+    /* font-size:2.9vw; */
+    font-size:3vw;
+  }  
+   
+
+  br{
+    display: none;
+  }
+   
+    .gen__div{
+        display: flex;
+        flex-direction: column;
+        margin-left:2%;
+      
+        
+    }  
+
+
+    .subscriptionterms__list{
+        justify-content: flex-start;
+        font-size:2.9vw;
+
+    }
+
+    .subterm__conditions{
+        font-size: 3vw;
+    }
+
+
+/* <<< styling of all the article headers>>>>>>>> */
+#subterm__agreement,
+#subterm__subfee,
+#subterm__noticeperiod,
+#subterm__secutydeposit,
+#subterm__subsstartdate,
+#subterm__paymentterms,
+#subterm__latecharges,
+#subterm__subfeecoverage,
+#subterm__creditreport,
+#subterm__general,
+#subterm__paymentoption,
+#subterm__earlycancellation,
+#subterm__verification,
+#subterm__refundmode,
+#subterm__movingpolicy,
+#subterm__resheduling,
+#subterm__cancellation,
+#subterm__policy,
+#subterm__interhosemove,
+#subterm__guesthost,
+#subterm__petpolicy,
+#subterm__theftandamage,
+#subterm__jobstatus{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 36px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    margin-top: 4%;
+    margin-bottom:3%;
+}
+
+
+
+ul{
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    color: #414042;
+   
+}
+
+
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9vw;
+    line-height: 141.5%;
 
     display: flex;
     align-items: center;
@@ -220,20 +358,158 @@ h4{
 }
 
 
+li{
+    margin-right:4%;
+}
 
-/*>>>>>> MOBILE STYLING <<<<<<< */
 
-@media screen and (max-width: 480px){
-    .subscriptionterms__list{
-        display: none;
-    }  
 }
 
 
 
 /* >>>>>>>> TABLET STYLING <<<<<<<*/
 @media screen and (max-width: 780px){
-    .subscriptionterms__list{
+    /* .subscriptionterms__list{
         display: none;
+      
+    } 
+     */
+    
+
+    .subterm__conditions{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.3vw;
+        display: flex;
+        align-items: center; 
+        color: #414042; 
+    }
+
+
+
+
+    a,  a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    
+    a:hover{
+        color:#007DC1;
+    }
+    
+
+    .back__top {
+        color: blue !important;
+        font-size: 1.5vw !important;
+    }
+
+
+  .subscription__letterhead
+  h2{
+   font-size:2vw;
+  } 
+   
+   
+  .subscription__letterhead
+  p{
+    /* font-size:2.9vw; */
+    font-size:3vw;
+  }  
+   
+
+  br{
+    display: none;
+  }
+   
+    .gen__div{
+        display: flex;
+        flex-direction: column;
+        margin-left:2%;
+      
+        
     }  
+
+
+    .subscriptionterms__list{
+        justify-content: flex-start;
+        font-size:2vw;
+
+    }
+
+
+/* <<< styling of all the article headers>>>>>>>> */
+#subterm__agreement,
+#subterm__subfee,
+#subterm__noticeperiod,
+#subterm__secutydeposit,
+#subterm__subsstartdate,
+#subterm__paymentterms,
+#subterm__latecharges,
+#subterm__subfeecoverage,
+#subterm__creditreport,
+#subterm__general,
+#subterm__paymentoption,
+#subterm__earlycancellation,
+#subterm__verification,
+#subterm__refundmode,
+#subterm__movingpolicy,
+#subterm__resheduling,
+#subterm__cancellation,
+#subterm__policy,
+#subterm__interhosemove,
+#subterm__guesthost,
+#subterm__petpolicy,
+#subterm__theftandamage,
+#subterm__jobstatus{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 36px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    margin-top: 4%;
+    margin-bottom:3%;
 }
+
+
+
+ul{
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.3vw;
+    color: #414042;
+   
+}
+
+
+.important__tonote {
+    font-size: 3vw;
+}
+
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9vw;
+    line-height: 141.5%;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+}
+
+
+li{
+    margin-right:4%;
+}
+
+} 
+

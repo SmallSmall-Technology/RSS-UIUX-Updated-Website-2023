@@ -1,4 +1,7 @@
-<!doctype html>
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,21 +24,16 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- font-awesome -->
   <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
   <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
   <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
 
-  <!-- Animate css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
   <!-- custom CSS -->
   <link rel="stylesheet" href="../assets/css/custom-css/header.css" />
   <link rel="stylesheet" href="../assets/css/custom-css/footer.css" />
-  <link rel="stylesheet" href="../assets/css/custom-css/privacyPolicy.css" />
+ <link rel="stylesheet" href="../assets/css/custom-css/privacyPolicy.css" />
 
-
-  <title>privacy policy</title>
+  <title>Privacy Policy</title>
 </head>
 
 <body class="main-section">
@@ -95,6 +93,7 @@
             href="#" role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
           </a>
+
           <a class="nav-link dropdown-toggle dropdown-toggle--custom p-0 d-md-none d-block" data-toggle="dropdown"
             role="button" aria-expanded="false">
             <img src="../assets/images/users.svg" alt="users" />
@@ -110,7 +109,7 @@
               </div>
               <div class="dropdown-divider"></div>
               <div class="px-3 py-4">
-                <a class="dropdown-item" href="pages/signup.html">
+                <a class="dropdown-item" href="signup.html">
                   <i class="fa-solid fa-user-plus"></i>
                   &nbsp;&nbsp;Create Account
                 </a>
@@ -118,18 +117,18 @@
 
               <!-- Desktop view for logout and Dashboad -->
               <!-- <div class="px-3 py-4">
-                                                        <a class="dropdown-item" href="#">
-                                                          <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                                                          Dashboard
-                                                        </a>
-                                                        </div>
-                                                        <div class="dropdown-divider"></div>
-                                                        <div class="px-3 py-4">
-                                                          <a class="dropdown-item" href="#">
-                                                            <i class="fa-solid fa-right-from-bracket"></i>
-                                                            &nbsp;&nbsp;logout
-                                                          </a>
-                                                        </div> -->
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                    Dashboard
+                  </a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="px-3 py-4">
+                    <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      &nbsp;&nbsp;logout
+                    </a>
+                  </div> -->
             </div>
 
             <!-- mobile view for login and logout -->
@@ -143,7 +142,7 @@
                 </div>
                 <div style="background-color: #ffffff; height: 1px;"></div>
                 <div class="px-3 py-4">
-                  <a class="dropdown-item" href="pages/signup.html">
+                  <a class="dropdown-item" href="signup.html">
                     <i class="fa-solid fa-user-plus"></i>
                     &nbsp;&nbsp;Create Account
                   </a>
@@ -152,22 +151,22 @@
             </div>
             <!-- mobile view for logout and dashboard -->
             <!-- <div class="d-md-none d-block">
-                                                                  <div class="mobileDropdown">
-                                                                    <div class="px-3 py-4">
-                                                                      <a class="dropdown-item" href="#">
-                                                                        <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                                                                        Dashboard
-                                                                      </a>
-                                                                    </div>
-                                                                    <div style="background-color: #ffffff; height: 1px;"></div>
-                                                                    <div class="px-3 py-4">
-                                                                      <a class="dropdown-item" href="#">
-                                                                        <i class="fa-solid fa-right-from-bracket"></i>
-                                                                        &nbsp;&nbsp;logout
-                                                                      </a>
-                                                                    </div>
-                                                                  </div>
-                                                                  </div> -->
+                <div class="mobileDropdown">
+                  <div class="px-3 py-4">
+                    <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                      Dashboard
+                    </a>
+                  </div>
+                  <div style="background-color: #ffffff; height: 1px;"></div>
+                  <div class="px-3 py-4">
+                    <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      &nbsp;&nbsp;logout
+                    </a>
+                  </div>
+                </div>
+                </div> -->
           </div>
 
         </div>
@@ -182,7 +181,8 @@
             <span class="menu_icon--text">Menu</span>
           </a>
           <div class="dropdown-menu menu_icon--dropdown p-0">
-            <div class=" menu-desktop d-md-block d-none">
+            <!-- Menu Desktop view -->
+            <div class=" menu-desktop d-md-block d-none p-4">
               <a class="dropdown-item mb-3" href="#">Subcribe</a>
               <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
               <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -206,6 +206,8 @@
               </p>
               <!-- </a> -->
             </div>
+
+            <!-- Menu mobile view -->
             <div class="menu-mobile p-4 d-md-none d-block">
               <div class="mb-4">
                 <i class="fa-solid fa-xmark fa-3x"></i>
@@ -218,7 +220,7 @@
                   <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
                 </p>
                 <p class="mb-3">
-                  <a class="text-white" href="faq.html">hellooooo</a>
+                  <a class="text-white" href="faq.html">Faq</a>
                 </p>
               </div>
               <div>
@@ -253,15 +255,18 @@
 
         <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
         <i class="fa-solid fa-bars"></i>
-      </div>
+
       </div>
     </nav>
     <!-- Button trigger modal -->
 
   </header>
 
+  <!-- MAIN SECTION -->
+  <main>
 
 
+  <link rel="stylesheet" href="../assets/css/custom-css/privacyPolicy.css" />
 
 
 
@@ -520,7 +525,7 @@
 
 
 
-      <h2 id="consent__">8. Consent</h2>
+      <h2 id="consent__"> 8. Consent </h2>
 
       <article class="info__artcl">
         10.1. By visiting, accessing or availing any services available on the Site, You explicitly <br>
@@ -550,251 +555,253 @@
   </section>
 
 
-  <!-- FOOTER Section Desktop view -->
-  <footer class="footer footer-gutters text-white d-none d-lg-block">
-    <div class="container-fluid">
-      <div class="row py-5 text-white">
-        <div class="col footer-logo-container align-self-end">
-          <a href="../index.html">
-            <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
-          </a>
-        </div>
-        <div class="col align-self-end">
-          <!-- <p> -->
-          <i class="fa-solid fa-phone mr-3"></i>
-          <span>07038654256, 080659568</span>
-          <!-- </p> -->
-        </div>
-        <div class="col align-self-end">
-          <i class="fa-solid fa-envelope mr-3"></i>
-          <span>rent@smallsmall.com</span>
-        </div>
-        <div class="col">
-          <h5 class="mb-0">Follow Us</h5>
-          <div class="d-flex justify-content-between mt-4 font footer-social-media">
-            <a target="_blank" href="https://twitter.com/smallsmall_tech" class="text-white">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a target="_blank" a href="https://www.instagram.com/smallsmall.tech" class="text-white">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a target="_blank" a href="#" class="text-white">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/company/small-small-technology" class="text-white">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a target="_blank" a href="#" class="text-white">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="border border-white"></div>
-      <div class="row p-5 justify-content-center">
-        <div class="col-3 text-white">
-          <h5>Product</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="../index.html">Rent</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="https://buy.smallsmall.com">Buy</a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="col-3 text-white">
-          <h5>Company</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="aboutUs.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="careers.html">Careers</a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="col-3 text-white">
-          <h5>Legal</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="privacyPolicy.html">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="subscriptionTerms.html">
-                Subscription Terms
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="termsOfUse.html">Terms Of Use</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="faq.html">FAQ</a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="col-3 text-white">
-          <h6>Download the Mobile App</h6>
-          <div class="footer-apps d-flex flex-column w-100">
-            <a href="#">
-              <img src="../assets/images/googleplay.svg" class="w-50 my-2" alt="" />
-            </a>
-            <a href="#">
-              <img src="../assets/images/appstore.svg" class="w-50 my-2" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row py-4 justify-content-center">
-        <p>&copy; 2022 Smallsmall Technology</p>
-      </div>
-    </div>
-  </footer>
 
-  <!-- FOOTER section Mobile view -->
-  <footer class="footer d-lg-none">
-    <div class="container-fluid">
-      <div class="row text-center text-white py-5">
-        <div class="col-12 footer-logo-container">
+</main>
+
+ 
+ 
+<!-- FOOTER Section Desktop view -->
+<footer class="footer footer-gutters text-white d-none d-lg-block">
+  <div class="container-fluid">
+    <div class="row py-5 text-white">
+      <div class="col footer-logo-container align-self-end">
+        <a href="../index.html">
           <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
-        </div>
-        <div class="col-12 footer-contact mt-3">
-          <p class="mb-0">
-            <i class="fa-solid fa-phone mr-3"></i>
-            <span>07038654256</span>
-          </p>
-          <p class="mb-0">
-            <i class="fa-solid fa-phone mr-3"></i>
-            <span>07038654256</span>
-          </p>
-        </div>
-        <div class="col-12 footer-contact">
-          <i class="fa-solid fa-envelope mr-3"></i>
-          <span>rent@smallsmall.com</span>
-        </div>
+        </a>
       </div>
-      <div class="row py-5">
-        <div class="col-6 text-white">
-          <h5>Product</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Rent</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="https://buy.smallsmall.com">Buy</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 text-white">
-          <h5>Company</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="aboutUs.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="careers.html">Careers</a>
-            </li>
-          </ul>
-        </div>
+      <div class="col align-self-end">
+        <!-- <p> -->
+        <i class="fa-solid fa-phone mr-3"></i>
+        <span>07038654256, 080659568</span>
+        <!-- </p> -->
       </div>
-      <div class="row py-5">
-        <div class="col-6 text-white">
-          <h5>Legal</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="privacyPolicy.html">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="termsOfUse.html">Terms Of Use</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="subscriptionTerms.html">
-                Subscription Terms
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-0 text-white" href="faq.html">FAQ</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 text-white">
-          <h6 class="mb-0">Follow Us</h6>
-          <div class="d-flex justify-content-between mt-4 font footer-social-media">
-            <a target="_blank" href="https://twitter.com/smallsmall_tech" class="text-white">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a target="_blank" a href="https://www.instagram.com/smallsmall.tech" class="text-white">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a target="_blank" a href="#" class="text-white">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/company/small-small-technology" class="text-white">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a target="_blank" a href="#" class="text-white">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-          </div>
-        </div>
+      <div class="col align-self-end">
+        <i class="fa-solid fa-envelope mr-3"></i>
+        <span>rent@smallsmall.com</span>
       </div>
-      <div class="row text-white justify-content-center text-center mb-3">
-        <div class="col-12">
-          <h6>Download the Mobile app</h6>
-        </div>
-        <div class="d-flex text-center">
-          <a href="#">
-            <img src="../assets/images/appstore.svg" class="w-75 my-2" alt="" />
+      <div class="col">
+        <h5 class="mb-0">Follow Us</h5>
+        <div class="d-flex justify-content-between mt-4 font footer-social-media">
+          <a target="_blank" href="https://twitter.com/smallsmall_tech" class="text-white">
+            <i class="fa-brands fa-twitter"></i>
           </a>
-          <a href="#">
-            <img src="../assets/images/googleplay.svg" class="w-75 my-2" alt="" />
+          <a target="_blank" a href="https://www.instagram.com/smallsmall.tech" class="text-white">
+            <i class="fa-brands fa-instagram"></i>
           </a>
-        </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-12 text-white text-center">
-          <small>&copy; 2022 Smallsmall Technology</small>
+          <a target="_blank" a href="#" class="text-white">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/company/small-small-technology" class="text-white">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a target="_blank" a href="#" class="text-white">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
         </div>
       </div>
     </div>
-  </footer>
+    <div class="border border-white"></div>
+    <div class="row p-5 justify-content-center">
+      <div class="col-3 text-white">
+        <h5>Product</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="../index.html">Rent</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="https://buy.smallsmall.com">Buy</a>
+          </li>
+        </ul>
+      </div>
 
+      <div class="col-3 text-white">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="careers.html">Careers</a>
+          </li>
+        </ul>
+      </div>
 
-  <!-- Jquery js -->
-  <script src="../assets/js/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <!-- Bootstrap js and Popper js -->
+      <div class="col-3 text-white">
+        <h5>Legal</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="privacyPolicy.html">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="subscriptionTerms.html">
+              Subscription Terms
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="termsOfUse.html">Terms Of Use</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
 
-  <script src="../assets/js/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="../assets/js/bootstrap-js/bootstrap.min.js"
-    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-    crossorigin="anonymous"></script>
+      <div class="col-3 text-white">
+        <h6>Download the Mobile App</h6>
+        <div class="footer-apps d-flex flex-column w-100">
+          <a href="#">
+            <img src="../assets/images/googleplay.svg" class="w-50 my-2" alt="" />
+          </a>
+          <a href="#">
+            <img src="../assets/images/appstore.svg" class="w-50 my-2" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row py-4 justify-content-center">
+      <p>&copy; 2022 Smallsmall Technology</p>
+    </div>
+  </div>
+</footer>
 
+<!-- FOOTER section Mobile view -->
+<footer class="footer d-lg-none">
+  <div class="container-fluid">
+    <div class="row text-center text-white py-5">
+      <div class="col-12 footer-logo-container">
+        <img src="../assets/images/rssfooterlogo.svg" alt="rss_logo" />
+      </div>
+      <div class="col-12 footer-contact mt-3">
+        <p class="mb-0">
+          <i class="fa-solid fa-phone mr-3"></i>
+          <span>07038654256</span>
+        </p>
+        <p class="mb-0">
+          <i class="fa-solid fa-phone mr-3"></i>
+          <span>07038654256</span>
+        </p>
+      </div>
+      <div class="col-12 footer-contact">
+        <i class="fa-solid fa-envelope mr-3"></i>
+        <span>rent@smallsmall.com</span>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-6 text-white">
+        <h5>Product</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="#">Rent</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="#">Nightly stay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="https://buy.smallsmall.com">Buy</a>
+          </li>
+        </ul>
+      </div>
 
+      <div class="col-6 text-white">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="careers.html">Careers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-6 text-white">
+        <h5>Legal</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="privacyPolicy.html">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="termsOfUse.html">Terms Of Use</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="subscriptionTerms.html">
+              Subscription Terms
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-0 text-white" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
 
+      <div class="col-6 text-white">
+        <h6 class="mb-0">Follow Us</h6>
+        <div class="d-flex justify-content-between mt-4 font footer-social-media">
+          <a target="_blank" href="https://twitter.com/smallsmall_tech" class="text-white">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a target="_blank" a href="https://www.instagram.com/smallsmall.tech" class="text-white">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a target="_blank" a href="#" class="text-white">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/company/small-small-technology" class="text-white">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a target="_blank" a href="#" class="text-white">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row text-white justify-content-center text-center mb-3">
+      <div class="col-12">
+        <h6>Download the Mobile app</h6>
+      </div>
+      <div class="d-flex text-center">
+        <a href="#">
+          <img src="../assets/images/appstore.svg" class="w-75 my-2" alt="" />
+        </a>
+        <a href="#">
+          <img src="../assets/images/googleplay.svg" class="w-75 my-2" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-12 text-white text-center">
+        <small>&copy; 2022 Smallsmall Technology</small>
+      </div>
+    </div>
+  </div>
+</footer>
 
-
-
+<!-- Jquery js -->
+<script src="../assets/js/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<!-- Bootstrap js and Popper js -->
+<script src="../assets/js/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"></script>
+<script src="../assets/js/bootstrap-js/bootstrap.min.js"
+  integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+  crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+
