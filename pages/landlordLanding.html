@@ -182,7 +182,8 @@
             <span class="menu_icon--text">Menu</span>
           </a>
           <div class="dropdown-menu menu_icon--dropdown p-0">
-            <div class=" menu-desktop d-md-block d-none">
+            <!-- Menu Desktop view -->
+            <div class=" menu-desktop d-md-block d-none p-4">
               <a class="dropdown-item mb-3" href="#">Subcribe</a>
               <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
               <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -206,6 +207,8 @@
               </p>
               <!-- </a> -->
             </div>
+
+            <!-- Menu mobile view -->
             <div class="menu-mobile p-4 d-md-none d-block">
               <div class="mb-4">
                 <i class="fa-solid fa-xmark fa-3x"></i>
@@ -218,7 +221,7 @@
                   <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
                 </p>
                 <p class="mb-3">
-                  <a class="text-white" href="faq.html">hellooooo</a>
+                  <a class="text-white" href="faq.html">Faq</a>
                 </p>
               </div>
               <div>
@@ -253,7 +256,7 @@
 
         <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
         <i class="fa-solid fa-bars"></i>
-      </div>
+
       </div>
     </nav>
     <!-- Button trigger modal -->
@@ -386,10 +389,9 @@
                       data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       How do I get verified subcribers for my property?
                     </button>
-                    <i data-toggle="collapse" data-target="#collapseOne" class="fa-solid fa-caret-down d-md-none"
+
+                    <i data-toggle="collapse" data-target="#collapseOne" class="fa-solid fa-circle-plus"
                       style="color: #007dc1; cursor: pointer;"></i>
-                    <i data-toggle="collapse" data-target="#collapseOne"
-                      class="fa-solid fa-circle-plus d-none d-md-block" style="color: #007dc1; cursor: pointer;"></i>
                   </h2>
                 </div>
 
@@ -409,10 +411,8 @@
                       What happens when a subcriber defaults?
                     </button>
 
-                    <i data-toggle="collapse" data-target="#collapseTwo" class="fa-solid fa-caret-down d-md-none"
+                    <i data-toggle="collapse" data-target="#collapseTwo" class="fa-solid fa-circle-plus "
                       style="color: #007dc1; cursor: pointer;"></i>
-                    <i data-toggle="collapse" data-target="#collapseTwo"
-                      class="fa-solid fa-circle-plus d-none d-md-block" style="color: #007dc1; cursor: pointer;"></i>
                   </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -429,10 +429,9 @@
                       data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       What happens when a subcriber defaults?
                     </button>
-                    <i data-toggle="collapse" data-target="#collapseThree" class="fa-solid fa-caret-down d-md-none"
+
+                    <i data-toggle="collapse" data-target="#collapseThree" class="fa-solid fa-circle-plus"
                       style="color: #007dc1; cursor: pointer;"></i>
-                    <i data-toggle="collapse" data-target="#collapseThree"
-                      class="fa-solid fa-circle-plus d-none d-md-block" style="color: #007dc1; cursor: pointer;"></i>
                   </h2>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -450,10 +449,8 @@
                       Who manages my property?
                     </button>
 
-                    <i data-toggle="collapse" data-target="#collapseFour" class="fa-solid fa-caret-down d-md-none"
+                    <i data-toggle="collapse" data-target="#collapseFour" class="fa-solid fa-circle-plus"
                       style="color: #007dc1; cursor: pointer;"></i>
-                    <i data-toggle="collapse" data-target="#collapseFour"
-                      class="fa-solid fa-circle-plus d-none d-md-block" style="color: #007dc1; cursor: pointer;"></i>
                   </h2>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
@@ -471,7 +468,7 @@
       <!-- Proud of numbers section -->
       <section class="proud-satistics px-md-5 px-sm-0 d-flex my-5 justify-content-center">
         <div class="proud-satistics-container w-75 mt-5 p-md-5 text-center">
-          <div class="row proud-satistics-text">
+          <div class="row proud-satistics-text p-4">
             <div class="col-12">
               <h1>We are proud of some of our numbers</h1>
             </div>
