@@ -120,18 +120,18 @@
 
               <!-- Desktop view for logout and Dashboad -->
               <!-- <div class="px-3 py-4">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                    Dashboard
+                  </a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="px-3 py-4">
                     <a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                      Dashboard
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      &nbsp;&nbsp;logout
                     </a>
-                    </div>
-                    <div class="dropdown-divider"></div>
-                    <div class="px-3 py-4">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-right-from-bracket"></i>
-                        &nbsp;&nbsp;logout
-                      </a>
-                    </div> -->
+                  </div> -->
             </div>
 
             <!-- mobile view for login and logout -->
@@ -154,22 +154,22 @@
             </div>
             <!-- mobile view for logout and dashboard -->
             <!-- <div class="d-md-none d-block">
-                  <div class="mobileDropdown">
-                    <div class="px-3 py-4">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                        Dashboard
-                      </a>
-                    </div>
-                    <div style="background-color: #ffffff; height: 1px;"></div>
-                    <div class="px-3 py-4">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-right-from-bracket"></i>
-                        &nbsp;&nbsp;logout
-                      </a>
-                    </div>
+                <div class="mobileDropdown">
+                  <div class="px-3 py-4">
+                    <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                      Dashboard
+                    </a>
                   </div>
-                  </div> -->
+                  <div style="background-color: #ffffff; height: 1px;"></div>
+                  <div class="px-3 py-4">
+                    <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      &nbsp;&nbsp;logout
+                    </a>
+                  </div>
+                </div>
+                </div> -->
           </div>
 
         </div>
@@ -184,7 +184,8 @@
             <span class="menu_icon--text">Menu</span>
           </a>
           <div class="dropdown-menu menu_icon--dropdown p-0">
-            <div class=" menu-desktop d-md-block d-none">
+            <!-- Menu Desktop view -->
+            <div class=" menu-desktop d-md-block d-none p-4">
               <a class="dropdown-item mb-3" href="#">Subcribe</a>
               <a class="dropdown-item mb-3" href="landlordLanding.html">Property Owner</a>
               <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -209,6 +210,7 @@
               <!-- </a> -->
             </div>
 
+            <!-- Menu mobile view -->
             <div class="menu-mobile p-4 d-md-none d-block">
               <div class="mb-4">
                 <i class="fa-solid fa-xmark fa-3x"></i>
@@ -221,7 +223,7 @@
                   <a class="text-white mb-3" href="landlordLanding.html">Property Owner</a>
                 </p>
                 <p class="mb-3">
-                  <a class="text-white" href="faq.html">hellooooo</a>
+                  <a class="text-white" href="faq.html">Faq</a>
                 </p>
               </div>
               <div>
@@ -256,7 +258,7 @@
 
         <!-- <img id="toggle_menu" src="image/menulogo.svg" id="menu" alt="search" /> -->
         <i class="fa-solid fa-bars"></i>
-      </div>
+
       </div>
     </nav>
     <!-- Button trigger modal -->
@@ -306,7 +308,7 @@
             <div class="col-12">
               <p class="d-md-block d-none">Video tour <img src="../assets/images/video-tour.svg" alt=""></p>
               <h2 class="furnished-title font-weight-bold">Furnished 2 Bedroom penthouse</h2>
-              <p>Jide Alakija stree, Ikaet, Lekki Phase 1</p>
+              <p>Jide Alakija stree, Ikate, Lekki Phase 1</p>
               <div class="d-md-none mobile-subscription">
                 <p class="mb-0 mobile-subscription-price">Subscription Price</p>
                 <p class="font-weight-bolder primary-text-color mobile-subscription-amount">&#8358;220,000/mo</p>
@@ -517,8 +519,9 @@
                                     </tbody>
                                     <tfoot>
                                       <tr>
-                                        <td class="text-center">Total</td>
-                                        <td class="primary-text-color" style="font-size: 20px;">&#8358;480,000</td>
+                                        <td class="text-center" style="border-top: 1px solid #E3EBEF;">Total</td>
+                                        <td class="primary-text-color"
+                                          style="font-size: 20px; border-top: 1px solid #E3EBEF;">&#8358;480,000</td>
                                       </tr>
                                     </tfoot>
                                   </table>
@@ -731,10 +734,10 @@
                               <div class="m-4">
                                 <div class="custom-control custom-checkbox">
                                   <div>
-                                    <input type="checkbox" class="custom-control-input" id="customCheckDisabled1">
-                                    <label class="custom-control-label" for="customCheckDisabled1">I agree to
-                                      Rentsmallsmall’s <span class="primary-text-color "> Subcription
-                                        terms</span></label>
+                                    <input type="checkbox" class="custom-control-input" id="scheduleDesktop">
+                                    <label class="custom-control-label" for="scheduleDesktop">I agree to
+                                      Rentsmallsmall’s <a class="primary-text-color "
+                                        href="./subscriptionTerms.html">Subcription terms</a></label>
                                   </div>
 
                                 </div>
@@ -819,8 +822,9 @@
                                   </tbody>
                                   <tfoot>
                                     <tr>
-                                      <td class="text-center">Total</td>
-                                      <td class="primary-text-color" style="font-size: 20px;">&#8358;480,000</td>
+                                      <td class="text-center" style="border-top: 1px solid #E3EBEF;">Total</td>
+                                      <td class="primary-text-color"
+                                        style="font-size: 20px; border-top: 1px solid #E3EBEF;">&#8358;480,000</td>
                                     </tr>
                                   </tfoot>
                                 </table>
