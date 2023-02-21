@@ -3,10 +3,19 @@
 
 .icon {
   vertical-align: middle;
-  padding-right:5% ;
+  /* padding-right:5% ; */
  
 }
 
+
+h1{
+  margin-bottom: 7%;
+}
+
+
+.main__back{
+  margin-top:1.5% ;
+}
 
 
 details {

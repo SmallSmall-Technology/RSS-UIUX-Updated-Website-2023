@@ -9,6 +9,13 @@ a, a:hover, a:focus, a:active {
 } 
 
 
+
+::placeholder {
+    color: #BABABA;
+    opacity: 1; /* Firefox */
+  }    
+  
+
 .verify__first{
     display: flex;
     gap: 5%;
@@ -68,6 +75,7 @@ a, a:hover, a:focus, a:active {
     padding-left: 4%;
     font-size: 0.9vw;
 }
+
 
 .verify__divv
 a{
@@ -192,23 +200,25 @@ p{
 
 
 .pagetw_inputdiv{
-    margin-top:1.9% ;
+    /* margin-top:1.9% ; */
     display: flex;
     flex-direction: row;
-    gap: 25%;
+    gap: 19%;
 }
+
+
 
 .employ__status{
     width: 100%;
     padding:4%;
-    margin-bottom:9%;
+    /* margin-bottom:9%; */
 
     background: #E6EBF1;
     border-radius: 10px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.1vw;
+    font-size: 16px;
     
     display: flex;
     align-items: center;
@@ -244,7 +254,7 @@ p{
 
 
 .occupatn__job {
-        padding-left: 3.5%;
+        padding-left: 4%;
         padding-top: 4.1%;
         padding-bottom: 4.1%;
         color: #BABABA;
@@ -252,8 +262,9 @@ p{
         border: none;
         border-radius: 10px;
         font-size: 16px;
-        width:  24.5vw;
+        width:  27vw;
         margin-right: 18%;
+        font-weight: 500;
     }
 
 
@@ -282,7 +293,7 @@ p{
 .hr_details{
     display:flex;
     flex-direction:row;
-    gap:19%;
+    gap:17.1%;
 
 }
 
@@ -325,14 +336,16 @@ p{
     display: flex;
     align-items: center;
 
-    color: #414042; 
+    color: #414042;
+    
+    width: 28%;
 
 }
 
 
 
 .hr__name{
-    margin-bottom: 5%;
+    /* margin-bottom: 2.5%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -348,13 +361,26 @@ p{
     border: none;
     border-radius: 10px;
     font-size: 100%;
-    margin-top: 13%;
+    margin-top: 2.3%; */
+    font-weight: 500;
+
+
+    padding: 3.5% 5%;
+    margin-right: 30%;
+   
+    background: #e6ebf1;
+    width: 100%;
+    /* width: 235%; */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 2.3%;
 }
 
 
 
 .hr__number{
-    margin-bottom: 5%;
+    /* margin-bottom: 2.5%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -372,13 +398,25 @@ p{
     border-radius: 10px;
     font-size: 100%;
 
-    margin-top: 13%;
+    margin-top: 7%; */
+    font-weight: 500;
+    padding: 3.5% 5%;
+    margin-right: 30%;
+   
+    background: #e6ebf1;
+    /* width: 100%; */
+    /* width: 235%; */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 2.3%;
+    width: 100%;
 }
 
 
 
 .hr__email{
-    margin-bottom: 5%;
+    /* margin-bottom: 2.3%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -395,7 +433,20 @@ p{
     border-radius: 10px;
     font-size: 100%;
 
-    margin-top: 13%;
+    margin-top: 5%; */
+    font-weight: 500;
+    padding: 3.5% 5%;
+    margin-right: 30%;
+   
+    background: #e6ebf1;
+    width: 100%;
+    /* width: 235%; */
+    border: none;
+    border-radius: 10px;
+    /* font-size: 16px; */
+    margin-top: 2.3%;
+
+    width: 100%;
 }
 
 
@@ -486,6 +537,10 @@ p{
     .mainbody__styling{
     background: #E5E5E5;
     padding-top:4%;
+
+
+    
+    
     /* background: grey; */
 }
 /* <!-- <<<<<< MOBILE STYLING  page one styling >>>>>> --> */
@@ -626,12 +681,12 @@ p{
 .employ__status{
     background: #FFFFFF;
     border-radius: 5px;
-    width: 80%;
+    width: 82%;
 
     padding-left: 4%;
     padding-top:3%;
     padding-bottom:3%;
-    margin-bottom:3%;
+    /* margin-bottom:3%; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -659,7 +714,7 @@ p{
     border: none;
     color: #BABABA;
     border-radius: 5px;
-    width: 80%;
+    width: 82%;
     padding-left: 4%;
     margin-left: 5%;
     padding: left 10%;
@@ -681,7 +736,7 @@ p{
 .companyname__address{
     display: block;
     display: block;
-    width: 80%;
+    width: 82%;
     padding: 2.3% 0 17% 4%;
     resize: none;
     margin-top:6%;
@@ -759,17 +814,17 @@ p{
 
 
 .hr__nam{
-    width: 81%;
+    width: 83%;
     padding-bottom: 2.9%;
     padding-top: 2.9%;
-    padding-left:2.3%;
-    margin-left: 7%;
+    padding-left:4%;
+    margin-left: 7.3%;
     background: #FFFFFF;
     border-radius: 5px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3.5vw;
+    font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
@@ -782,9 +837,9 @@ p{
 
 
 .hr__numb{
-    width: 81%;
-    margin-left: 7%;
-    padding-left: 2%;
+    width: 83%;
+    margin-left: 7.3%;
+    padding-left: 4%;
     border-radius: 5px;
     padding-top: 2.9%;
     font-family: 'Poppins';
@@ -802,9 +857,9 @@ p{
 
 
 .hr__mail{
-    width: 81%;
-    margin-left: 7%;
-    padding-left: 3%;
+    width: 83%;
+    margin-left: 7.3%;
+    padding-left: 4%;
     padding-top: 2.9%;
     padding-bottom: 2.9%;
     background: #FFFFFF;
