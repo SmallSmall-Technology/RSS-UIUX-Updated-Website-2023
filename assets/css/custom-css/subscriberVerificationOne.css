@@ -8,6 +8,14 @@ a, a:hover, a:focus, a:active {
 } 
 
 
+::placeholder {
+    color: #BABABA;
+    padding-left: 4%;
+    opacity: 1; /* Firefox */
+  }
+
+
+
 
 
 body{
@@ -749,6 +757,11 @@ padding-right: 35.8%;
 
 }
 
+
+::placeholder {
+    color: #BABABA;
+    opacity: 1; /* Firefox */
+  }
 
 
 input[type="date"] {

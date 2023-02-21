@@ -10,7 +10,12 @@ details {
     overflow: hidden;
   }
   
+ 
+  h1{
+    margin-bottom: 7%;
+  }
   
+
   
   summary {
     padding: 1rem;
@@ -65,6 +70,24 @@ details {
   
 
 
+/* 
+  @media screen and (max-width: 425px) {
+    .diva__styling {
+      height: 100vh;
+      font-family: "Poppins",sans-serif;
+      color: black;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+      margin-bottom: 100%;
+  }
+    
+  
+    } */
+
+
 
   @media screen and (max-width: 480px) {
   .diva__styling {
@@ -76,8 +99,72 @@ details {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 2rem;
-    margin-bottom: 90%;
+    margin-bottom: 100%;
 }
+
+
+/* .subscription__letterhead
+p{
+  line-height: 5px;
+} */
   
 
+.indexx__mainbody{
+  margin-bottom: 20%;
+  overflow-x: hidden;
+  /* height: 10%; */
+}
+}
+
+
+ 
+
+
+
+
+  @media screen and (max-width: 780px) {
+    .diva__styling {
+      height: 100vh;
+      font-family: "Poppins",sans-serif;
+      color: black;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+      padding-bottom:60%;
   }
+    
+
+  .indexx__mainbody{
+    /* margin-bottom: 40%; */
+    overflow-z: hidden;
+    /* height: 100%; */
+  }
+  
+    }
+
+
+
+    @media screen and (max-width: 1440px) {
+      .diva__styling {
+        height: 100vh;
+        font-family: "Poppins",sans-serif;
+        color: black;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 2rem;
+        margin-bottom: 40%;
+    }
+      
+
+
+    .indexx__mainbody{
+      /* margin-bottom: 40%; */
+      overflow-x: hidden;
+      /* height: 100%; */
+    }
+    
+      }

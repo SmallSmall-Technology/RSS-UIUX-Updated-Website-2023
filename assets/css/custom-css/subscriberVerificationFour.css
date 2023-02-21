@@ -203,8 +203,8 @@ p{
 .employ__status{
     width: 100%;
     padding:4.5%;
-    /* margin-bottom:1%; */
-
+    /* margin-bottom:3%; */
+   
     background: #E6EBF1;
     border-radius: 10px;
     font-family: 'Poppins';
@@ -221,7 +221,7 @@ p{
 
 .compname__address{
     display: block;
-    padding-left: 9%;
+    padding-left: 5%;
     padding-right: 2%;
     padding-top: 4%;
     padding-bottom: 29%;
@@ -239,6 +239,11 @@ p{
 }
 
 
+::placeholder {
+    color: #BABABA;
+    opacity: 1; /* Firefox */
+  }
+
 
 .companyname__address{
     display:none;
@@ -249,12 +254,12 @@ p{
 .occupatn__job{
     padding: 4.5%;
     width: 28vw;
-    color: rgb(186, 186, 186);
-    background: rgb(230, 235, 241);
+    /* color: rgb(152, 42, 42); */
+    background:#E6EBF1;;
     border: none;
     border-radius: 10px;
     font-size: 16px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 
@@ -354,7 +359,7 @@ display: none;
     align-items: center;
     color: #BABABA;
     background: #E6EBF1;
-    padding-left: 2%;
+    padding-left: 5%;
     border: none;
     border-radius: 10px;
     font-size: 1.1vw;
@@ -403,13 +408,14 @@ display: none;
     align-items: center;
     color: #BABABA;
     background: #E6EBF1;
-    padding-left: 4%;
+    padding-left: 5%;
     padding-right: 5%;
     padding-top: 3.5%;
     padding-bottom: 3.5%;
     margin-right: 17%;
     border-radius: 10px;
-    font-size: 1.1vw;
+    /* font-size: 1.1vw; */
+    font-size: 16px;
     margin-top: 5%;
     border: none;
     width: 100%;
@@ -479,7 +485,7 @@ color: #007DC1;
     width: 15vw;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 9%;
+    padding-left: 5%;
   
     font-size: 16px;
     color: #BABABA;  
@@ -528,10 +534,9 @@ input[type="checkbox" i]{
     margin-top: 15%;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     padding-left: 37%;
     align-items: center;
-    gap:25%;
+    gap:30%;
 }
 
 
@@ -614,6 +619,10 @@ input[type="checkbox" i]{
 
 
 
+::placeholder {
+    color: #BABABA;
+    opacity: 1; /* Firefox */
+  }
 
 
 
@@ -664,7 +673,6 @@ input[type="checkbox" i]{
     .pagefour__mobiledisplay{
         display: flex;
         flex-direction: row;
-        /* gap:2.5%; */
         padding-left: 4%;
         font-family: 'Poppins';
         font-style: normal;
@@ -672,6 +680,7 @@ input[type="checkbox" i]{
         border-radius:4px;
         margin-top:7%;
         letter-spacing:2%;
+        font-size: 13px;
         
     }
 
@@ -752,16 +761,16 @@ input[type="checkbox" i]{
 .employ__status{
     background: #FFFFFF;
     border-radius: 5px;
-    width: 87%;
+    width: 88%;
 
-    padding-left: 5%;
+    padding-left: 4%;
     padding-top:2.2%;
     padding-bottom:2.2%;
     margin-bottom:3%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3.9vw;
+    font-size: 16px;
     
     display: flex;
     align-items: center;
@@ -778,7 +787,7 @@ input[type="checkbox" i]{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3.6vw;
+    font-size: 16px;;
     display: flex;
     align-items: center;
     border: none;
@@ -802,7 +811,7 @@ input[type="checkbox" i]{
     display: block;
     display: block;
     width: 88%;
-    padding: 2.3% 0 17% 2%;
+    padding: 2.3% 0 17% 4%;
     resize: none;
     margin-top:6%;
 
@@ -811,7 +820,7 @@ input[type="checkbox" i]{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3.9vw;
+    font-size: 16px;;
 
     display: flex;
     align-items: center;
@@ -845,16 +854,19 @@ input[type="checkbox" i]{
   .hr_details{
    display: flex;
    flex-direction:column;
-   width: 20%;
+   /* width: 20%; */
   }  
 
 
 .dependantsheader__parag{
     display: flex;
     flex-direction: column;
-    margin-left:8%;
-    margin-top: 4%;
+    margin-left:6%;
+    margin-top: 14%;
 }
+
+
+
 
 
   .hrdetail__header{
@@ -865,13 +877,16 @@ input[type="checkbox" i]{
 
 
   .dependant__parag{
-    font-size: 2.5vw;
+    
     display: flex;
     flex-direction: row;
     color: #414042;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
+
+
+    font-size: 13px;
   }
 
 
@@ -884,57 +899,69 @@ input[type="checkbox" i]{
   /* <!--<<<<< MOBILE DISPLAY ONLY <<<<<<<<< --> */
   .hr__information{
     display: block;
-    margin-left: 19%;
+    /* margin-left: 19%; */
   }
 
 
 .hr__nam{
-    /* width: 235px; */
-    width: 79vw;
+    
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
     margin-top: 2%;
-    margin-bottom: 17%;
+    margin-bottom: 3%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 16px;
     display: flex;
     align-items: center;
+
+
+    width: 80%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 9%;
+    margin-top: 10%;
+    padding-left: 4%;
     color: #BABABA;
-    padding-top: 19%;
-    padding-left: 19%;
-    padding-bottom: 20%;
-    margin-left: 38%;
   }
 
 
+
 .formage__gender{
-    gap: 45%;
+    gap: 15%;
+    margin-bottom: 4%;
+    margin-left: 13%;
+
 }
 
 
+::placeholder {
+    color: #BABABA;
+    opacity: 1; /* Firefox */
+  }
+
 
 .age__range{
+   
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
     margin-top: 2%;
-    margin-bottom: 17%;
+    /* margin-bottom: 17%; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
-    padding-left: 11%;
+    font-size: 16px;
     display: flex;
     align-items: center;
     color: #BABABA;
-    padding-top: 19%;
-    padding-left: 19%;
-    padding-right: 95%;
-    padding-bottom: 20%;
-    margin-left: 47%;
+
+
+    width: 55%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 
@@ -942,28 +969,28 @@ input[type="checkbox" i]{
 
 
 .gender__select{
-    /* width: 70vw; */
-    width: 100vw;
+
+    color: #BABABA;
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
     margin-top: 2%;
-    margin-bottom: 17%;
+    /* margin-bottom: 17%; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 3vw;
-    padding-left: 11%;
     display: flex;
     align-items: center;
-    color: #BABABA;
-    padding-top: 15.5%;
-    padding-left: 35%;
-    padding-right: 158%;
-    padding-bottom: 15.2%;
-    margin-left: 40%;
     
+
+    width: 65%;
+    padding-top: 3.5%;
+    padding-bottom: 4%;
+
+
 }
+
 
 
  .guarantors__gender{  
@@ -983,25 +1010,34 @@ input[type="checkbox" i]{
 
 
 .hr__mail{
-        width: 79vw;
-        border: none;
-        background: #FFFFFF;
-        border-radius: 5px;
-        margin-top: 2%;
-        margin-bottom: 17%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 3vw;
-        display: flex;
-        align-items: center;
-        color: #BABABA;
-        padding-top: 19%;
-        padding-left: 19%;
-        padding-bottom: 20%;
-        margin-left: 40%;
-   
- }
+    padding-left: 4%;
+     width: 90%;
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
+    margin-right: 86%;
+
+
+    width: 81%;
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
+    margin-left: 8%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    border-radius: 5px;
+
+    border: none;
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    padding-left: 4%;
+}
+
+ 
 
 
 
@@ -1009,7 +1045,15 @@ input[type="checkbox" i]{
 .otherfile__uploads
     img{
     width:7%;
+
     }
+
+
+ .otherfile__uploads {
+        margin-left: 10%;
+        margin-top: 7%;
+        
+    } 
 
 
 .add_more_{
@@ -1020,6 +1064,8 @@ input[type="checkbox" i]{
     display: flex;
 
     color: #414042;
+    margin-left: 15%;
+    
 }
 
 
@@ -1032,7 +1078,7 @@ input[type="checkbox" i]{
     font-weight: 500;
     color: #414042;
     font-size: 2.5vw;
-    margin-left:11%;
+    margin-left:9%;
 }
 
 
@@ -1117,7 +1163,12 @@ br{
 
 
 
+@media screen and (max-width: 1024px){
+p{
+    font-size: 1.2vw;
+}
 
+}
 
 
 
