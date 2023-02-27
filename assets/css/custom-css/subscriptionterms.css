@@ -20,7 +20,8 @@ a:hover{
 
 .back__top{
  color:blue !important;
- font-size:0.9vw !important; 
+ font-size:0.9vw !important;
+ padding-top: 2%; 
 }
 
 
@@ -130,16 +131,32 @@ h1{
 
 
 .subterm__conditions{
+    /* font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.09vw;
+    /* line-height: 141.5%; */
+    /* display: flex;
+    align-items: center;
+    
+    color: #414042;  */ 
+}
+
+
+
+.subterm__conditions
+p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 1vw;
-    /* line-height: 141.5%; */
+    font-size: 1.09vw;
+    line-height: 141.5%; 
     display: flex;
     align-items: center;
     
-    color: #414042; 
+    color: #414042;  
 }
+
 
 
 .important__note{
@@ -175,7 +192,7 @@ ul{
     font-family:'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
     color: #414042;
 }
 
@@ -196,7 +213,6 @@ h4{
 
 
 /* <<< styling of all the article headers>>>>>>>> */
-#subterm__agreement,
 #subterm__subfee,
 #subterm__noticeperiod,
 #subterm__secutydeposit,
@@ -222,6 +238,23 @@ h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
+    font-size: 2vw;
+    line-height: 36px;
+
+    display: flex;
+    align-items: center;
+
+    color: #414042;
+    /* margin-top: 4%; */
+    padding-top: 12%;
+    margin-bottom:1%;
+}
+
+
+#subterm__agreement{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
     font-size: 2.3vw;
     line-height: 36px;
 
@@ -230,12 +263,13 @@ h4{
 
     color: #414042;
     margin-top: 4%;
-    margin-bottom:3%;
+    
+    margin-bottom:3%; 
 }
 
 
 .subterm__jobstatusdiv{
-    margin-bottom: 35%;
+    /* margin-bottom: 35%; */
 }
 
 
@@ -259,7 +293,8 @@ h4{
 
     .back__top {
         color: blue !important;
-        font-size: 1.5vw !important;
+        font-size: 1.9vw !important;
+        padding-top: 6%;
     }
 
 
@@ -267,12 +302,14 @@ h4{
   h2{
    font-size:3vw;
   } 
-   
+  
+  
  
   h2{
     font-size: 14px;
   }
 
+ 
   
 .important__note{
     font-size: 12px;
@@ -308,10 +345,11 @@ h4{
 
     .subterm__conditions{
         font-size: 3vw;
+        padding-top: 0%;
     }
 
 
-/* <<< styling of all the article headers>>>>>>>> */
+/* <<< styling of all the article headers>>>>>>>> */ */
 #subterm__agreement,
 #subterm__subfee,
 #subterm__noticeperiod,
@@ -338,27 +376,29 @@ h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5vw;
-    line-height: 36px;
+    font-size: 4.2vw;
+    /* line-height: 36px; */
 
     display: flex;
     align-items: center;
 
-    color: #414042;
-    margin-top: 4%;
-    margin-bottom:3%;
+    color: #414042; 
+    /* padding-bottom: 52%;  */
+    padding-bottom: 16rem;
+    margin-bottom: 0%;
 }
 
+ 
 
 
-ul{
-    font-family:'Poppins';
+ul {
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 2.9vw;
     color: #414042;
-   
 }
+
 
 
 h4{
@@ -373,6 +413,7 @@ h4{
 
     color: #414042;
 }
+
 
 
 li{
@@ -419,7 +460,7 @@ li{
 
     .back__top {
         color: blue !important;
-        font-size: 1.5vw !important;
+        font-size: 1.9vw !important;
     }
 
 
@@ -490,8 +531,8 @@ li{
     align-items: center;
 
     color: #414042;
-    margin-top: 4%;
-    margin-bottom:3%;
+    /* margin-top: 4%; */
+    /* margin-bottom:3%; */
 }
 
 
@@ -530,3 +571,49 @@ li{
 
 } 
 
+
+
+
+@media screen and (max-width: 480px) {
+ 
+    #subterm__agreement,
+#subterm__subfee,
+#subterm__noticeperiod,
+#subterm__secutydeposit,
+#subterm__subsstartdate,
+#subterm__paymentterms,
+#subterm__latecharges,
+#subterm__subfeecoverage,
+#subterm__creditreport,
+#subterm__general,
+#subterm__paymentoption,
+#subterm__earlycancellation,
+#subterm__verification,
+#subterm__refundmode,
+#subterm__movingpolicy,
+#subterm__resheduling,
+#subterm__cancellation,
+#subterm__policy,
+#subterm__interhosemove,
+#subterm__guesthost,
+#subterm__petpolicy,
+#subterm__theftandamage,
+#subterm__jobstatus{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    /* line-height: 36px; */
+
+    display: flex;
+    align-items: center;
+
+    color: #414042; 
+    /* padding-bottom: 52%;  */
+    padding-bottom:9rem ; 
+    margin-bottom: 0%;
+}
+
+
+
+}

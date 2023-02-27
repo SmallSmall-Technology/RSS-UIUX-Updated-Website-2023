@@ -899,6 +899,7 @@ input[type="checkbox" i]{
   /* <!--<<<<< MOBILE DISPLAY ONLY <<<<<<<<< --> */
   .hr__information{
     display: block;
+    padding: 0% 9%;
     /* margin-left: 19%; */
   }
 
@@ -918,10 +919,10 @@ input[type="checkbox" i]{
     align-items: center;
 
 
-    width: 80%;
+    width: 100%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    margin-left: 9%;
+    /* margin-left: 9%; */
     margin-top: 10%;
     padding-left: 4%;
     color: #BABABA;
@@ -930,9 +931,11 @@ input[type="checkbox" i]{
 
 
 .formage__gender{
-    gap: 15%;
+    /* gap: 15%; */
     margin-bottom: 4%;
-    margin-left: 13%;
+    /* border: 2px solid green; */
+    width: 100%;
+    /* margin-left: 13%; */
 
 }
 
@@ -957,9 +960,9 @@ input[type="checkbox" i]{
     display: flex;
     align-items: center;
     color: #BABABA;
+    padding-left: 4%;
 
-
-    width: 55%;
+    width: 100%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
@@ -979,12 +982,13 @@ input[type="checkbox" i]{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 16px;
     display: flex;
     align-items: center;
+    padding-left: 4%;
     
 
-    width: 65%;
+    width: 100%;
     padding-top: 3.5%;
     padding-bottom: 4%;
 
@@ -1011,21 +1015,15 @@ input[type="checkbox" i]{
 
 .hr__mail{
     padding-left: 4%;
-     width: 90%;
-    padding-top: 2.3%;
-    padding-bottom: 2.3%;
-    margin-right: 86%;
-
-
-    width: 81%;
-    padding-top: 2.3%;
-    padding-bottom: 2.3%;
-    margin-left: 8%;
+     width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    /* margin-left: 8%; */
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 140%;
     border-radius: 5px;
 
@@ -1064,7 +1062,7 @@ input[type="checkbox" i]{
     display: flex;
 
     color: #414042;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     
 }
 
