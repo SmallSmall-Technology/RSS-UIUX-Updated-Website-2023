@@ -15,6 +15,9 @@ a, a:hover, a:focus, a:active {
   }
 
 
+ 
+
+
 
 
 
@@ -160,6 +163,8 @@ body{
 }
 
 
+
+
 .page__twdiv{
    /* border: 1px solid black;  */
    margin-top:-0.1%;
@@ -195,6 +200,7 @@ body{
  
 select{
     padding: 4%;
+    /* padding-right: 6%; */
     font-size: 16px;
     width: 100%; 
     background: #E6EBF1;

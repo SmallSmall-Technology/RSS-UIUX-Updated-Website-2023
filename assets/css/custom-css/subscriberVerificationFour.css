@@ -960,7 +960,7 @@ input[type="checkbox" i]{
     display: flex;
     align-items: center;
     color: #BABABA;
-
+    padding-left: 4%;
 
     width: 100%;
     padding-top: 2.5%;
@@ -982,9 +982,10 @@ input[type="checkbox" i]{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 16px;
     display: flex;
     align-items: center;
+    padding-left: 4%;
     
 
     width: 100%;
@@ -1015,18 +1016,14 @@ input[type="checkbox" i]{
 .hr__mail{
     padding-left: 4%;
      width: 100%;
-    padding-top: 2.3%;
-    padding-bottom: 2.3%;
-    margin-right: 86%;
-
-    padding-top: 2.3%;
-    padding-bottom: 2.3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     /* margin-left: 8%; */
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 140%;
     border-radius: 5px;
 

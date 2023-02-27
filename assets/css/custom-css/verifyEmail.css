@@ -15,7 +15,7 @@ body{
     background: #FFFFFF;
     margin-bottom:12%;
     margin-left: 17%;
-    padding-bottom: 16%;
+    padding-bottom: 5%;
 }
 
 
@@ -38,7 +38,7 @@ p{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 7vh;
+    /* line-height: 7vh; */
 
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@ p{
 .proceed__btn{
     background: #007DC1;
     border-radius: 7px;
-    width: 70%;  
+    width: 55%;  
     padding: 1.5% 0%;
     margin-left: 6%;
 
@@ -242,7 +242,7 @@ p{
     display: flex;
     /* line-height: 8%; */
     color: #03273B;
-    font-size: 3vw;
+    font-size: 2.9vw;
  }
 
 
@@ -346,6 +346,9 @@ p{
 }
 
 
+br{
+  display: none;
+}
 
 
 .followus__parag {
@@ -360,3 +363,6 @@ padding-left: 23%;
 
 
  }
+
+
+
