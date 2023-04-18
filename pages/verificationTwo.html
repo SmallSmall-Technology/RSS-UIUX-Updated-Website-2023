@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="../assets/css/custom-css/verification.css" />
 
 
-  <title>Verification-1</title>
+  <title>Verification-2</title>
 </head>
 
 <body class="main-section">
@@ -221,102 +221,117 @@
   </header>
 
   <!-- MAIN SECTION -->
-  <main class="container-fluid">
+  <main class="container-fluid ">
     <div class="row">
       <div class="col-md-3 verify-container">
         <div class="d-flex align-items-center">
           <p class="mr-md-4 mr-0 verify-me">Verify me</p>
-          <p class="verify-number d-md-block d-none">1 of 5</p>
+          <p class="verify-number d-md-block d-none">2 of 5</p>
         </div>
         <p class="verify-body">Before you can subscribe with us we need to know who you are since this will be a long
           partnership. Please
           <a href="privacyPolicy.html">read</a> our policy on data sharing.
         </p>
-        <p class="verify-number d-md-none d-block">1 of 5</p>
+        <p class="verify-number d-md-none d-block">2 of 5</p>
       </div>
       <div class="col-md-6">
         <div class="text-center mt-md-5">
-          <h2 class="verify-title">Personal details</h2>
-          <p class="verify-body">Provide your personal details.</p>
+          <h2 class="verify-title">Rental history</h2>
+          <p class="verify-body">Provide your rental history</p>
         </div>
         <div class="form-container mt-5">
           <form class="px-md-5 " method="" action="">
-            <div class="row">
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <select id="inputState" class="form-control">
-                      <option selected>Monthly income</option>
-                      <option>...</option>
-                    </select>
+
+            <div class="d-flex row">
+
+              <div class="col-md-6 col-12 order-md-0 order-1">
+                <div class="row">
+                  <div class=" col-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1"
+                        rows="5">Current address</textarea>
+                    </div>
+                  </div>
+                  <div class=" col-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1"
+                        rows="5">Reasons for leaving</textarea>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <select id="inputState" class="form-control">
-                      <option selected>Gender</option>
-                      <option>Male</option>
-                      <option>Female</option>
-                    </select>
+              <div class="col-md-6 col-12 order-md-1 order-0">
+                <div class="row">
+                  <div class=" col-12">
+                    <div class="form-group">
+                      <div class="customized-select">
+                        <select id="inputState" class="form-control">
+                          <option selected>Current Renting status</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <select id="inputState" class="form-control">
-                      <option selected>Marital status</option>
-                      <option>Single</option>
-                      <option>Married</option>
-                    </select>
+                  <div class=" col-12">
+                    <div class="form-group">
+                      <div class="customized-select">
+                        <select id="inputState" class="form-control">
+                          <option selected>Time at this address</option>
+                          <option>...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <input type="date" class="form-control" placeholder="Date of birth">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <select id="inputState" class="form-control">
-                      <option selected>Country</option>
-                      <option>Nigeria</option>
-                      <option>Ghana</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <select id="inputState" class="form-control">
-                      <option selected>State</option>
-                      <option>Lagos</option>
-                      <option>Osun</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="form-group">
-                  <div class="customized-select">
-                    <select id="inputState" class="form-control">
-                      <option selected>City</option>
-                      <option>Igungi</option>
-                      <option>Ikate</option>
-                    </select>
+                  <div class=" col-12">
+                    <div class="form-group">
+                      <div class="customized-select">
+                        <select id="inputState" class="form-control">
+                          <option selected>Any previous eviction</option>
+                          <option>No</option>
+                          <option>Yes</option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
 
+            </div>
+
+
+            <div class="divider my-5"></div>
+
+
+            <div>
+              <div class="text-center my-md-5 mb-3">
+                <h2 class="verify-title">Landlord info</h2>
+              </div>
+              <div class=" row">
+
+                <div class="col-md-6 col-12">
+                  <div class="form-group">
+                    <div class="customized-select">
+                      <input type="text" class="form-control" placeholder="Current Landlord name">
+                    </div>
+                  </div>
+                </div>
+
+                <div class=" col-md-6 col-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Address</textarea>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <div class="row mb-5">
               <div class="col-12 mt-5 text-center">
-                <a href="verificationTwo.html" class="btn next-btn px-5 py-2">Next</a>
+                <a href="verificationOne.html" class="text-dark mr-4">&lt; &nbsp;back</a>
+                <a href="verificationThree.html" class="btn next-btn px-5 py-2">Next</a>
               </div>
             </div>
           </form>
