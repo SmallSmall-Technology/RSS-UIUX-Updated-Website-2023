@@ -226,56 +226,54 @@
       <div class="col-md-4 col-12 col-lg-3 verify-container">
         <div class="d-flex align-items-center">
           <p class="mr-md-4 mr-0 verify-me">Verify me</p>
-          <p class="verify-number d-md-block d-none">3 of 5</p>
+          <p class="verify-number d-md-block d-none">4 of 5</p>
         </div>
         <p class="verify-body">Before you can subscribe with us we need to know who you are since this will be a long
           partnership. Please
           <a href="privacyPolicy.html">read</a> our policy on data sharing.
         </p>
-        <p class="verify-number d-md-none d-block">3 of 5</p>
+        <p class="verify-number d-md-none d-block">4 of 5</p>
       </div>
       <div class="col-md-8 col-12 col-lg-6">
         <div class="text-center mt-md-5">
-          <h2 class="verify-title">Employment history</h2>
-          <p class="verify-body">Provide your employment history</p>
+          <h2 class="verify-title">Guarantor details</h2>
+          <p class="verify-body">Provide your guarantor history</p>
         </div>
         <div class="form-container mt-5">
           <form class="px-md-5 " method="" action="">
 
-            <!-- Employment status -->
+            <!-- Guarantor details -->
             <div class="d-flex row">
               <div class="col-md-6 col-12 ">
                 <div class="row">
                   <div class=" col-12">
                     <div class="form-group">
                       <div class="customized-select">
-                        <select id="inputState" class="form-control">
-                          <option selected>Employment status</option>
-                          <option>...</option>
-                        </select>
+                        <input type="text" class="form-control" placeholder="Guarantor name">
                       </div>
                     </div>
                   </div>
                   <div class=" col-12">
                     <div class="form-group">
                       <div class="customized-select">
-                        <select id="inputState" class="form-control">
-                          <option selected>Occupation / Job title</option>
-                          <option>...</option>
-                          <option>...</option>
-                        </select>
+                        <input type="text" class="form-control" placeholder="Phone number">
                       </div>
                     </div>
                   </div>
-
+                  <div class=" col-12">
+                    <div class="form-group">
+                      <div class="customized-select">
+                        <input type="text" class="form-control" placeholder="Email">
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6 col-12 ">
                 <div class="row">
                   <div class=" col-12">
                     <div class="form-group">
-                      <textarea class="form-control" id="exampleFormControlTextarea1"
-                        rows="5">Company name & address</textarea>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Address</textarea>
                     </div>
                   </div>
 
@@ -283,46 +281,87 @@
               </div>
             </div>
 
-            <!--horizontal divider -->
-            <div class="divider my-5"></div>
-
-            <!-- HR Managers details -->
+            <!-- Dependants-->
             <div>
-              <div class="text-center my-md-5 mb-3">
-                <h2 class="verify-title">HR Managers details</h2>
+              <div class=" mb-3">
+                <h5 class="">Dependants</h5>
+                <p class="verify-body">Provide details of dependants that will be living in this property with you.</p>
               </div>
               <div class=" row">
+                <div class="col-md-6 col-12">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <div class="customized-select">
+                          <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <div class="customized-select">
+                          <input type="text" class="form-control" placeholder="Occupation">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="row">
+                    <div class=" col-12 col-md-8">
+                      <div class="form-group">
+                        <div class="customized-select">
+                          <select id="inputState" class="form-control">
+                            <option selected>Age</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-12 col-md-8">
+                      <div class="form-group">
+                        <div class="customized-select">
+                          <select id="inputState" class="form-control">
+                            <option selected>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-                <div class="col-md-6 col-12">
-                  <div class="form-group">
-                    <div class="customized-select">
-                      <input type="text" class="form-control" placeholder="HR manager’s name">
-                    </div>
-                  </div>
+                <div class="col-12">
+                  <button type="button" class="btn p-2 " id="add-contact-btn">Add
+                    contact&nbsp;&nbsp;<i class="fa-solid fa-circle-plus" style="color: #007DC1"></i></button>
                 </div>
-                <div class="col-md-6 col-12">
-                  <div class="form-group">
-                    <div class="customized-select">
-                      <input type="text" class="form-control" placeholder="Phone number">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-12">
-                  <div class="form-group">
-                    <div class="customized-select">
-                      <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                  </div>
-                </div>
-
               </div>
+
+              <div class="row mx-0" id="new-contact"></div>
             </div>
+
+            <div class="row mt-5">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  I agree that the submission of this information does not guarantee that RentSmallSmall will offer
+                  this
+                  property to me
+                  and that RentSmallSmall may reject the application without giving any reasons. See Subscription
+                  terms
+                </label>
+              </div>
+
+            </div>
+
 
             <!-- Submit or next button -->
             <div class="row mb-5">
               <div class="col-12 mt-5 text-center">
-                <a href="verificationTwo.html" class="text-dark mr-4 text-decoration-none">&lt; &nbsp;back</a>
-                <a href="verificationFour.html" class="btn next-btn px-5 py-2">Next</a>
+                <a href="verificationThree.html" class="text-dark mr-4 text-decoration-none">&lt; &nbsp;back</a>
+                <a href="verificationFive.html" class="btn next-btn px-5 py-2">Next</a>
               </div>
             </div>
           </form>
@@ -343,6 +382,78 @@
   <script src="../assets/js/bootstrap-js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
     crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+
+      const dependantForm = `
+        <div class="mt-4 row new-contact-form">
+          <div class="d-flex col-md-12 mb-2 justify-content-end text-danger">
+            <i class="fa-solid fa-circle-xmark" style="cursor: pointer;" id="closeContact"></i>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="customized-select">
+                    <input type="text" class="form-control" placeholder="Full name">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="customized-select">
+                    <input type="text" class="form-control" placeholder="Occupation">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="row">
+              <div class=" col-12 col-md-8">
+                <div class="form-group">
+                  <div class="customized-select">
+                    <select id="inputState" class="form-control">
+                      <option selected>Age</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-12 col-md-8">
+                <div class="form-group">
+                  <div class="customized-select">
+                    <select id="inputState" class="form-control">
+                      <option selected>Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      `;
+
+
+      // create a new form
+      $("#add-contact-btn").click(function () {
+        $("#new-contact").append(dependantForm)
+      });
+
+
+      // close the new contact form
+      $(document).on('click', '#closeContact', function (e) {
+        $("#closeContact").parents(".new-contact-form ").remove();
+      });
+
+
+    })
+  </script>
 </body>
 
 </html>
