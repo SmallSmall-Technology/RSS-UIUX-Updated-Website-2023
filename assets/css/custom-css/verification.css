@@ -40,17 +40,29 @@
   cursor: pointer;
 }
 
-.next-btn {
+.verify-btn {
   background: #007DC1;
   border-radius: 5px;
   color: #ffffff;
 }
 
-.next-btn:hover {
+.verify-btn:hover {
   background: #025784;
   border-radius: 5px;
   color: #ffffff;
 }
+
+.verified-btn {
+  border: 1px solid #00CD2D;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
 
 /*****MEDIA QUERY****/
 
