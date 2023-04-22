@@ -1,0 +1,19 @@
+.payment-description {
+  border: 2px solid #EBEBEB;
+  border-radius: 20px;
+}
+
+.payment-amounts {
+  background: #F9F9F9;
+  border-radius: 20px;
+}
+
+.special-bold-1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.special-bold-2 {
+  font-weight: 700;
+  font-size: 16px;
+}
