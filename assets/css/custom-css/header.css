@@ -16,10 +16,6 @@
   margin: 0 6em;
 }
 
-.footer-gutters {
-  padding: 0 10em;
-}
-
 .primary-background {
   background: #007dc1;
   color: #ffffff;
@@ -31,7 +27,7 @@
 }
 
 .primary-text-color {
-  color: #050505;
+  color: #414042;
 }
 
 .primary-text-color-alt {
@@ -49,7 +45,7 @@
 .divider {
   width: 100%;
   height: 0px;
-  border: 1px solid #CCCCD3;
+  border: 1px solid #E1DDDD;
 }
 
 /**HEADER CSS**/
