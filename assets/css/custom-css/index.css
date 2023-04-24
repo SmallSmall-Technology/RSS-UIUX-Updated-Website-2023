@@ -199,10 +199,10 @@ body {
 .banner {
   padding: 18% 3% 8% 3%;
 
-  background-image: linear-gradient(143.43deg, #03100d 11.62%, rgba(65, 64, 66, 0) 93.57%, rgba(65, 64, 66, 0) 93.58%, rgba(65, 64, 66, 0) 93.59%),
+  background-image: linear-gradient(143.43deg, #03100d -22.14%, rgba(65, 64, 66, 0) 67.1%, rgba(65, 64, 66, 0) 148.12%, rgba(65, 64, 66, 0) 148.13%),
     url("../../images/banner-homepage.png");
-  background-image: linear-gradient(143.43deg, #03100d 11.62%, rgba(65, 64, 66, 0) 93.57%, rgba(65, 64, 66, 0) 93.58%, rgba(65, 64, 66, 0) 93.59%),
-    url("https://raw.githubusercontent.com/SmallSmall-Technology/Rss-Updated-Website-2023/homepage/assets/images/banner-homepage.png");
+  /* background-image: linear-gradient(143.43deg, #03100d 11.62%, rgba(65, 64, 66, 0) 93.57%, rgba(65, 64, 66, 0) 93.58%, rgba(65, 64, 66, 0) 93.59%),
+    url("https://raw.githubusercontent.com/SmallSmall-Technology/Rss-Updated-Website-2023/homepage/assets/images/banner-homepage.png"); */
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,6 +231,24 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 480px) {
+  .banner {
+    padding: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
+    /* opacity: 0.6; */
+  }
+
+  .banner h2 {
+    font-size: 30px;
+  }
+
+  .banner p {
+    font-size: 15px;
+    /* margin: 4% 0; */
+  }
+
   .banner-section {
     padding: 0 !important;
   }
@@ -421,10 +439,6 @@ body {
 @media screen and (min-width: 1200px) {}
 
 
-
-
-
-
 /* MDEIA QUERY FOR MOBILE VIEW  FROM IPAD DOWNARDS*/
 .mobile_search {
   display: none;
@@ -452,20 +466,17 @@ body {
   }
 
   /* BANNER */
-  .banner {
+  /* .banner {
     padding: 10%;
     border-radius: 0 0 30px 30px;
     margin: 0;
-  }
+  } */
 
-  .banner h2 {
+  /* .banner h2 {
     font-size: 10vw;
     line-height: 106%;
-  }
+  } */
 
-  .banner p {
-    font-size: 4vw;
-    margin: 4% 0;
-  }
+
 
 }
