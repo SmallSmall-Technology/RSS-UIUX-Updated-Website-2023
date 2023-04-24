@@ -29,13 +29,25 @@
   border-radius: 10px;
 }
 
-.wallet-mobile.show {
+/* .wallet-mobile.show {
   display: none !important;
+} */
+
+/* .modal-backdrop {
+  display: none !important;
+} */
+
+.wallet-balance-web {
+  background: #007DC1;
+  color: #FFFFFF;
+  border-radius: 20px 0px 0px 20px;
 }
 
-.modal-backdrop {
-  display: none !important;
+.wallet-payment-web {
+  background: #CBEEFC;
+  border-radius: 0px 20px 20px 0px;
 }
+
 
 
 
@@ -43,13 +55,13 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 480px) {
-  .wallet-mobile.show {
+  /* .wallet-mobile.show {
     display: block !important;
   }
 
   .modal-backdrop {
     display: block !important;
-  }
+  } */
 }
 
 /* Small devices (landscape phones, 576px and up) */
