@@ -682,7 +682,7 @@
 
         <!-- right side -->
         <div class="col-6 pl-5 d-md-block d-none">
-          <div class="subscription-container ml-5">
+          <div class="subscription-container ml-5" style="position: sticky; top: 98px;">
             <div class="subscription-availability  subscription-available"> Available</div>
             <div class="row">
               <div class="col-12">
@@ -705,149 +705,6 @@
                     <span class="">Subscribe now</span>
                   </div>
 
-                  <!-- Modal Schedule -->
-                  <div class="modal fade schedule-visit-modal" id="exampleModal" tabindex="-1"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="close-modal-custom">
-                          <i class="fa-solid fa-circle-xmark fa-2x close-modal" data-dismiss="modal"></i>
-                        </div>
-
-                        <div class="modal-body p-5">
-                          <h5 class="text-center font-weight-bold my-4">Schedule a visit</h5>
-                          <div class="form-modal">
-                            <form method="post">
-                              <div class="input-container mb-3">
-                                <select class="form-control" name="">
-                                  <option value="">Type of selection</option>
-                                  <option value=""></option>
-                                  <option value=""></option>
-                                </select>
-                                <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
-                              </div>
-                              <div class="input-container mb-3">
-                                <input class="form-control" type="date" placeholder="Inspection date" name="">
-                                <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
-                              </div>
-
-                              <div class="input-container mb-3">
-                                <input class="form-control" type="time" name="">
-                                <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
-                              </div>
-
-                              <div class="m-4">
-                                <div class="custom-control custom-checkbox">
-                                  <div>
-                                    <input type="checkbox" class="custom-control-input" id="scheduleDesktop">
-                                    <label class="custom-control-label" for="scheduleDesktop">I agree to
-                                      Rentsmallsmall’s <a class="primary-text-color "
-                                        href="./subscriptionTerms.html">Subcription terms</a></label>
-                                  </div>
-
-                                </div>
-                              </div>
-                              <div>
-                                <button class="btn primary-background w-100">Schedule a visit</button>
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                        <!-- <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <!-- Modal Subscribe -->
-                  <div class="modal fade schedule-visit-modal" id="subscribe" tabindex="-1"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="close-modal-custom">
-                          <i class="fa-solid fa-circle-xmark fa-2x close-modal" data-dismiss="modal"></i>
-                        </div>
-                        <!-- <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div> -->
-                        <div class="modal-body p-5">
-                          <h5 class="text-center font-weight-bold my-4">Subscribe</h5>
-                          <p class="text-center">Choose subscription type</p>
-                          <div class="form-modal">
-                            <form method="post" action="">
-
-                              <div class="input-container mb-3">
-                                <input class="form-control" type="text" placeholder="Duration" name="">
-                                <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
-                              </div>
-
-
-                              <div class="input-container mb-3">
-                                <select class="form-control" name="">
-                                  <option value="">Payment plan</option>
-                                  <option value="">Transfer</option>
-                                  <option value="">Card</option>
-                                </select>
-                                <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
-                              </div>
-
-
-                              <div class="input-container mb-3">
-                                <input class="form-control" type="text" name="" placeholder="Move in date">
-                                <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
-                              </div>
-
-                              <div>
-                                <table class="table table-light" style="background: #F9F9F9; border-radius: 15px">
-                                  <tbody class="border-bottom">
-                                    <tr>
-                                      <td>Subscription fee</td>
-                                      <td class="primary-text-color">&#8358;200,000<sup class="text-dark">monthly</sup>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td>Service charge</td>
-                                      <td class="primary-text-color">&#8358;40,000<sup class="text-dark">monthly</sup>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td>Security deposit</td>
-                                      <td class="primary-text-color">&#8358;40,000</td>
-                                    </tr>
-                                    <tr class="border-bottom">
-                                      <td>Eviction deposit</td>
-                                      <td class="primary-text-color">&#8358;200,000</td>
-                                    </tr>
-                                  </tbody>
-                                  <tfoot>
-                                    <tr>
-                                      <td class="text-center" style="border-top: 1px solid #E3EBEF;">Total</td>
-                                      <td class="primary-text-color"
-                                        style="font-size: 20px; border-top: 1px solid #E3EBEF;">&#8358;480,000</td>
-                                    </tr>
-                                  </tfoot>
-                                </table>
-                              </div>
-
-                              <div>
-                                <button class="btn primary-background w-100" type="submit">Subcribe now</button>
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                        <!-- <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
 
                   <!-- Modal Schedule success -->
                   <div class="modal fade schedule-visit-modal" id="success" tabindex="-1"
@@ -903,6 +760,139 @@
         </div>
       </div>
 
+    </div>
+
+
+    <!-- Modal Schedule -->
+    <div class="modal fade schedule-visit-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="close-modal-custom">
+            <i class="fa-solid fa-circle-xmark fa-2x close-modal" data-dismiss="modal"></i>
+          </div>
+
+          <div class="modal-body p-5">
+            <h5 class="text-center font-weight-bold my-4">Schedule a visit</h5>
+            <div class="form-modal">
+              <form method="post">
+                <div class="input-container mb-3">
+                  <select class="form-control" name="">
+                    <option value="">Type of selection</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                  </select>
+                  <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
+                </div>
+                <div class="input-container mb-3">
+                  <input class="form-control" type="date" placeholder="Inspection date" name="">
+                  <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
+                </div>
+
+                <div class="input-container mb-3">
+                  <input class="form-control" type="time" name="">
+                  <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
+                </div>
+
+                <div class="m-4">
+                  <div class="custom-control custom-checkbox">
+                    <div>
+                      <input type="checkbox" class="custom-control-input" id="scheduleDesktop">
+                      <label class="custom-control-label" for="scheduleDesktop">I agree to
+                        Rentsmallsmall’s <a class="primary-text-color " href="./subscriptionTerms.html">Subcription
+                          terms</a></label>
+                    </div>
+
+                  </div>
+                </div>
+                <div>
+                  <button class="btn primary-background w-100">Schedule a visit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Subscribe -->
+    <div class="modal fade schedule-visit-modal" id="subscribe" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="close-modal-custom">
+            <i class="fa-solid fa-circle-xmark fa-2x close-modal" data-dismiss="modal"></i>
+          </div>
+
+          <div class="modal-body p-5">
+            <h5 class="text-center font-weight-bold my-4">Subscribe</h5>
+            <p class="text-center">Choose subscription type</p>
+            <div class="form-modal">
+              <form method="post" action="">
+
+                <div class="input-container mb-3">
+                  <input class="form-control" type="text" placeholder="Duration" name="">
+                  <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
+                </div>
+
+
+                <div class="input-container mb-3">
+                  <select class="form-control" name="">
+                    <option value="">Payment plan</option>
+                    <option value="">Transfer</option>
+                    <option value="">Card</option>
+                  </select>
+                  <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
+                </div>
+
+
+                <div class="input-container mb-3">
+                  <input class="form-control" type="text" name="" placeholder="Move in date">
+                  <!-- <img class="img-fluid" src="../assets/images/date-icon.svg" alt=""> -->
+                </div>
+
+                <div>
+                  <table class="table table-light" style="background: #F9F9F9; border-radius: 15px">
+                    <tbody class="border-bottom">
+                      <tr>
+                        <td>Subscription fee</td>
+                        <td class="primary-text-color">&#8358;200,000<sup class="text-dark">monthly</sup>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Service charge</td>
+                        <td class="primary-text-color">&#8358;40,000<sup class="text-dark">monthly</sup>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Security deposit</td>
+                        <td class="primary-text-color">&#8358;40,000</td>
+                      </tr>
+                      <tr class="border-bottom">
+                        <td>Eviction deposit</td>
+                        <td class="primary-text-color">&#8358;200,000</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td class="text-center" style="border-top: 1px solid #E3EBEF;">Total</td>
+                        <td class="primary-text-color" style="font-size: 20px; border-top: 1px solid #E3EBEF;">
+                          &#8358;480,000</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+
+                <div>
+                  <button class="btn primary-background w-100" type="submit">Subcribe now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <div class="container-fluid p-md-5 my-5">
