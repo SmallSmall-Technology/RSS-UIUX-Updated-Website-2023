@@ -209,13 +209,18 @@ body {
   background-position: center;
   color: #fff;
   border-radius: 20px;
+  max-width: 1300px;
   margin: 0% 5% 1.5% 5%;
 }
 
 .banner h2 {
   font-weight: 700;
-  font-size: 3.3rem;
+  font-size: 50px;
   margin: 0;
+}
+
+.banner-text {
+  width: 60%;
 }
 
 .banner p {
@@ -247,6 +252,10 @@ body {
 
   .banner h2 {
     font-size: 30px;
+  }
+
+  .banner-text {
+    width: 100%;
   }
 
   .banner p {
