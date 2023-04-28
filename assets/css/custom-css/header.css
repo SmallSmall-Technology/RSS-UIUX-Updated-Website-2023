@@ -21,6 +21,10 @@
   color: #ffffff;
 }
 
+button:hover.primary-background {
+  color: #E1DDDD;
+}
+
 .secondary-background {
   background: #e6ebf1;
   /* color: #ffffff; */
