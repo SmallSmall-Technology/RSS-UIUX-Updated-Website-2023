@@ -25,6 +25,10 @@ button:hover.primary-background {
   color: #E1DDDD;
 }
 
+a:hover.primary-background {
+  color: #E1DDDD;
+}
+
 .secondary-background {
   background: #e6ebf1;
   /* color: #ffffff; */
@@ -161,6 +165,7 @@ button:hover.primary-background {
 
   .login-btn {
     width: 8em;
+    background: #ffffff;
   }
 
   .login-btn img {

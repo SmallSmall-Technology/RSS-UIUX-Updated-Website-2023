@@ -34,14 +34,19 @@
   <link rel="stylesheet" href="../assets/css/custom-css/footer.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../assets/css/custom-css/propertyManagement.css" rel="stylesheet">
+
+  <!-- Script for sticky header -->
+  <script type="text/javascript" src="../assets/js/header.js"></script>
+
+
   <title>Property Management</title>
 </head>
 
-<body class="main-section">
+<body>
 
-  <header class="container-fluid fixed-top bg-white header-section">
+  <header class="container-fluid  bg-white header-section">
     <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top"> -->
-    <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
+    <nav id="navbar_top" class="navbar navbar-dark navbar-expand-lg text-black bg-white">
       <!-- Brand -->
       <div class="logo-container">
         <a class="navbar-brand logo-link mr-4" href="../index.html">
@@ -262,7 +267,12 @@
 
 
 
-  <p><a href="./faq.html"><img src="../assets/images/back.svg" alt="backarrow">Back</a></p>
+  <div class="container-fluid d-md-block d-none mt-2">
+    <div>
+      <a href="#" class="text-decoration-none font-weight-bold primary-text-color-alt">&lt;
+        &nbsp;&nbsp;Back</a>
+    </div>
+  </div>
 
   <div class="diva__styling">
 
@@ -274,7 +284,9 @@
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <summary itemprop="name">Who manages my property??</summary>
       <div class="details-expanded" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p>RSS can manage your property in the event that is agreed- Your property is managed by the facility management arm of RSS called RS2. In the event where RSS is not the facility manager of the property, the property shall be managed by facility managers of your choice and so appointed.
+        <p>RSS can manage your property in the event that is agreed- Your property is managed by the facility management
+          arm of RSS called RS2. In the event where RSS is not the facility manager of the property, the property shall
+          be managed by facility managers of your choice and so appointed.
         </p>
 
       </div>
@@ -289,7 +301,7 @@
 
       </div>
     </details>
-   
+
 
   </div>
 
@@ -349,7 +361,7 @@
             </li>
           </ul>
         </div>
-  
+
         <div class="col-3 text-white">
           <h5>Company</h5>
           <ul class="nav flex-column">
@@ -364,7 +376,7 @@
             </li>
           </ul>
         </div>
-  
+
         <div class="col-3 text-white">
           <h5>Legal</h5>
           <ul class="nav flex-column">
@@ -384,7 +396,7 @@
             </li>
           </ul>
         </div>
-  
+
         <div class="col-3 text-white">
           <h6>Download the Mobile App</h6>
           <div class="footer-apps d-flex flex-column w-100">
@@ -402,7 +414,7 @@
       </div>
     </div>
   </footer>
-  
+
   <!-- FOOTER section Mobile view -->
   <footer class="footer d-lg-none">
     <div class="container-fluid">
@@ -440,7 +452,7 @@
             </li>
           </ul>
         </div>
-  
+
         <div class="col-6 text-white">
           <h5>Company</h5>
           <ul class="nav flex-column">
@@ -476,7 +488,7 @@
             </li>
           </ul>
         </div>
-  
+
         <div class="col-6 text-white">
           <h6 class="mb-0">Follow Us</h6>
           <div class="d-flex justify-content-between mt-4 font footer-social-media">
