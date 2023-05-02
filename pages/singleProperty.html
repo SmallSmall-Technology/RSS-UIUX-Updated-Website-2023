@@ -34,15 +34,18 @@
   <link rel="stylesheet" href="../assets/css/custom-css/footer.css" />
   <link rel="stylesheet" href="../assets/css/custom-css/singleProperty.css" />
 
+  <!-- Script for sticky header -->
+  <script type="text/javascript" src="../assets/js/header.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
   <title>Single Property Page</title>
 </head>
 
-<body class="main-section">
-  <header class="container-fluid fixed-top bg-white header-section">
+<body>
+  <header class="container-fluid bg-white header-section">
     <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top"> -->
-    <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
+    <nav id="navbar_top" class="navbar navbar-dark navbar-expand-lg text-black bg-white">
       <!-- Brand -->
       <div class="logo-container">
         <a class="navbar-brand logo-link mr-4" href="../index.html">
@@ -268,7 +271,7 @@
   <!-- <div class="container-fluid d-md-block d-none">
     <p> <a class="text-dark" href="/#"> &leftarrow; back</a></p>
   </div> -->
-  <div class="container-fluid d-md-block d-none">
+  <div class="container-fluid d-md-block d-none mt-3">
     <div>
       <a href="#" class="text-decoration-none font-weight-bold primary-text-color-alt">&lt; &nbsp;&nbsp;Back</a>
     </div>

@@ -27,13 +27,16 @@
   <link rel="stylesheet" href="./assets/css/custom-css/footer.css" />
   <link rel="stylesheet" href="./assets/css/custom-css/index.css" />
 
+  <!-- Script for sticky header -->
+  <script type="text/javascript" src="./assets/js/header.js"></script>
+
   <title>Home</title>
 </head>
 
-<body class="main-section">
-  <header class="container-fluid fixed-top bg-white header-section">
+<body>
+  <header class="container-fluid bg-white header-section">
     <!-- <nav class="mb-3 navbar navbar-dark navbar-expand-md text-black fixed-top"> -->
-    <nav class="mb-3 navbar navbar-dark navbar-expand-lg text-black">
+    <nav id="navbar_top" class="navbar navbar-dark navbar-expand-lg text-black bg-white">
       <!-- Brand -->
       <div class="logo-container">
         <a class="navbar-brand logo-link mr-4" href="./index.html">
@@ -95,7 +98,8 @@
           <div class="dropdown-menu user_icon--dropdown desktopDropdown p-0">
             <!-- Desktop view for login and logout -->
             <div class="d-md-block d-none">
-              <div class="px-3 py-4">
+              <!-- Desktop view for login and Create Account -->
+              <!-- <div class="px-3 py-4">
                 <a class="dropdown-item" href="./pages/subscriberLogin.html">
                   <i class="fa-solid fa-right-to-bracket"></i>
                   &nbsp;&nbsp;Login
@@ -107,22 +111,37 @@
                   <i class="fa-solid fa-user-plus"></i>
                   &nbsp;&nbsp;Create Account
                 </a>
-              </div>
+              </div> -->
 
-              <!-- Desktop view for logout and Dashboad -->
-              <!-- <div class="px-3 py-4">
-                    <a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
-                      Dashboard
-                    </a>
-                    </div>
-                    <div class="dropdown-divider"></div>
-                    <div class="px-3 py-4">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-right-from-bracket"></i>
-                        &nbsp;&nbsp;logout
-                      </a>
-                    </div> -->
+              <!-- Desktop view for logout and Dashboard -->
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-chart-column">&nbsp;&nbsp;</i>
+                  Dashboard
+                </a>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="pages/createWallet.html">
+                  <i class="fa-solid fa-wallet"></i>
+                  &nbsp;&nbsp;Create wallet
+                </a>
+              </div>
+              <div class="px-3 py-4">
+                <div class="dropdown-item ">
+                  <!-- <img class="img-fluid" src="assets/images/walltet-dropdown-icon.svg" alt="">-->
+                  <i class="fa-solid fa-wallet"></i>&nbsp;
+                  <span>wallet balance<br> &#8358;50,000</span>
+
+                </div>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="px-3 py-4">
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-right-from-bracket"></i>
+                  &nbsp;&nbsp;logout
+                </a>
+              </div>
             </div>
 
             <!-- mobile view for login and logout -->
@@ -408,7 +427,7 @@
                       </div>
                       <div class="col-10">
                         <p class="mb-0 steps-title--right">
-                          Get verified & Pay online
+                          Get verified & Pay with wallet
                         </p>
                         <p class="steps-body font-weight-light">
                           Be a part of our community. Enjoy zero payment
