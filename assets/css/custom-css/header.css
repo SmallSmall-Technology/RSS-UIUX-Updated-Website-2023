@@ -145,7 +145,7 @@ a:hover.primary-background {
 }
 
 .user_icon--dropdown {
-  left: -96px;
+  left: -161px;
   top: 192%;
   /* padding-right: 5px; */
 }
@@ -159,6 +159,8 @@ a:hover.primary-background {
     overflow: hidden;
   }
 
+
+
   .logo-img {
     width: 100%;
   }
@@ -169,7 +171,7 @@ a:hover.primary-background {
   }
 
   .login-btn img {
-    width: 17px;
+    width: 25px;
   }
 
   .user_icon {
@@ -177,8 +179,8 @@ a:hover.primary-background {
   }
 
   .user_icon--dropdown {
-    right: -120px;
-    top: 253%;
+    right: -99px;
+    top: 174%;
     left: unset;
   }
 
@@ -226,7 +228,7 @@ a:hover.primary-background {
   }
 
   .menu_icon--dropdown {
-    right: -15px;
+    right: -2px;
     top: 4em;
     left: unset;
 
