@@ -277,45 +277,49 @@
             Please note your BVN will be encrypted by our banking partners</p>
         </section>
         <div class="form-container px-md-5">
-          <form class="p-md-4">
-            <div class="form-group">
-              <label for="bvn">Enter BVN</label>
-              <input type="text" class="form-control" id="bvn" name="bvn" placeholder="BVN">
-            </div>
-            <div class="form-group">
-              <label for="account-number">Enter Custom account name</label>
-              <input type="text" class="form-control" id="account-number" placeholder="Custom Account name">
-            </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Agree to our <a href="#">terms and conditions</a>
-              </label>
-            </div>
-            <button type="submit" class="btn primary-background w-100 py-3 mt-4" data-toggle="modal"
-              data-target="#success">Create wallet</button>
+          <!-- <form class="p-md-4"> -->
+          <div class="form-group">
+            <label for="bvn">Enter BVN</label>
+            <input type="text" class="form-control" id="bvn" name="bvn" placeholder="BVN">
+          </div>
+          <div class="form-group">
+            <label for="account-number">Enter Custom account name</label>
+            <input type="text" class="form-control" id="account-number" placeholder="Custom Account name">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Agree to our <a href="#">terms and conditions</a>
+            </label>
+          </div>
+          <button class="btn primary-background w-100 py-3 mt-4" data-toggle="modal" data-target="#success">Create
+            wallet</button>
 
 
-            <!-- MODAL FOR SUCCESS OF WALLET-->
-            <div class="modal fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered ">
-                <div class="modal-content">
+          <!-- MODAL FOR SUCCESS OF WALLET-->
+          <div class="modal fade" id="success" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered ">
+              <div class="modal-content border-0" style="border-radius: 20px;">
 
-                  <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <div class="text-center">
-                      <p class="primary-text-color" style="font-size: 28px; font-weight:700">Success!!</p>
-                      <p>Your wallet was created successfully!!</p>
-
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <div class="text-center">
+                    <p class="primary-text-color" style="font-size: 28px; font-weight:700">Success!!</p>
+                    <div>
+                      <img class="img-fluid" src="../assets/images/tick-success.svg" alt="">
                     </div>
+                    <p>Your wallet was created successfully!!</p>
 
                   </div>
 
                 </div>
+
               </div>
             </div>
-          </form>
+          </div>
+
+          <!-- </form> -->
         </div>
       </div>
   </main>
