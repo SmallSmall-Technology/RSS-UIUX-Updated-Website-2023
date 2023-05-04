@@ -90,19 +90,25 @@
   border: none;
 }
 
-.available {
+.availablility {
   position: absolute;
   z-index: 500;
-  background: #ffff;
-  border-radius: 23px;
+  border-radius: 5px;
   padding: 0.7em;
-  top: 10px;
-  left: 10px;
+  bottom: 10px;
+  left: 5px;
+  color: #ffffff;
+  font-size: 12px;
 }
 
-.available small {
-  color: #00cd2d;
+.available {
+  background: #00CD2D;
 }
+
+.unavailable {
+  background: #FF0000;
+}
+
 
 .filter-section-dropdown {
   min-width: 20em;
