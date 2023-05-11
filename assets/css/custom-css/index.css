@@ -23,6 +23,16 @@ body {
   border-radius: 30px;
 }
 
+.backed-by p {
+  font-size: 16px;
+  border-right: 1px solid #007DC1;
+  /* font-size: 10px */
+}
+
+.patners img {
+  width: 117px
+}
+
 .steps-title {
   font-weight: 500;
   font-size: 25px;
@@ -236,6 +246,16 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 480px) {
+  .backed-by p {
+    font-size: 12px;
+    border-right: 1px solid #007DC1;
+    /* font-size: 10px */
+  }
+
+  .patners img {
+    width: 60px
+  }
+
   .banner {
     padding: 1.3em;
     display: flex;
