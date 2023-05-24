@@ -246,10 +246,18 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 480px) {
+  .search-input::placeholder {
+    font-size: 11px;
+  }
+
   .backed-by p {
     font-size: 12px;
     border-right: 1px solid #007DC1;
     /* font-size: 10px */
+  }
+
+  .banner p {
+    width: 100%;
   }
 
   .patners img {
@@ -260,8 +268,8 @@ body {
     padding: 1.3em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 500px;
+    justify-content: flex-end;
+    min-height: 570px;
     margin: 0;
     margin-right: -15px;
     margin-left: -15px;
@@ -271,29 +279,31 @@ body {
   }
 
   .banner h2 {
-    font-size: 30px;
+    font-size: 42px;
   }
 
   .banner-text {
     width: 100%;
+    margin-bottom: 3em;
   }
 
-  .banner p {
-    font-size: 15px;
-    /* margin: 4% 0; */
-  }
+
 
   .banner-section {
     padding: 0 !important;
   }
 
-  .banner-text h1 {
+  /* .banner-text h1 {
     font-size: 2em;
-  }
+  } */
 
   .banner-text p {
-    font-size: 1em;
-    font-weight: 100;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .search {
+    margin-bottom: 2em;
   }
 
   .proud-satistics-container {
