@@ -52,7 +52,7 @@ body {
 }
 
 .how-it-works {
-  background: linear-gradient(147.48deg, #007dc1 17.99%, #03100d 80.53%);
+  background: linear-gradient(96.72deg, #007DC1 34.25%, rgba(34, 110, 152, 0) 208.82%);
   padding: 3em 5em;
   border-radius: 30px 0px 0px 30px;
   border-radius: 30px 0px 0px 30px;
@@ -109,34 +109,60 @@ body {
 }
 
 .proud-satistics-container {
-  background-color: #eaf9ff;
-  border-radius: 10px;
+  background: linear-gradient(96.72deg, #007DC1 34.25%, rgba(34, 110, 152, 0) 208.82%);
+  border-radius: 18px;
+  color: #ffffff;
+  padding: 5em 1.5em;
+  margin: 2em;
 }
 
-.proud-satistics-text {
-  font-family: "Poppins", sans-serif;
-  color: #414042;
+.proud-satistics-container p {
+  margin: 0
 }
 
+.proud-satistics-text p:first-child {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55.75px;
+  /* color: #414042; */
+}
+
+.proud-satistics-text p:last-child {
+  font-weight: 400;
+  font-size: 25px;
+  /* color: #414042; */
+}
+
+.proud-satistics-figure p:first-child {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 90px;
+
+}
+
+.proud-satistics-figure p:last-child {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* 
 .proud-satistics-text h1 {
   font-weight: 600;
   font-size: 5em;
   line-height: 1.2em;
-}
+} */
 
-.proud-satistics-text p {
+/* .proud-satistics-text p {
   font-weight: 300;
   font-size: 2em;
-}
+} */
 
-.proud-satistics-figure {
-  color: #007dc1;
-}
 
-.proud-satistics-figure h3 {
+/* .proud-satistics-figure h3 {
   font-weight: 600;
   color: #007dc1;
-}
+} */
 
 .proud-satistics-figure__border {
   border-right: 1px solid #007dc1;
@@ -307,25 +333,39 @@ body {
   }
 
   .proud-satistics-container {
-    background-color: #eaf9ff;
-    border-radius: 10px;
-    padding: 0.6em !important;
-    width: 100% !important;
+    margin: 0;
+    padding: 2em 1em;
   }
 
-  .proud-satistics-text h1 {
-    font-weight: 500;
-    font-size: 2em;
-    /* line-height: 0.9em; */
+  .proud-satistics-text {
+    margin: 1em 0
   }
 
-  .proud-satistics-text p {
+  .proud-satistics-text p:first-child {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    /* color: #414042; */
+  }
+
+  .proud-satistics-text p:last-child {
+    font-weight: 400;
+    font-size: 20px;
+
+    /* color: #414042; */
+  }
+
+  .proud-satistics-figure p:first-child {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: unset;
+
+  }
+
+  .proud-satistics-figure p:last-child {
     font-weight: 300;
-    font-size: 1em;
-  }
-
-  .proud-satistics-figure__border {
-    border-right: 0;
+    font-size: 18px;
+    line-height: unset;
   }
 
   .ready-partner {
@@ -365,7 +405,7 @@ body {
     font-size: 1.5em;
   }
 
-  .faq-section p {
+  .faq-section-mobile {
     text-align: center;
   }
 
@@ -393,7 +433,7 @@ body {
   }
 
   .how-it-works {
-    background: linear-gradient(147.48deg, #007dc1 17.99%, #03100d 80.53%);
+    background: linear-gradient(96.72deg, #007DC1 34.25%, rgba(34, 110, 152, 0) 208.82%);
     padding: 2em;
     border-radius: 30px 30px 0px 0px;
     text-align: center;
@@ -463,6 +503,18 @@ body {
 
   .phone-apps {
     margin-bottom: 3em;
+  }
+
+  .ask-anything {
+    padding: 0 2em;
+  }
+
+  .ask-anything h2 {
+    font-size: 26px;
+  }
+
+  .ask-anything {
+    font-size: 12px;
   }
 }
 
