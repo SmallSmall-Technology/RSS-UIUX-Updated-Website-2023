@@ -238,7 +238,12 @@ a:hover.primary-background {
     background: #007DC1;
     color: #ffffff;
     height: 100vh;
-    width: 100vw
+    width: 100vw;
+  }
+
+  .menu-mobile a {
+    font-size: 26px;
+    font-size: 600;
   }
 }
 
