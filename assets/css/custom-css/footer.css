@@ -20,6 +20,9 @@
 
 .footer {
   background-color: #007dc1;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  color: #ffffff;
 }
 
 .footer-social-media {
@@ -30,13 +33,25 @@
   /* width: 8em; */
 }
 
+.footer-apps {
+  flex-direction: column;
+}
+
+.footer-apps-container {}
+
+.footer-apps-child a img {
+  width: 50%;
+}
+
+
+
 
 
 /*****MEDIA QUERY****/
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 480px) {
-  
+
   .footer-gutters {
     padding: 0 1em;
   }
@@ -48,23 +63,46 @@
   .footer-contact {
     font-size: 14px;
   }
+
+  .footer-apps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .footer-apps {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-apps-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-apps-child a {
+    padding: 10px;
+  }
+
+  .footer-apps-child a img {
+    width: 100%;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <= width <=1024px) {
+@media screen and (992px <=width <=1024px) {
   .footer-gutters {
     padding: 0 4em;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}

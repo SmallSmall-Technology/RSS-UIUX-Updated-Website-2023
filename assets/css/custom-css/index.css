@@ -355,6 +355,11 @@ body {
     /* color: #414042; */
   }
 
+  .proud-satistics-figure {
+    margin-right: 10px;
+
+  }
+
   .proud-satistics-figure p:first-child {
     font-weight: 700;
     font-size: 45px;
@@ -522,12 +527,64 @@ body {
 @media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {}
+@media screen and (768px <=width <=992px) {
+  .proud-satistics-text p:first-child {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    /* color: #414042; */
+  }
+
+  .proud-satistics-text p:last-child {
+    font-weight: 400;
+    font-size: 16px;
+    /* color: #414042; */
+  }
+
+  .proud-satistics-figure p:first-child {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+
+  }
+
+  .proud-satistics-figure p:last-child {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media screen and (992px <=width <=1024px) {
   .footer-gutters {
     padding: 0 4em;
+  }
+
+  .proud-satistics-text p:first-child {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    /* color: #414042; */
+  }
+
+  .proud-satistics-text p:last-child {
+    font-weight: 400;
+    font-size: 16px;
+    /* color: #414042; */
+  }
+
+  .proud-satistics-figure p:first-child {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+
+  }
+
+  .proud-satistics-figure p:last-child {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 
