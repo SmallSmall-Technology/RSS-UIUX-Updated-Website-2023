@@ -691,10 +691,13 @@
               <div class="col-12">
                 <div>
                   <p>subcription price</p>
-                  <p class="subcription-amount font-weight-bold">&#8358;220,000/mo <sup><img class="img-fluid"
-                        src="../assets/images/rounded-question.svg" alt=""> </sup> </p>
-                  <p>Security deposit <span class="subscription-deposit font-weight-bold">&#8358;220,000</span><sup><img
-                        class="img-fluid" src="../assets/images/rounded-question.svg" alt=""> </sup> </p>
+                  <p class="subcription-amount font-weight-bold">&#8358;220,000/mo <sup data-toggle="tooltip"
+                      data-placement="right" title="This is your recurring subscription payment."><img class=" w-25 "
+                        style="max-width: 15px;" src="../assets/images/info-icon.svg" alt=""> </sup> </p>
+                  <p>Security deposit <span class="subscription-deposit font-weight-bold">&#8358;220,000</span><sup
+                      data-toggle="tooltip" data-placement="right"
+                      title="This is a refundable deposit which shall be refunded only after the effluxion of the term or termination of the agreement and the successful handover/vacant possession of the property to the Legal Representative or property owner without any delays. See FAQ for more info"><img
+                        class=" w-25 " style="max-width: 15px;" src="../assets/images/info-icon.svg" alt=""> </sup> </p>
                 </div>
               </div>
               <div class="col-12">
@@ -1304,6 +1307,13 @@
   <script src="../assets/js/bootstrap-js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
     crossorigin="anonymous"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </body>
 
 </html>
