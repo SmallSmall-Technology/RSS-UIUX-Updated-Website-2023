@@ -97,12 +97,12 @@
   z-index: 2;
 }
 
-.switch-button-checkbox:checked+.switch-button-label:before {
+.switch-button-checkbox:checked + .switch-button-label:before {
   transform: translateX(120px);
   transition: transform 300ms linear;
 }
 
-.switch-button-checkbox+.switch-button-label {
+.switch-button-checkbox + .switch-button-label {
   position: relative;
   padding: 15px 0;
   display: block;
@@ -110,7 +110,7 @@
   pointer-events: none;
 }
 
-.switch-button-checkbox+.switch-button-label:before {
+.switch-button-checkbox + .switch-button-label:before {
   content: "";
   background: #ffffff;
   height: 100%;
@@ -123,7 +123,7 @@
   transition: transform 300ms;
 }
 
-.switch-button-checkbox+.switch-button-label .switch-button-label-span {
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
   position: relative;
 }
 
@@ -201,19 +201,13 @@
 }
 
 .property-stats--child:not(:last-child) {
-  border-right: 1px solid #D1CECE;
+  border-right: 1px solid #d1cece;
   /* padding: 0 10px; */
 }
 
 .property-stats--child {
   padding: 0 10px;
 }
-
-
-
-
-
-
 
 /*****MEDIA QUERY****/
 
@@ -290,13 +284,17 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <=width <=1024px) {}
+@media screen and (992px <=width <=1024px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
