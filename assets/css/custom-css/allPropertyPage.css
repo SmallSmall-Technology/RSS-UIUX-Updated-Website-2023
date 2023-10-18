@@ -80,7 +80,8 @@
   top: 7em;
 }
 
-.expect-section {}
+.expect-section {
+}
 
 .expect-section h1 {
   font-weight: 700;
@@ -88,6 +89,9 @@
 
 .card-custom {
   border: none;
+  -webkit-box-shadow: -6px 1px 46px -26px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -6px 1px 46px -26px rgba(66, 68, 90, 1);
+  box-shadow: -6px 1px 46px -26px rgba(66, 68, 90, 1);
 }
 
 .availablility {
@@ -104,13 +108,12 @@
 }
 
 .available {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .unavailable {
-  background: #FFFFFF;
+  background: #ffffff;
 }
-
 
 .filter-section-dropdown {
   min-width: 20em;
@@ -159,9 +162,8 @@
   padding: 0 60px;
 }
 
-
 .filter-btn {
-  border: 1.5px solid #E6EBF1;
+  border: 1.5px solid #e6ebf1;
   border-radius: 10px;
   min-height: 56px;
   padding-left: 17px;
@@ -169,12 +171,10 @@
 }
 
 .show-result-btn {
-  background: #007DC1;
+  background: #007dc1;
   border-radius: 10px;
   color: #ffffff;
 }
-
-
 
 /*****MEDIA QUERY****/
 
@@ -186,10 +186,12 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media screen and (992px <=width <=1024px) {
@@ -199,4 +201,5 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
