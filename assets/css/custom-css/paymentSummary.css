@@ -1,10 +1,10 @@
 .payment-description {
-  border: 2px solid #EBEBEB;
+  border: 2px solid #ebebeb;
   border-radius: 20px;
 }
 
 .payment-amounts {
-  background: #F9F9F9;
+  background: #f9f9f9;
   border-radius: 20px;
 }
 
@@ -19,13 +19,13 @@
 }
 
 .wallet-balance {
-  background: #007DC1;
+  background: #007dc1;
   border-radius: 10px;
-  color: #EBEBEB;
+  color: #ebebeb;
 }
 
 .wallet-payment {
-  background: #CBEEFC;
+  background: #cbeefc;
   border-radius: 10px;
 }
 
@@ -38,18 +38,15 @@
 } */
 
 .wallet-balance-web {
-  background: #007DC1;
-  color: #FFFFFF;
+  background: #007dc1;
+  color: #ffffff;
   border-radius: 20px 0px 0px 20px;
 }
 
 .wallet-payment-web {
-  background: #CBEEFC;
+  background: #cbeefc;
   border-radius: 0px 20px 20px 0px;
 }
-
-
-
 
 /*****MEDIA QUERY****/
 
@@ -65,13 +62,17 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media screen and (992px <=width <=1024px) {}
+@media screen and (992px <=width <=1024px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
